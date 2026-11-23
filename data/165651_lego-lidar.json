@@ -1,0 +1,568 @@
+{
+  "name": "LeGO-LiDAR",
+  "bag_id": "manual_20261113_165651",
+  "status": "measured",
+  "point_count": 14969,
+  "dimensions": [
+    {
+      "key": "width_3",
+      "label": "Rộng hành lang tại x=3 m",
+      "reference_m": 2.74,
+      "measured_m": 2.84191626808417,
+      "signed_error_m": 0.10191626808416965,
+      "abs_error_m": 0.10191626808416965,
+      "percent_error": 3.719571827889403
+    },
+    {
+      "key": "width_7",
+      "label": "Rộng hành lang tại x=7 m",
+      "reference_m": 2.74,
+      "measured_m": 2.8372212458641113,
+      "signed_error_m": 0.09722124586411107,
+      "abs_error_m": 0.09722124586411107,
+      "percent_error": 3.5482206519748565
+    },
+    {
+      "key": "width_20",
+      "label": "Rộng hành lang tại x=20 m",
+      "reference_m": 2.74,
+      "measured_m": 2.880755786607063,
+      "signed_error_m": 0.140755786607063,
+      "abs_error_m": 0.140755786607063,
+      "percent_error": 5.137072503907408
+    },
+    {
+      "key": "straight_length",
+      "label": "Dài cạnh thẳng tới nhánh dưới",
+      "reference_m": 21.99,
+      "measured_m": 22.013517398857108,
+      "signed_error_m": 0.02351739885710913,
+      "abs_error_m": 0.02351739885710913,
+      "percent_error": 0.10694587929563043
+    },
+    {
+      "key": "branch_width",
+      "label": "Rộng nhánh dưới",
+      "reference_m": 5.7,
+      "measured_m": 5.833718971001879,
+      "signed_error_m": 0.1337189710018789,
+      "abs_error_m": 0.1337189710018789,
+      "percent_error": 2.345946859682086
+    },
+    {
+      "key": "branch_depth",
+      "label": "Tọa độ chiếu mặt lưng nhánh sau căn (chẩn đoán)",
+      "reference_m": 3.1,
+      "measured_m": 3.0098467771672017,
+      "signed_error_m": -0.09015322283279836,
+      "abs_error_m": 0.09015322283279836,
+      "percent_error": 2.9081684784773665
+    }
+  ],
+  "local_quality": {
+    "roi_point_count": 3979,
+    "metrics": [
+      {
+        "radius_m": 0.3,
+        "query_count": 2624,
+        "valid_queries": 1055,
+        "support_percent": 40.20579268292683,
+        "excluded_insufficient_neighbors": 1569,
+        "mpv_m": 0.061483061797727334,
+        "mpv_p95_m": 0.11297453998880756,
+        "mme_nats": -2.7015420999171824,
+        "neighbor_median": 12.0
+      },
+      {
+        "radius_m": 0.6,
+        "query_count": 2624,
+        "valid_queries": 2411,
+        "support_percent": 91.8826219512195,
+        "excluded_insufficient_neighbors": 213,
+        "mpv_m": 0.08927105990066914,
+        "mpv_p95_m": 0.18377352853460238,
+        "mme_nats": -0.9705031620368677,
+        "neighbor_median": 38.0
+      }
+    ],
+    "fixed_wall_lattice_support": {
+      "definition": "Fraction of fixed corridor-wall lattice sites with any retained map point <=0.20 m; diagnostic, not surveyed completeness",
+      "sites": 504,
+      "within_20cm": 431,
+      "percent_within_20cm": 85.51587301587301,
+      "median_nearest_m": 0.10456324155739219,
+      "p95_nearest_m": 0.28220379722051614
+    }
+  },
+  "core_dimension_mae_m": 0.07861818492949402,
+  "core_dimension_rmse_m": 0.09600476877427935,
+  "core_dimension_max_m": 0.1337189710018789,
+  "core_surface_rmse_m": 0.1460971628339051,
+  "valid_dimensions": 6,
+  "rotation": [
+    [
+      -0.9999843925537071,
+      -0.004226199638277093,
+      -0.0036542968695976743
+    ],
+    [
+      0.004348327286355812,
+      -0.9994094903293319,
+      -0.03408464008137007
+    ],
+    [
+      -0.003508090478373991,
+      -0.034099998185971085,
+      0.999412268998591
+    ]
+  ],
+  "translation": [
+    7.3066540232839845,
+    1.4851107715334746,
+    1.320163324118675
+  ],
+  "scale": 1.0,
+  "surface_details": {
+    "S1_0": {
+      "valid": true,
+      "point_count": 35,
+      "longitudinal_20cm_bins": 5,
+      "plane_center": [
+        2.8649210390231796,
+        -0.05197882833855114,
+        1.3245856626257249
+      ],
+      "plane_normal": [
+        0.008929978952796647,
+        0.998852131106565,
+        0.04706034062536839
+      ],
+      "y_at_station_and_1p2m_height": -0.04731668536794324,
+      "n": 35,
+      "rmse_m": 0.054083750695407086,
+      "mean_abs_m": 0.04548564059680698,
+      "p95_abs_m": 0.0946661300648344
+    },
+    "S1_1": {
+      "valid": true,
+      "point_count": 31,
+      "longitudinal_20cm_bins": 4,
+      "plane_center": [
+        2.835612038159129,
+        2.7851921515203957,
+        1.1602064732816635
+      ],
+      "plane_normal": [
+        -0.06150768937300332,
+        0.9979412027711786,
+        0.018170304334483953
+      ],
+      "y_at_station_and_1p2m_height": 2.7945995827162267,
+      "n": 31,
+      "rmse_m": 0.007334916112302054,
+      "mean_abs_m": 0.005513000974783274,
+      "p95_abs_m": 0.015673168945004718
+    },
+    "S2_0": {
+      "valid": true,
+      "point_count": 59,
+      "longitudinal_20cm_bins": 5,
+      "plane_center": [
+        7.030296806813876,
+        -0.07029483776873996,
+        1.280765856383899
+      ],
+      "plane_normal": [
+        0.07848910572175807,
+        0.9964361823516125,
+        0.03089328055651401
+      ],
+      "y_at_station_and_1p2m_height": -0.06540431731192525,
+      "n": 59,
+      "rmse_m": 0.06839245780338502,
+      "mean_abs_m": 0.056760621751731154,
+      "p95_abs_m": 0.1328208703581185
+    },
+    "S2_1": {
+      "valid": true,
+      "point_count": 50,
+      "longitudinal_20cm_bins": 5,
+      "plane_center": [
+        7.031814077854682,
+        2.772265852620054,
+        1.2838373117325532
+      ],
+      "plane_normal": [
+        -0.05097387723385146,
+        0.9986019100077346,
+        0.013996041177875373
+      ],
+      "y_at_station_and_1p2m_height": 2.771816928552186,
+      "n": 50,
+      "rmse_m": 0.050775603378953565,
+      "mean_abs_m": 0.03702428082581867,
+      "p95_abs_m": 0.11257642747680265
+    },
+    "S3_0": {
+      "valid": true,
+      "point_count": 54,
+      "longitudinal_20cm_bins": 5,
+      "plane_center": [
+        20.015028982442995,
+        -0.07204926158197332,
+        1.3012775895210678
+      ],
+      "plane_normal": [
+        -0.10857231241773302,
+        0.9934198946005005,
+        0.03645498577967866
+      ],
+      "y_at_station_and_1p2m_height": -0.06997527280857786,
+      "n": 54,
+      "rmse_m": 0.11226150206780255,
+      "mean_abs_m": 0.06074527880140201,
+      "p95_abs_m": 0.36632609396070126
+    },
+    "S3_1": {
+      "valid": true,
+      "point_count": 98,
+      "longitudinal_20cm_bins": 5,
+      "plane_center": [
+        19.965810559912608,
+        2.809242511031295,
+        1.3463882897678396
+      ],
+      "plane_normal": [
+        0.1798195271633685,
+        0.9823073756956024,
+        0.052317848816271974
+      ],
+      "y_at_station_and_1p2m_height": 2.8107805137984854,
+      "n": 98,
+      "rmse_m": 0.11113310077180451,
+      "mean_abs_m": 0.09021439538134951,
+      "p95_abs_m": 0.2076559667105105
+    },
+    "branch_left": {
+      "valid": true,
+      "plane_center": [
+        22.01213879082632,
+        -1.6250413335005067,
+        1.2908423613642381
+      ],
+      "plane_normal": [
+        0.9998328858191788,
+        -0.018281007666156396,
+        7.206387788241232e-05
+      ],
+      "coordinate_at_probe": 22.013517398857108,
+      "support_bins": 5,
+      "n": 106,
+      "rmse_m": 0.05874465905211285,
+      "mean_abs_m": 0.036309458642208685,
+      "p95_abs_m": 0.12495679821562235
+    },
+    "branch_right": {
+      "valid": true,
+      "plane_center": [
+        27.857156599978893,
+        -1.4591205066000486,
+        1.2467786486521713
+      ],
+      "plane_normal": [
+        -0.9949776477734109,
+        0.09791873746114495,
+        0.02077020186000978
+      ],
+      "coordinate_at_probe": 27.847236369858987,
+      "support_bins": 5,
+      "n": 176,
+      "rmse_m": 0.14880549415086433,
+      "mean_abs_m": 0.1193840990600354,
+      "p95_abs_m": 0.2564582635799053
+    },
+    "branch_back": {
+      "valid": true,
+      "plane_center": [
+        24.826212494344205,
+        -3.020625945438509,
+        1.269429834037244
+      ],
+      "plane_normal": [
+        0.00134018521382871,
+        0.9881206135286018,
+        0.15367451650632455
+      ],
+      "coordinate_at_probe": -3.0098467771672017,
+      "support_bins": 9,
+      "n": 492,
+      "rmse_m": 0.21779106457492314,
+      "mean_abs_m": 0.17066794304347188,
+      "p95_abs_m": 0.48228852444142395
+    }
+  },
+  "definition_sensitivity": [
+    {
+      "variant": "margin_minus_10cm",
+      "corridor_margin_m": 0.5,
+      "branch_margin_m": 0.6,
+      "probe_z_m": 1.2,
+      "dimensions": [
+        {
+          "key": "width_3",
+          "label": "Rộng hành lang tại x=3 m",
+          "reference_m": 2.74,
+          "measured_m": 2.84191626808417,
+          "signed_error_m": 0.10191626808416965,
+          "abs_error_m": 0.10191626808416965,
+          "percent_error": 3.719571827889403
+        },
+        {
+          "key": "width_7",
+          "label": "Rộng hành lang tại x=7 m",
+          "reference_m": 2.74,
+          "measured_m": 2.8372212458641113,
+          "signed_error_m": 0.09722124586411107,
+          "abs_error_m": 0.09722124586411107,
+          "percent_error": 3.5482206519748565
+        },
+        {
+          "key": "width_20",
+          "label": "Rộng hành lang tại x=20 m",
+          "reference_m": 2.74,
+          "measured_m": 2.8740819318060487,
+          "signed_error_m": 0.13408193180604844,
+          "abs_error_m": 0.13408193180604844,
+          "percent_error": 4.8935011608046874
+        },
+        {
+          "key": "straight_length",
+          "label": "Dài cạnh thẳng tới nhánh dưới",
+          "reference_m": 21.99,
+          "measured_m": 22.013517398857108,
+          "signed_error_m": 0.02351739885710913,
+          "abs_error_m": 0.02351739885710913,
+          "percent_error": 0.10694587929563043
+        },
+        {
+          "key": "branch_width",
+          "label": "Rộng nhánh dưới",
+          "reference_m": 5.7,
+          "measured_m": 5.839538473117216,
+          "signed_error_m": 0.13953847311721557,
+          "abs_error_m": 0.13953847311721557,
+          "percent_error": 2.4480433880213255
+        },
+        {
+          "key": "branch_depth",
+          "label": "Tọa độ chiếu mặt lưng nhánh sau căn (chẩn đoán)",
+          "reference_m": 3.1,
+          "measured_m": 3.0340687058885965,
+          "signed_error_m": -0.06593129411140364,
+          "abs_error_m": 0.06593129411140364,
+          "percent_error": 2.1268159390775367
+        }
+      ],
+      "core_dimension_mae_m": 0.08152793598716235,
+      "core_surface_rmse_m": 0.13366210648651008,
+      "valid_dimensions": 6
+    },
+    {
+      "variant": "margin_plus_10cm",
+      "corridor_margin_m": 0.7,
+      "branch_margin_m": 0.8,
+      "probe_z_m": 1.2,
+      "dimensions": [
+        {
+          "key": "width_3",
+          "label": "Rộng hành lang tại x=3 m",
+          "reference_m": 2.74,
+          "measured_m": 2.84191626808417,
+          "signed_error_m": 0.10191626808416965,
+          "abs_error_m": 0.10191626808416965,
+          "percent_error": 3.719571827889403
+        },
+        {
+          "key": "width_7",
+          "label": "Rộng hành lang tại x=7 m",
+          "reference_m": 2.74,
+          "measured_m": 2.8372212458641113,
+          "signed_error_m": 0.09722124586411107,
+          "abs_error_m": 0.09722124586411107,
+          "percent_error": 3.5482206519748565
+        },
+        {
+          "key": "width_20",
+          "label": "Rộng hành lang tại x=20 m",
+          "reference_m": 2.74,
+          "measured_m": 2.880755786607063,
+          "signed_error_m": 0.140755786607063,
+          "abs_error_m": 0.140755786607063,
+          "percent_error": 5.137072503907408
+        },
+        {
+          "key": "straight_length",
+          "label": "Dài cạnh thẳng tới nhánh dưới",
+          "reference_m": 21.99,
+          "measured_m": 22.013517398857108,
+          "signed_error_m": 0.02351739885710913,
+          "abs_error_m": 0.02351739885710913,
+          "percent_error": 0.10694587929563043
+        },
+        {
+          "key": "branch_width",
+          "label": "Rộng nhánh dưới",
+          "reference_m": 5.7,
+          "measured_m": 5.833718971001879,
+          "signed_error_m": 0.1337189710018789,
+          "abs_error_m": 0.1337189710018789,
+          "percent_error": 2.345946859682086
+        },
+        {
+          "key": "branch_depth",
+          "label": "Tọa độ chiếu mặt lưng nhánh sau căn (chẩn đoán)",
+          "reference_m": 3.1,
+          "measured_m": 3.003230492922784,
+          "signed_error_m": -0.09676950707721588,
+          "abs_error_m": 0.09676950707721588,
+          "percent_error": 3.1215970024908346
+        }
+      ],
+      "core_dimension_mae_m": 0.07861818492949402,
+      "core_surface_rmse_m": 0.14880760243693994,
+      "valid_dimensions": 6
+    },
+    {
+      "variant": "probe_1m",
+      "corridor_margin_m": 0.6,
+      "branch_margin_m": 0.7,
+      "probe_z_m": 1.0,
+      "dimensions": [
+        {
+          "key": "width_3",
+          "label": "Rộng hành lang tại x=3 m",
+          "reference_m": 2.74,
+          "measured_m": 2.8361349418198665,
+          "signed_error_m": 0.09613494181986626,
+          "abs_error_m": 0.09613494181986626,
+          "percent_error": 3.5085745189732207
+        },
+        {
+          "key": "width_7",
+          "label": "Rộng hành lang tại x=7 m",
+          "reference_m": 2.74,
+          "measured_m": 2.8338236186543404,
+          "signed_error_m": 0.09382361865434019,
+          "abs_error_m": 0.09382361865434019,
+          "percent_error": 3.424219658917525
+        },
+        {
+          "key": "width_20",
+          "label": "Rộng hành lang tại x=20 m",
+          "reference_m": 2.74,
+          "measured_m": 2.8840685283127923,
+          "signed_error_m": 0.14406852831279204,
+          "abs_error_m": 0.14406852831279204,
+          "percent_error": 5.2579754858683225
+        },
+        {
+          "key": "straight_length",
+          "label": "Dài cạnh thẳng tới nhánh dưới",
+          "reference_m": 21.99,
+          "measured_m": 22.013531814041666,
+          "signed_error_m": 0.023531814041668042,
+          "abs_error_m": 0.023531814041668042,
+          "percent_error": 0.10701143265879055
+        },
+        {
+          "key": "branch_width",
+          "label": "Rộng nhánh dưới",
+          "reference_m": 5.7,
+          "measured_m": 5.829529547080895,
+          "signed_error_m": 0.12952954708089504,
+          "abs_error_m": 0.12952954708089504,
+          "percent_error": 2.272448194401667
+        },
+        {
+          "key": "branch_depth",
+          "label": "Tọa độ chiếu mặt lưng nhánh sau căn (chẩn đoán)",
+          "reference_m": 3.1,
+          "measured_m": 2.9787423726233984,
+          "signed_error_m": -0.12125762737660173,
+          "abs_error_m": 0.12125762737660173,
+          "percent_error": 3.9115363669871526
+        }
+      ],
+      "core_dimension_mae_m": 0.07653068056128154,
+      "core_surface_rmse_m": 0.1460971628339051,
+      "valid_dimensions": 6
+    },
+    {
+      "variant": "probe_1p4m",
+      "corridor_margin_m": 0.6,
+      "branch_margin_m": 0.7,
+      "probe_z_m": 1.4,
+      "dimensions": [
+        {
+          "key": "width_3",
+          "label": "Rộng hành lang tại x=3 m",
+          "reference_m": 2.74,
+          "measured_m": 2.8476975943484732,
+          "signed_error_m": 0.10769759434847304,
+          "abs_error_m": 0.10769759434847304,
+          "percent_error": 3.930569136805585
+        },
+        {
+          "key": "width_7",
+          "label": "Rộng hành lang tại x=7 m",
+          "reference_m": 2.74,
+          "measured_m": 2.8406188730738817,
+          "signed_error_m": 0.10061887307388151,
+          "abs_error_m": 0.10061887307388151,
+          "percent_error": 3.6722216450321716
+        },
+        {
+          "key": "width_20",
+          "label": "Rộng hành lang tại x=20 m",
+          "reference_m": 2.74,
+          "measured_m": 2.877443044901334,
+          "signed_error_m": 0.13744304490133397,
+          "abs_error_m": 0.13744304490133397,
+          "percent_error": 5.016169521946495
+        },
+        {
+          "key": "straight_length",
+          "label": "Dài cạnh thẳng tới nhánh dưới",
+          "reference_m": 21.99,
+          "measured_m": 22.013502983672552,
+          "signed_error_m": 0.023502983672553768,
+          "abs_error_m": 0.023502983672553768,
+          "percent_error": 0.10688032593248645
+        },
+        {
+          "key": "branch_width",
+          "label": "Rộng nhánh dưới",
+          "reference_m": 5.7,
+          "measured_m": 5.837908394922859,
+          "signed_error_m": 0.13790839492285922,
+          "abs_error_m": 0.13790839492285922,
+          "percent_error": 2.4194455249624425
+        },
+        {
+          "key": "branch_depth",
+          "label": "Tọa độ chiếu mặt lưng nhánh sau căn (chẩn đoán)",
+          "reference_m": 3.1,
+          "measured_m": 3.040951181711005,
+          "signed_error_m": -0.059048818288995,
+          "abs_error_m": 0.059048818288995,
+          "percent_error": 1.9048005899675806
+        }
+      ],
+      "core_dimension_mae_m": 0.0807056892977065,
+      "core_surface_rmse_m": 0.1460971628339051,
+      "valid_dimensions": 6
+    }
+  ],
+  "review_status": "reviewed",
+  "review_note": "Reviewed ten-bag wall-slab sheet: corridor end, opposing walls and branch correspond to the reference. Shape deformation is retained, not corrected or excluded. Fixed view clips remote points; full cloud remains in supplement."
+}

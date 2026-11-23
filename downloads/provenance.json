@@ -1,0 +1,3400 @@
+{
+  "created_utc": "2026-11-23T05:22:43.767282+00:00",
+  "analysis_environment": {
+    "python": "3.8.10 (default, Mar 18 2025, 20:04:55) \n[GCC 9.4.0]",
+    "numpy": "1.24.4",
+    "scipy": "1.10.1",
+    "matplotlib": "3.1.2",
+    "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.29"
+  },
+  "analysis_signature": {
+    "run_geometry.py": "b4a4d583560741ea5093e3455efeacde7d2f728687f61a24d685f9eebd5edc1e",
+    "geometry_core.py": "c2be18a273d0a4455730617d102d5f9b5d116ffb049d0264ad56ab62be94b489",
+    "protocol.json": "18e3713e9ba9ceec238985b171080bef853c81e906803004d683f160238a11a7",
+    "../paper_unified_20261120/unified_180.json": "a9d9225c02d552c9a24310ba81843f1390e4e6d147582c98420f5a88123b5b7f"
+  },
+  "source_manifest_sha256": "a9d9225c02d552c9a24310ba81843f1390e4e6d147582c98420f5a88123b5b7f",
+  "source_map_files": [
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "ff80d8a9e757ebeeb8e1b3d6a22b2062b9c1c779e10362879fb29b33d7015588",
+      "extracted_cloud_sha256": "431257b1d3a24dbe68fd7317e3d10697cfac1ec465bac541fe1cb7b121b3298d"
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "6925939d56e99b44ef7021536ac7f2d967c21c3d33dcb0cd9a54a0b98c801ef7",
+      "extracted_cloud_sha256": "b31eddc69d89169ab2b516f5f94c3393718ea5a26fbd5f21a89c26e4e5ed48b8"
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "d422afb745e22a441b1814f2f2f369f9a9d0dc1da7e011dde7e2e6253130a9fe",
+      "extracted_cloud_sha256": "22faf8eb82988d1a06f256a0e631e3653617f6ed3b09a581d7b68968f91bd7f3"
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "daa326081612203b2f6e6f2ccd985a2791ac4aaab979c3b694210339146948f1",
+      "extracted_cloud_sha256": "a24de00a02eae61d21d1a922e9143ab518c6f86622f48c7f4061cc83ac187442"
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "20eaf187d66c21b1b17ecc680f019d1b8b4caeca453dc5a59d3750317c413302",
+      "extracted_cloud_sha256": "98b7f4173189156a89f71bf5ccd52a4a2ff7f1024dcf16aec5c13a501eec89e8"
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "88d6a7da4bd33d3c9d83962a167ec78731d22c785673924ebff4cd2d36ea4b3a",
+      "extracted_cloud_sha256": "9112c06f080c484e23d8e50adcfd4ac201b8e5f2446ddd6e794e8d29505fc329"
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "26cbad994345baa0ba319cd0eeb0627119b5b6452432336375766180d5b9dc88",
+      "extracted_cloud_sha256": "862940c4e963b03ed00548eb41e2f5bbd94316ef9847348b77c48ab2457b7025"
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "c0c0cb67b1eb5b3d94abdfc920a8c9128a832e4cb9c126ec541f3501887fc422",
+      "extracted_cloud_sha256": "78cfd644fbcc96f2783d6e4d8349c204637fd43e04ade648a87ca18b15e1823d"
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "c6d75a968dadc1762006e182b05551276538097e082b486e0fb43a38a9abedc3",
+      "extracted_cloud_sha256": "bca05eafdb122405fa23bfe4c07934c45d95dfeb85199f53be307f93d85316f7"
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "44a9a46c97a92c622e727ae7e9636b165843141758ef672bd3f8c562d47ae0e9",
+      "extracted_cloud_sha256": "c4e20ca067508324d07ef10475147e765bf0ea6b15cc11bbe28386bb06aa8caa"
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "e17f9d50b402159f049d9392cb260a662d34eb695c70b23e3d09b50d7d0a6439",
+      "extracted_cloud_sha256": "ec671da360b78ed22746e2389ce4fcd5ca10182c0298c753dcc1df6c9e9cc91b"
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "3209266ad91ea48095e248b885b71e2187aeea2150d5273170f5cf381f029796",
+      "extracted_cloud_sha256": "7103bc98c56528b4a52041a1395c079c43d201c608f907a002693a4d6f799812"
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "dc9fafb8438a0ea3494a0fa5f8e75b8911ca75c31887a47b93ca00112aac56ea",
+      "extracted_cloud_sha256": "893e01e12cb133708bbca63fb7c803276287d9a0f90dc027f2a9732b94a597bd"
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "1e294d0dd37bf4d96ea91620e66e01d02660994bdc13ad2ddee03f579b7af4a8",
+      "extracted_cloud_sha256": "c7b7b76b48e9a2c20f8b74a32ffd4d63d116532dce9961e0f4c4f83abbbe1676"
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "aebcf9579f8c9e9a027974723eb61d187fc45ffbc608298a693c7b9ef9c4a775",
+      "extracted_cloud_sha256": "b0d9e5b680a0ad5176f19f2c866ee7662ecba11fe7af4a27c437c6febff891ea"
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "c63b0788cdd40fb5a909f2a16ee8fa0877ef93de11cfa2036d876cb5d6b99a40",
+      "extracted_cloud_sha256": "a4328f3c87a43a3580316d7ddff2a3ecf1412e28b473a194c0292d68f5d9dd43"
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "d9ea4478d46ab8b3dcda348ada015b98ea6af8bdbf74c55f12f760a91e78daad",
+      "extracted_cloud_sha256": "4b9ba894170b8c5618cc64dcdc045f47696a76260aa5fe4b09da8c468f74ca9a"
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "05424c0e8bce530608c5b93bb4fe9397f6b71f9acfcaa392278ed5d0146e6ee8",
+      "extracted_cloud_sha256": "5a6ebf5bd5e31181113d94ac3b1bab2171a3db70869ad0682233c4b5675402dc"
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "c5c1de1977654faaefd435b685d207b566e6c1da7d7b16361c2f8d6dad4e504d",
+      "extracted_cloud_sha256": "6efdc7c386fb64434172dcb000b25029b69bf4401ae559e6502cc8ef2a53d35c"
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "9bc2c61d03fc9dfe2ff68bf6aa086f6c93b4debe43cb1da697133f3fe575472d",
+      "extracted_cloud_sha256": "4755a79c05b1d0e46b0b9088c2a65cca030276f0144dee6d591996ac40fa7cfd"
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "f7bda1425553fc1e7ce5542a8eaac417740ce8829963f893a4b860a082b17acf",
+      "extracted_cloud_sha256": "b7d8ad465c75dd048654eee90682cd045029714d4bdce80ff1ab01590683165d"
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "47ece0c6fb3b2fc5d2f07a4974219fc5b904cc52fa98393a308988601383ceac",
+      "extracted_cloud_sha256": "feddd22c76e2de89aa220f90f09e14a35171d6d23d60c83825b2e5f74e986557"
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "88c6759c8fa01502e28eb38e4891b7cba878d5e94b05a682278634fec50c5f60",
+      "extracted_cloud_sha256": "71c55986384204732118598e7f373faf6dee711757a75c02b4d47981433e1781"
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "b141dabefb2f61f5c4e92326e7ecc718b357ccc104bf5700d6bd3fba6e206795",
+      "extracted_cloud_sha256": "1d9ad71980da02038e91fe93819b25ce449a3dd1ac0bc2bcfdc2434e33e18cd9"
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "1b644f3625018802d0830e650b4e1731a1956f59cd38b5b133355a0c3fac2964",
+      "extracted_cloud_sha256": "a5b669f09dfeac736e9471a2c6deec0b4d709677a432dc3d4f83c86b902ff6d0"
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "2395c8c4751f005402a2a8fa7c6d1d61994d0d042959f2f61a3c9f1834b0316c",
+      "extracted_cloud_sha256": "f4923ac5159bcace9471e342caa5feed78f2d6b695cf0903b7a2200895408d63"
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "0bcb6d8c03ab49c1012d859f27240aaa5a1b5d2b7157b3bd1107d085a5e5476c",
+      "extracted_cloud_sha256": "904c898cd20b0c4f568725cf6f1ff67fd2e30812957ba81720845a09f53bdd38"
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "70809595c2372b73c1c8562568e2726b1542e2fb11527cb85bdd682facd182a0",
+      "extracted_cloud_sha256": "276dffd97f8abc8b24414c1f955d382f50e08629d8646c1eac976dd035da3cca"
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "7e3a1c65dac252a23fe17a3f67257a6082cc269270cb539233d940a5a8b40144",
+      "extracted_cloud_sha256": "f2dddd0f229de1ebd4f5ccddaf1565d7e3faa1b9ee0ebbba2dc6b0f0024a00f9"
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "169c5b0479b933a23e1c251a982eec88294e7c7bdec79d922ba78cff374844e3",
+      "extracted_cloud_sha256": "45d957449dab04ee649b7528406ecf2bad84d55d13023ca6e5696b9f2fe46f85"
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "747e513d85c9c486e41569c52a504f6d9a1d74a30f8b0a084509f056fb8105df",
+      "extracted_cloud_sha256": "c3f234bfb2605fb5b8973401b415f0139dc32041627636edc5cf4e8f3ddf48f5"
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "d0492b4807ef11eccc91e939f79ae433c111171c3a4e22c3c583f0f84c1d3dc2",
+      "extracted_cloud_sha256": "43e5f12b1fbd7c9d8fb5834ce8cdda9396eaf2c9725d3db670066e6010b66a61"
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "711007c530bd82bda3594cf711c934435e985e17ad10f0442b9f5907f1fe7384",
+      "extracted_cloud_sha256": "22149f69d0c3210b8edd4fb9821b6c7c92bfbc92482b830e465e3154dab64d59"
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "669ed45935e35c2b801b98d35129326a88131697b2b5a1246ab3d7f9ebc00898",
+      "extracted_cloud_sha256": "e84c07987ab965b6ff7b658a2c51ae3bda17974e8757042f0b8624f3136e1531"
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "25cdc2b1621643e11fd6b11474947857d4ff71081cc627cadf7de583f706679d",
+      "extracted_cloud_sha256": "68eb5e7b298daaf8d5d62c8d4d6a9ff771c1c0f09a3d1809fa276e8330d7787b"
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "d1ee70c8cab58a3ff4d45d7811138fd013d839c930c20d7add8acd808ee10b21",
+      "extracted_cloud_sha256": "dd6a5f455feb49971d2beec3b190ed7784c47b22d1380f71dd7ee86de54ad6e5"
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "d66d729102294ca758183c002c8fb24b963e496ac9fb9395c3bf5958492fded2",
+      "extracted_cloud_sha256": "3f71b5fc50c928065e17a892f1c386e59a89dd7520319e8e5362bfc739d86164"
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "5b541344bb9e96563c0cc2ceb135b5bff79d1b324bc4df4e609743ca4bc1f6c2",
+      "extracted_cloud_sha256": "fd2260b2fcf17ee3a55f9952f8cf9da386e0baf4ec5e12fe6845d32656ee8ac0"
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "001abf4d1c7c82b7a4a31d2bbd56731ca4521ca4a8b024b5024ee75fa273af88",
+      "extracted_cloud_sha256": "18bf2e0f903ca4a97d57b8da8d1283d662c55af40c4c82c017e980944e2ccc02"
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "f7df92b772a9e6e71fe482ed7e99001401bc60cdcbaff00691363cee4541b6e3",
+      "extracted_cloud_sha256": "6030ecb64eca5b975395e8f5cd5de9e0148e970a998b305c79063314f9daf8f7"
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "966fe97649f9f2f39af76042f161b1b5836029d89a4add20c59b4a317e96a4bf",
+      "extracted_cloud_sha256": "bca06114507cbb648eaebc03fd9ddf530e277ed1f0861fb96a3c5c947da5047b"
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "b1b993d523d600e934de0fe3a1e9c8045511e27856afafb68d06decef2a56dee",
+      "extracted_cloud_sha256": "8319d985610bfc9b3cd4652715756c4a64cbc5b456506d64403a70da89b31721"
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "1f5414aad9ba69b3332615393a6717fa885a39d669a5489bd131527b213c0211",
+      "extracted_cloud_sha256": "ce5a9cbbf9c48836bd825985c54e8389e8d23bf8e2d27fd511e99d6d650059c5"
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "bb38958d368bc3a681906b5582cbd27a80b09647c5c674cce86d295f426020dc",
+      "extracted_cloud_sha256": "4d795af54e3576992831c74e1532e72ae252269b7d303ffde70ef4ae6ee5f9b8"
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "9a03540915d275f2ab6bbe918abb918d224fd14e3e42663ee89f10de115af0f3",
+      "extracted_cloud_sha256": "fe798697c316bd784193edb42e3f1cbd666e8903488cbe8ca716cba83697a039"
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "ac27196cc98d3aa7820a78f656cf3de44b8e1e4ef842dae077dae4db131fe2c2",
+      "extracted_cloud_sha256": "e27e1fb095afd12d7f088c081a7d024c39779e7759e242be083a0c4c376d73c4"
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "a6ac2688f78ceb6222c3eeadb15e150ad463afae21d88db41275557ad9d8d1d8",
+      "extracted_cloud_sha256": "349874a490ec47a03d2eeeb9722beca808af8fbd65bfd748a4895c52593c200e"
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "7c04de122f80b4cadea922c72534aefa001cca55c368e77f2cfbcd55e192777d",
+      "extracted_cloud_sha256": "721e51d8515ebd072f63c0c4e1fbfd2e20abb52312781a7b773109bf2279579c"
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "69cc0ca0658e8fdefdfcb020f6810fdb335c448793c1f80c8b401204526d1998",
+      "extracted_cloud_sha256": "31d3f7d1dd8a0bae74bf92e02e7c0890f670670aff9f54ec12c8dd418510d2c8"
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "8df9370c789055ffbf2c4969e7ce29238b3892eeb6b6e250f0d191e7b3c5c262",
+      "extracted_cloud_sha256": "4fc06d08c05d62ee9e28c50d25bbfef3868ef3ed585a95e394d6499e9eb130b8"
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "5da3d00dc84a7deb4e4bcbd97575e0343884af6e67e955c0f08cb8a48b8342c1",
+      "extracted_cloud_sha256": "7b6a68044e0d4d68ec8ef70ec439de148f6dd811c9b046c49ffbf4bf33718154"
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "d3b33715ba169cd5872dca4de4df4783205f38011825457b158cefe5c13f0648",
+      "extracted_cloud_sha256": "d3fc72339ab5d8d7ca08920408087fc51c7c875c6da3fa7e78641758b4498f69"
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "86b28effeec17b2e231ba9a939c58be50bcfd0c3bf533d6f95ad1eac91ae025b",
+      "extracted_cloud_sha256": "f4f08add4c5a9b6725db0348a701c4a345c8aab4e98093b7f1947f13d9608649"
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "5e8a295fe17c326f74bff06c4561ac23b633e56d431827084c515e0aa196c390",
+      "extracted_cloud_sha256": "9b3987024d3636034b938940467880bd7fbd2da0030a76a07334063a0fbea567"
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "0c33ab83f0dda72a9e1d193bc67665791aee2ff207a27f26625d2e6fc0bdccf9",
+      "extracted_cloud_sha256": "3d086e84c97c134aed507786b4d49ba7d260b868064e4fa40783843dd21dfc6e"
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "7e5e163cc1568898a3251075ca472c84f05e8aa528f3d66aa5522982ee72a1ed",
+      "extracted_cloud_sha256": "9568996a905bccaf859e50c599e1533cd6080483a90b9d4a3519c26df222dd27"
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "eba1f7a08ab56b90428be5acdc295dcc24f3c6e60bfa825bfcff1904e50b111f",
+      "extracted_cloud_sha256": "91e36164cdf48beb762aa6b340aea17aab99cfb89519abe496e9aa136a22bad5"
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "1bd19ded35a5f870f29988ce2139d806bb24e1fe37eff75e90cfb33442c5b74c",
+      "extracted_cloud_sha256": "8a6e53c06c1f60bc4038f28c0064ab9106f4a651199435b0f48cca15b7c08f9f"
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "31369429212b55748cc25fad985f42c6d7005ea62ffe5ac6d2bc93648ebd6470",
+      "extracted_cloud_sha256": "e917a8adbb2dc14c28043805c48dbe967a7aec612851d63b6a6159937f3e27c9"
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "623a2e2063438e84f00769046784babaad55d20974f9efee67b4e0eac79609ca",
+      "extracted_cloud_sha256": "f068a90b416f03d707b73a2277d85ca7b95bf690ee29e55db428b365d4282f39"
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "3455b8255727991c5689f8fdb562f657777dfefab4b161ae2ddceaccc9c26744",
+      "extracted_cloud_sha256": "3594c28365ce1ae126af81ef34ce4c837435f95facfe2c61def541e9704ee01a"
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "0c23f82646a6dc9ccbf2805986d3af2c45cd98a639ad99f53c7bfa3ed0aeb6d9",
+      "extracted_cloud_sha256": "38243665a33eee82315efd7d392dea6148a4adf102de2c0b5477bdf6c961b5f7"
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "d47f05ce3b16c13780975a9b4f6c9e9f1391c4e78f530c4e8a6331f358f37be1",
+      "extracted_cloud_sha256": "cf55a97c68354ba3cfc46375a7d625acdcc0412c8a77e5737ed0560c3098e846"
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "4c842533bea6ca91bc204a9414750cdc6de913cd886df3b1eb359dd75aad4541",
+      "extracted_cloud_sha256": "911ac869604da752e931eb8ff91bfa82243925f1539fdfe4038e6d2e8799d766"
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "c04aedfd86d0310965932313fc4b7edcbd003e19e628e497f3f55b62505d5ab6",
+      "extracted_cloud_sha256": "cf00a9cf65c223293224e130ab74cb5bfb09950cd30fb81678aac97fa88d2cc2"
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "be963e483921e03767c657a283f3ef8c904f695fbe659240ef032cb573ddc642",
+      "extracted_cloud_sha256": "3dadf247c2952f5b2f629df7cb625435f5270767357085ca3800c3a82c1973cc"
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "785a99790aaa7b51020fae74a4693a531ba8e396b57a38cfb0f7519a46d3c504",
+      "extracted_cloud_sha256": "c0bd06946327ddb9a10a9342317ab069c045f6cc030b2c51eef6ba4625f3647d"
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "e6bd240f22d56f84963c201a7c0c4025d7ee1ef46ca3af0003131c5d7870303c",
+      "extracted_cloud_sha256": "b0f61db2332872f57596a31035918c8c25bbba0e496b39aed2996484301aa782"
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "006901f7fb632400166256f3df3563cfdfdb1332f46a8bf837eb2768b494bad7",
+      "extracted_cloud_sha256": "a35fd2f0d6b520e8a6bef55b7dacb58ff39e16bd6b0a97103963f39c4222fda5"
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "9f42272d63b09cfb93b51f81fee1dd9959f2ce9dd74840749632e033deda2de3",
+      "extracted_cloud_sha256": "a7bddfe3aded1b843dfc2886ce14cc6931fe1ca61190235a275d39b8ce92af6d"
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "fa68985d803f3a0261aab064aa083d04a6dcd7e4b23338cd25dae25f05d52ac4",
+      "extracted_cloud_sha256": "73b5758684b29855fc47eafae6378e54fbd646c5142894b30c2b4f2a27a4b476"
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "0aa0bf3d9129c59b151ac1be3af9ff4cf280805121e943bd39cec1573ad328db",
+      "extracted_cloud_sha256": "7ceeaa1b29cc836793b9a0dbf0d24a0585f64c893ca9e6a35c06fbc509b020fd"
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "f390cb4f1f9ae84a885328e75e382a7896144788323caae45c2ad8fa9258d9c1",
+      "extracted_cloud_sha256": "0fa44ce82919800b92d65795fd98b54b97f1f974cbc6267715ed917dbe99949e"
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "0f85cccba5b6489c4fd8d32b6644453ccc2165a40f9fb155a51e8b68b4386ab3",
+      "extracted_cloud_sha256": "cb5c56960bac982838dfb05d59e04b25bdaf0a5a34d4f2c1417f83d7f634b4c7"
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "632ad62bd062bf24faf75aac2fcc26387ead85544f01005753c0609c839c750a",
+      "extracted_cloud_sha256": "48fa6ade469a717212eaa111b812ae79068f16f8d3af87acc9083fb25b850662"
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "674fef1e99bde603a1ecc44c971fdb348ba84cb54f8f3b29da4b66d9439d72c2",
+      "extracted_cloud_sha256": "9f09e4d8848468018792d84d66511f04a3bddac701e1a2ef97b8da5f99afb938"
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "baa1e737b89687d56973edeacdd56429284dd94523fcc9e19e29e106a7570c7f",
+      "extracted_cloud_sha256": "2730b6581dd809defb232b202c9628d22c6ba88a226718079b60c222a169ba72"
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "8cea745a1b429097b849ffa62ce8c1a519fef6b078ba4f2dc8b2f3bf4484ff85",
+      "extracted_cloud_sha256": "257c40f016d5ad114344f86a90d01f61a70aadfb422438ac2e215fa9f2f88469"
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "e09a28f3aaedd10a818bbc3bc0fe53091ee32be7a6c29cf4bf4460e47f58bcd8",
+      "extracted_cloud_sha256": "a85c7a634437c43781389958811a8ce3ef7e6fd59de8454c4491fecf19fcac87"
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "52192a53df4b08d45a0c7daf677932da9ad5b953cf62dd4a4dac04bd665e8795",
+      "extracted_cloud_sha256": "a355b9a876b5edf8e53bfd43495f6adfb301f2970b93cd9e27de0880d1e6f306"
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "1352abf5b759268566cdee628fe1fd993657364defd32e9360c30647a7969707",
+      "extracted_cloud_sha256": "402bb4665a2e814fda8f841dca3cbde733d0731db4e33f0d2603cbbbb996ce8a"
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "a6f0e68f1783ec5fde9494ae33cb07a8be04fdaece04eccb38826fa14b67a756",
+      "extracted_cloud_sha256": "30427248d1a695a5a031dbb6de55a90caf93e6547618220ff8a8882687c91112"
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "c96e5d55c4be766f904f0b49a8fe09c25c7b1dc0021216a4394c5936e48ba133",
+      "extracted_cloud_sha256": "4eb8dccbbfff35699ea71bbf0d9779d796fd3d3fe8eb9f76b00f3559b0b58c9f"
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "3296467f4afc515ba84a985b34cd23af6df8040f5e0b8a114106736dae15db2c",
+      "extracted_cloud_sha256": "6d4390c5f9de19d590a62bd085780a32fa736932204442387f0d2ad79c4abf0e"
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "7986e9d9605dce83dd0e240ff7ad094c32ecf625e30450296de544cc8335b453",
+      "extracted_cloud_sha256": "d495985be4f6967d62790ea10d5870dee96a8fd1d6715137e56cc498bddec066"
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "82ca6c0e16ed6a0a28b21741ee9a6f9b6cad4f277adc4a8d648ea56705bb6b8d",
+      "extracted_cloud_sha256": "0466cee5834a1ca79006d65d4b498f6d80b9e2177f0457a06385bd5c39aa4c57"
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "54ec32822dff44c5ee7da89525647caec1bb3ecada6ade0f1899dd46313eefb6",
+      "extracted_cloud_sha256": "62b0f5b0bd1c2e44d1a0a1851d68e605fed3c555dded54d5be61c83d23a61150"
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "b624d2a98eeb4513ae130a6bb3452463f743a6da39a396a9a1645a3627c24544",
+      "extracted_cloud_sha256": "c5a30ce7e3ea341da38bdf51aba62c49747ac3b2531fe70437da4c197b761db2"
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "074ea265a6c3821c9e2d7b0d90c3549b794e9cec9215d6de32fbf8a073fba819",
+      "extracted_cloud_sha256": "34b320f040612fdfb6a7e9ff64f5c41e6db327dbb3ec27b45651716a6307a379"
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "be33b1dd767b3a8204786264e60ecdf8d2bbec80b2137a08d67f02019a588362",
+      "extracted_cloud_sha256": "5b5166881eecf5a454509c56765a9054a63e6c85b24339b3081bf726a110cd64"
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "8c1a907d56a543d2474d17bba066107c5f5432c2afabf8d22cbd6a798915cfbc",
+      "extracted_cloud_sha256": "8e548a2c3b935f37dd7ed241ec792935f04fd094c62e1a0150d7561f2e4bdea1"
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "6a39f5c1a2b1ed00568e3e4458b0d3b235b3f354ff7ef34d0fe04c9be5c43ab5",
+      "extracted_cloud_sha256": "1f97556c0fa6d00037831dfa47d40d8038aa509a6a154ad8a0c8f36d9d87e57d"
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "f1e49c020cdc8230f3eb11b5c17d2ead7f8ae9ccc71f605ee3adbd65f1fa58ae",
+      "extracted_cloud_sha256": "4de6d7ea81ca7a503e4097034bd89e039be0aa11ffb112ece237cce4c3a1d706"
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "a00f4634dd241f53ac48342602d745638287dea67e7683a0f3a73ee787412d23",
+      "extracted_cloud_sha256": "f2814fb2f623ad5a50f437935979e54622502968b3bbc54627e2a36b2720c1a7"
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "7423be36c1f6edfd74bef5dcaef0dd9735785c2dd059780828428d42ed113306",
+      "extracted_cloud_sha256": "2949816337419ac700c587e8c7a8864d6a4ab9afb0496e4de20d2b8accc56204"
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "788eb280acb446e8fb7f821f5fb487f1b279ac3bc53554ef758c8324c4152c35",
+      "extracted_cloud_sha256": "9eec1bc8d3695552ad6cebb50ede77d8e8e5eadcb5999387de1dcfcae2684314"
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "9a9659cadda6206c7b8dea20b0b127917e79295c87b1e49ba8c7beabcf6f2e9b",
+      "extracted_cloud_sha256": "b63ea9a92060a679f6c60dbfb9558a8445febcb165b98f85f2bb5475adba8eec"
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "b2ba705fd84c6a4842bbf3e9d14660ddc8b8fd00406140801b781c5b733443c1",
+      "extracted_cloud_sha256": "302c1d67fb6841370552a46a94b8446562931d5369f12ef287a30fe8285f86ca"
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "3462c1ab8ee4d07d0a08e8bea098ba0e6b08b2ef765ac29063a44bd738325f24",
+      "extracted_cloud_sha256": "8f058a421a99fd556d33f253a212c61b113c48d1073847a7158008874861556e"
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "3ac06214727ecae6aaa0a7840fd7fbb06377abaf4c2ccc99c37e409fe5c6a5a8",
+      "extracted_cloud_sha256": "84f1229b0acb7de7fa1d3c94cd6ee0aaa022ca4bccd956099c6627acb1e9e9aa"
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "26f9997fbb3c54bb43fc2f374ebea449f58b80be7b0aec75954940c81bd8e74c",
+      "extracted_cloud_sha256": "576bdb76215d85f51a65fc8d4885410904531c2bc5d85651ea08f8efb85497f4"
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "f3a590f50cbe4dd0e5a69e8b15ba9232554d7c4292792195b441dc74bd4ad71c",
+      "extracted_cloud_sha256": "0d63869be364cca0d94a7bcbe0da6c8d2d3cb2df78c77786abaa71696f4c8448"
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "db309663c2f7e718de07dcf05de9f74b70e1ec7ba01217c2b0bc732ff44fd5e5",
+      "extracted_cloud_sha256": "677d9cb83b8c5ccd0802d64f284fbb9aee5e4bf7535d061da880073473a5e727"
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "aa01faca90e3d1a20e1ba162781dccd42518ee194998335989e4333666970df2",
+      "extracted_cloud_sha256": "89adcd2ce11bfd5bb47273fa6516256e78ab01993e085f6537db9433142acc45"
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "bbc7b7fd0fd3447c5af49944cd938b41d56933ff049d736c938d31ec5bd3186e",
+      "extracted_cloud_sha256": "f8e2c375f76880637c1912d14e13fc166fc845c44cf7b1a0560e5a8baad99f45"
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "418dd83dfb7f8637834dfa735e917dc8e193d2e34a2ed040fb0d32c55d962c04",
+      "extracted_cloud_sha256": "6fe141d5886c7e28b92e483ab75949732b5d29a728339b4858bfbfb1d475a239"
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "695c89a6837824dce5e478f67d32e84827099548b31ec10424ac9b3604a7bc19",
+      "extracted_cloud_sha256": "e414ca3c0de15d758f29c19ba08141c7789e3bb7c8f63cc1b81e2b26546d2408"
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "b2a641831f046dc9e38a9e594f64f4067d44424f2e5a0dff939e502354e6709c",
+      "extracted_cloud_sha256": "edac27f5ffc8bd3d54003c7d2a69f53abf96db0238990e527c57fb8290554f48"
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "fd9a3889636c0ed868e8b8318c50851cc5acb1cb3e7bb73deae6b532e43b789c",
+      "extracted_cloud_sha256": "5bc4792b4c80906a1c6f708137029e9eb07cf17e51b4384414860551c3f4250d"
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "188bb9549408e78202b6ec8c460ce680dd4ac56b481a5a253828a5d601f6d08a",
+      "extracted_cloud_sha256": "99ff13d6a67d9a2111220ed1c9fd825e1d1e85e711184c866f6c96f736da18b0"
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "cb2f8d8f60a65e62def5c3a3df5b75d3d61212c06c696026d37661db5f9896c3",
+      "extracted_cloud_sha256": "354bcbe44d774c26332d56fcf05b0c5bedac790a42d1a67db7de02ffab39f30d"
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "eb64ac2c3b5b26bfcfda8e6c5dc56b586259224e544f6f6a767281b8492022b3",
+      "extracted_cloud_sha256": "960ec63fff3b806e08a262554594e2c819f30a7b8bf8d176168928845fb34a2a"
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "59257f6ba2589fb6e1c8faf0df708b2d579bdf972b2b5e8a8aa8508b450842e4",
+      "extracted_cloud_sha256": "85b8a282a5a80bd26babb909e9f8fcc8a10b122e292df3598a25074ea4b744d6"
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "f5178cdb912a0476161807529b3bc02cf914c094835f5a5ff575c5286cd55d27",
+      "extracted_cloud_sha256": "4c7a9d8cf85b88e798a6878b0e82d3e90f1ad218f5b8387f5b0569911ff65ac3"
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "ff47581b9d870add7fbc7344a3f6681eb63a531ded5c2e82d31d638fe9147183",
+      "extracted_cloud_sha256": "93cee474b778c8c9fdc5eaba3ebcca652b04ab474ef012d1182244e80b924a61"
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "2ffd4c5d33b95d274dc9233fc4c1e95159a3806c83a9712abe0dff0f78b469a6",
+      "extracted_cloud_sha256": "87ccd534db0dc655586d5563768a3fc2a0fc63d28a7eb2557e64c6c66c2a5064"
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "b8faf8d70ae3237b1231ed8863ba342d1b10cbb5e136fcecea9ceb8e09c63d04",
+      "extracted_cloud_sha256": "3dc380351aa195c9412d6d35efa0f526a64b4eff38f39255b4d9ce567f4e76cc"
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "5c9078df929d464bfa7e097ac2348165d529237bc88b4e50918e72387b13d036",
+      "extracted_cloud_sha256": "00adf4e7a6840a3280abcf4e79fa4fe0fceb6631ac91fc3160c3eef21ad8c411"
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "dd79af8a482ecc34a38aa9baf2f853ee11eab833b2b3d4b01c94c11c6aad2cbe",
+      "extracted_cloud_sha256": "dda27d0e8e80a4a397a628bd08940123dcf0e23ca6122353d222325b14e5ce2a"
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "6b1dbe4a17bdb4abeb0aa0dffec551e17bac9aad267c6bdff1b771b8947adc70",
+      "extracted_cloud_sha256": "9f2745abaa9db6c26f142b15efb0cf3a6f66270c464fc418b6241803df92f2c5"
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "3dc19c975355357dfecf80c469f520003c78b86ca7da271560801bbb862fe055",
+      "extracted_cloud_sha256": "d9b174dd6bb53145616e0bba0d14cd0930b400966e5edd16833524da8bd12b98"
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "468ffc13ef975ad50bb02cd4b7f1fe088c490a865814332868eaf3d908e4690b",
+      "extracted_cloud_sha256": "19fb22603dc97361b27601d6411f016306e2e8d941d6f1de0335afe9535a8eac"
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "5e027bbb3d9c6790245006926a324451667c9b4d650822b95358eeb0e1759edb",
+      "extracted_cloud_sha256": "3c934d9f2c36bca678418ab9865b9bf0b821e3b721d8e4ac410a4ce227f13a26"
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "4861d611fe774a2143c8298d636f4726d00d9bbe559087180be5fa6673b0fbc1",
+      "extracted_cloud_sha256": "890b0349fec3c4c0890cfd537d2b9eae94f95bbc63f4f392a326f40023492977"
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "8aeb3cd553d7a4ac0e532dc9ef5863b961e104c7cc4e179c50b3268baecb4f1e",
+      "extracted_cloud_sha256": "f25c7198944f154f33ec2d4c5b21b021e3036019c74dda27e65801b83ba24769"
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "3c2248abfdc704d05d604a6a01f6af37666009a80d63107308a37f2b429704d8",
+      "extracted_cloud_sha256": "94beba80c12cae1c844007fbdd40ebbc3e748ef1c9f8b44ff2b0513b73c59f8d"
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "843ead8f9c44665fdc95e0876462ff1b00919990f7604f935304b07bdd742340",
+      "extracted_cloud_sha256": "57d8b8ed61d1e6ce529e3c0cc94d680a74420152c5ebab45722526f3fd10d96c"
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "f4dd980956518f5053d29cb2b00c0df23ff7de03ad55dbec93b5d0ff8f684313",
+      "extracted_cloud_sha256": "0de76641af56d476a816a46df856b3c42be9db5508f2b6e041d0365b827ead15"
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "154ccef87117cdd89a9e0ac6131073305c235d6fce8e6fe94e2aa614078ac274",
+      "extracted_cloud_sha256": "e1bb10ccebd5563c8589d6099b450190854eb9849494d1a8e7ba17f312de1c41"
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "a8c5b89bf31a737125e45c03610c7c6fed8150ea916bef4244720faee6c14901",
+      "extracted_cloud_sha256": "fb85680cd73eb86810788ad97069d0e75f61b13ddce5cf337266df77ad2eefa9"
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "8aac50cb3a0b85789c0870435e7a89d5e6697b195a35f0aed3730d3cae48c842",
+      "extracted_cloud_sha256": "d034ff4cc80f9c3599f243737ba03c83b0c7974fdbbebe3c0c97ae884ea5a702"
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "2ba6842aedb6998dcdbdaa7db61aa54d8ea1cba226851353ab83beeb8cc5ea11",
+      "extracted_cloud_sha256": "9a0432b183e61c31aa0eaff24513cfb9f7fa3b016c3a59e1aaca6f85884396b8"
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "9608bb8242784dcf380f1423ca8a4b2702251c701e15758829c959539ae7a0e6",
+      "extracted_cloud_sha256": "45ab68fd17cc0bffcfdaaafa6cea190b0c5dfeccfe7ab89482965c6c137b3f34"
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "dfc4d9f03363b77e8ae6ac3c02d38b1c9436c43ca1a1d4668b8e2ee16202e51d",
+      "extracted_cloud_sha256": "e718aa40cb97b46b7545bcd6084e703f1a513908f659958478261166f01f7ec1"
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "575eb10d3d6f28cdd3c99836c8bcc03fef0da50849fd4de22b88ea37f9eb4bd4",
+      "extracted_cloud_sha256": "6590704c69c887a86be11919bb5a7ccf17fc0e27e23a781cca8f9e0ae27a5350"
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "51715f87bb9c459797ab882a40ca6639331472478495d5bcb553c31e0b7a4473",
+      "extracted_cloud_sha256": "f9b3c46aaf9162f1401b104ae8315777119228713f202c8396537dfcc9934558"
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "bde7ca960448004261923abeb9a7339ac9c0da9f2489af2bad669fc4823fc00f",
+      "extracted_cloud_sha256": "f6ca694c2809beed4df82f8feea65bf633c8affceab634724302b69164b21e71"
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "81cd6d34e5dc847abd4d501f5f48878fec5f6aa8f6279771117445787d386e73",
+      "extracted_cloud_sha256": "a4a4111019cf35bc990abcbe504991921c93b4117b87192fdfc3af89d9ec9ca0"
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "d59ac7fa4196b63d303d0cad4c05d7610a5dc478e327891a6a8961bda6acbb5a",
+      "extracted_cloud_sha256": "16526be60d1e90e9d83c1717f3cb460d93d279543aa7b14e9e88037bc2e5db2b"
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "6df9fb2c6aa0e3abb7e0673206d00552104b84ee466150f8570808932edd692f",
+      "extracted_cloud_sha256": "010158d00f91101e810aed1248361f8cbd77f7bfee3890237c7685fa92371e50"
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "8985854a39583a27592e8c225d981a9120bb07c0eaeb339329c91275e0d2ec27",
+      "extracted_cloud_sha256": "4975f6789dd9a4b7eb8f7699c2018670fe32342948b5d078e480e0c2789037ae"
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "957692232916ef67befcbe20ba4d143abe9c038e82647d795156d528688e359d",
+      "extracted_cloud_sha256": "89ffbc264d5e7b1dcf00585cd28c96e9b81b80b74bfb17fc85e4133341248f7e"
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "aded413c2a580af9e13d0aa7d0dbf6415863fabe5da3e920e6deb8733e712845",
+      "extracted_cloud_sha256": "4ff0a3e54f9588d92d3c5aad25939a0d53b2027aa0e6a73d9869ad3d5ba758d0"
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "04b84e81e368d1daa76941089b178633db524779f2a314965255317c6d446d68",
+      "extracted_cloud_sha256": "7bb7926544bb618737ba18b2c839d6780a391018dad4404429b54bf717611b61"
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "078cfdca03bd33098895e95746441be0bad6aa719009d4924b4233975a19b245",
+      "extracted_cloud_sha256": "99a0562da92e05977748b318e5ec8645fa077484686f11a6d3e235130c59b44c"
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "9633e7aebb953d03306eb54940fb3deb5bab8a99ffb12c987aa039648d53a4da",
+      "extracted_cloud_sha256": "f3fb2318e716bdfa32b166310ced8152bac01ec35097ae87a1a8af861e540da7"
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "fc3111a7ff026ea33969e6cdd91e04d78d54cb55c614a9cd6d38bcc8f3723f10",
+      "extracted_cloud_sha256": "9f8a044fadf93d25ddbda0d0a01a53fb25b2bec6646e3185e9550fb99a006991"
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "af4cb9e72a2b6cce4769f18a6fed4de703197f96001e2b07d73f855282c14bab",
+      "extracted_cloud_sha256": "a50dd3dd6d8156410b3636a7217edcc608d416d2b3df04d2d0b42e65af1c2ff1"
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "a2dde0fec28286c75a9fa28fe65dd3932e2ee40dda66259f00102425c7ac902f",
+      "extracted_cloud_sha256": "a5e57be4a2c5b6312e511590112cf4f8442378b313da4f72020d3ce97653cf5a"
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "d229b2957e0078ccde971c1f8e20fbf37145d7be2c9172277ec2a4c0724616c2",
+      "extracted_cloud_sha256": "960cce3acfb86d7a0dfd962c9f37d0be3fe5b7eb28714005cf692276831089d4"
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "d012fa502da4650eaaed235fc7945afa680ccb604a2daf6c3a25cf71cddf3385",
+      "extracted_cloud_sha256": "d9d674cf399b1ab18b45946502e0f0d1209a370ce74778f644da61b8937fc70d"
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "29b621c3164e52f3d6fadce15acd52c5e012fe52dce8e0b731ee8a74d7dab2e0",
+      "extracted_cloud_sha256": "033be2e76422a7f446022637b42fc963df8ec7ebd7babd2d922e15ec6e8e9633"
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "67976255719469ef4015e02da88cf6c9ceabdeffdcd3ecb8116c6a51ffbfefb4",
+      "extracted_cloud_sha256": "15916e3ff37d67a700750a773c360d6afbf020e5c37b0be68f5bb36ae726bb4f"
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "567881ed1759128cfb26dfc5ee99e571126bd1a7d8e7dc5843b514824932b189",
+      "extracted_cloud_sha256": "68330004102d22ae3ebbcb1776a2931fe7e4742356c4ae17c1678a97db4c99f2"
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "2b754620e37a9466355b6a204c3f10af3bdc5664d8a49d6fe03af2d01df7f618",
+      "extracted_cloud_sha256": "884e94fa263483a646235899c29ce853f991334f5fddcab7a8b2c1ced90e0f4f"
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "cb76a48c640b57e0669ec4be6da53cd41579625badad237b19cab7b25f201c28",
+      "extracted_cloud_sha256": "2fc3e2e2925f5d2ea90de71bbfcb0ec1c86a5a71b636bb4e05a1d9958907c349"
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "801837d301fe1ad08110fca56648078203267a1d29aa0432ed08805e91221280",
+      "extracted_cloud_sha256": "1c8e31af49e0bd71903ca547e198635210c5b62ce99f3685acf423fc4a830a2d"
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "aed4b3239cba682918957543c108268c5f41b0f1fb47dddd980bdb015c51caf0",
+      "extracted_cloud_sha256": "18a3755f20318d404b1a530fd168f713b24efe11667d3437ae2a535d4053f386"
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "f6c0d1d3f5d350600cc60fd974644b5802bb702243f4e8cf71541499c7a05dc3",
+      "extracted_cloud_sha256": "6522a718be636578f5d45947e4105038833477325b8339341b92548e92cd7f78"
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "8f2502cef3a7099581f8745abb7b1fe445f34e62ab1ac707260e22597fc2183a",
+      "extracted_cloud_sha256": "f0eb119dd30b330ff0d15c67416822808fafb4c1868ded78c3fe45fd374332ff"
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "4fd44c49e45367f46d0255ee833523311860fba914ee46216152dc9eff95ff7f",
+      "extracted_cloud_sha256": "b67625d993802a6ec74e965021a465ce98d7e207f3b7ab9769ba20797a394b38"
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "0249a661d479616ac03786707898e1cd85b85a4eb811dba6fa2e59ff7453f475",
+      "extracted_cloud_sha256": "d7e84df4c246bed4a3c721a574228098fa148a3d682f2cebb8e26ef8c1b423ab"
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "d6fb11aa2fd9259dd17be20d12b5bc2edd9d797ee8fa82fccd7fafc694b1d3e7",
+      "extracted_cloud_sha256": "a1ff5a81bf0f9caca72bd544634cb396111850d98936a97c6d12d6efacb64b8f"
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "d95f5236c7ccde396d58f84cdd55e12a4e03c96ebb1d840829395c28c037464f",
+      "extracted_cloud_sha256": "7802a2fddcd6b6a225f691461c0801df8bfc447fc6312eadd0972bd2ba8e29cd"
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "62fad3dda525e142de6f00d329364ebdbac3d950aa1a335bead8205710b02f36",
+      "extracted_cloud_sha256": "03c3363a63d82cfafec1d0babd2976fb1c8e72b17267bab28bc0d20a3b836d7e"
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "e55bae40d5bfb2a71272e70194e8c94631d49d9f25bf4cca8cb78b97fa36e76e",
+      "extracted_cloud_sha256": "23940040e000fb7e231cf7e96da41980f54a4073d59ce2c5f109ddcb74dd2b3d"
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "92a5e3cacd897a65a7f26d317bb43f1ef839e72b80ba2f8604a3510bfc84c285",
+      "extracted_cloud_sha256": "d19fe19484f29083e1de38c5a6057438a708243e762b33a2259396b5227c5cf5"
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "de4161ee426c823e73d3f36af3fa82a918a58a83ca6741291f9ca2bb0a8eaffd",
+      "extracted_cloud_sha256": "2542f486ae1004634569e81093f9941e708b887a8eee6366f93a160c960b9c95"
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "ba48e714b90986185013f215fd412a48f02716fb282f5aaa9aff0a6c18d61e2f",
+      "extracted_cloud_sha256": "c7b780595772ad7da01d5cbedcb0dda8eb078a46c83e942d20d7b06a5098dc01"
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "c7174bebc87e82e3714cfd2c929ba3b56c76820666626ffb94df024f5bc99746",
+      "extracted_cloud_sha256": "11d70b45906f2a80fe310c8a0ebc7f8438e5f5c71f832ac3e7bca261653ad9bc"
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_145631",
+      "source_sha256": "93de83699650e604d50858895846dc5281c33f0fe02408c79a780b5254fa70e1",
+      "extracted_cloud_sha256": "1540f11dbb5cdd31cb8d2a151e0ed0049b0c8cd67d5b7261bde005476bd22a5c"
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_164656",
+      "source_sha256": "d09b92cf483c8b252aae94eb388d21977c45afc846e5ebd1526a27782bd3f10e",
+      "extracted_cloud_sha256": "4c02e1c7ac782e0aa9f9c8d1e307a857da67697bc0db776e909d6b3e40f89976"
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_164933",
+      "source_sha256": "18e5891f4e0f0735e4cc10c18f133693b0182b2336390bfd0e2cbd227fd575d1",
+      "extracted_cloud_sha256": "a1bf607a4378134725630a774e7bab10ddf1b68bfc003555aafdb4358fb83241"
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_165159",
+      "source_sha256": "819cde644b9d92798276a563c614f54e1cd52e46774834e39b4c53fb7720fe22",
+      "extracted_cloud_sha256": "7e35723dfba7bec35d6907fd579e6517bb7691490d34fcd2f964e8a9a12b86ce"
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_165429",
+      "source_sha256": "606d52ba0bc17a1676ff344ff13ba57466bb0746f3b4e97312224dffb722dead",
+      "extracted_cloud_sha256": "858c2f0f378d818a1e4acf819cfd3000f2d82782595721877fe8cd53f17ca49b"
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_165651",
+      "source_sha256": "97d3dec88baefcf21421a2235fc1d217d676915bcfeb2f7e42866c4629f7110e",
+      "extracted_cloud_sha256": "ad1d5558daa652cfea453f0558eb6216faae69c09cd2e3aeef250dc8f3e63574"
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_165901",
+      "source_sha256": "7c6fe0ab513e543fd1d2299e0a846daa24a64f64d6afeb4582449c89ea06bff2",
+      "extracted_cloud_sha256": "fdd1fd4ed0be02417d3499f40a1fd2043c55c34a310b2c303926f3b1e2adc814"
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_170118",
+      "source_sha256": "e4e90b9606ecf7caf5234119564d3f2c67386518745446600248fe074c408e87",
+      "extracted_cloud_sha256": "44c4bf2c0a099ab91ad104c7173a318bc59544cd356eb681dda6ebdf507dad0e"
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_170349",
+      "source_sha256": "027d02e6eecabfdec26147b80eaa43bbeb00196fcfb36cb5d03125afb974122d",
+      "extracted_cloud_sha256": "92c38688c32d4bf4fcc946406cfdb680e1da27c264f723478675672af2197538"
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_170556",
+      "source_sha256": "26e1a67da95d9a4b0ab2d2de838feb22d89803e6311469ba0f3f902a9cc0080b",
+      "extracted_cloud_sha256": "73819112c0db89195a13b2ca825705e04b3fd6b934863d0a6bf12697929e49f6"
+    }
+  ],
+  "coverage": {
+    "map_views": 180,
+    "source_bags": 10,
+    "configurations": 18
+  },
+  "raw_data_access": "Full extracted maps, neighbourhoods and original sensor bags retained on robot workstation, not publicly included in this viewer.",
+  "preview_sampling": "At most 10,000 original 5-cm voxel points per map, deterministic display sampling; round to 1 mm only for preview; no change to metric calculation.",
+  "recorded_configuration_files": [
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_145631",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "74481507fbbb1e0a5a0a37cdd1c77a205f53b90dec6b367b5377f445d6454ad4",
+          "size_bytes": 995
+        }
+      }
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "fc0faff2c0ef8360de7de1ef62747630b599fc2fc1b47acbdadbfffec0ff4332",
+          "size_bytes": 651
+        }
+      }
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_164933",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "a680ee5f5fe70e3411f4735377675904e1fc9d237aa19519f236e0228221f665",
+          "size_bytes": 995
+        }
+      }
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_165159",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "4f62608615b9b7a49962a903c7e993430b1e98a9464192148134e2359d1ca5d9",
+          "size_bytes": 995
+        }
+      }
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_165429",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "1d3314b1d512f4b1f63bbef1e3c65307ccfc4cdfa39b4045deb874874b52918d",
+          "size_bytes": 995
+        }
+      }
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_165651",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "8361a7be13efc02268d73583602d7e10fb02ec64853e86609dc76f75c511f116",
+          "size_bytes": 995
+        }
+      }
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_165901",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "eab9a59786a5ddc9bd51fa9e55385434d2ee0b39b6b207f1c8b99801cdb57b2b",
+          "size_bytes": 995
+        }
+      }
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_170118",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "4cd93803bd12a49c9065292ee65593aaeecfbcc185d6bc2451841018eff43c71",
+          "size_bytes": 995
+        }
+      }
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_170349",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "a76d94da296eaae02678fb41396ef3d6a322e8ac9409eaca770c3047fa24ac68",
+          "size_bytes": 993
+        }
+      }
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_170556",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "310fac61f34023743c4f15400c800e55d0b02fe552f4cad484e2665769ca48c5",
+          "size_bytes": 995
+        }
+      }
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_145631",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "ccb51eb93ac20800885befd574bba43aaef55c55ab166350082814f3e5d31765",
+          "size_bytes": 1027
+        }
+      }
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "b6eba077da53adc85958ba3e3bf86742e00df12a4d30f758c6bb1b0aca30610a",
+          "size_bytes": 684
+        }
+      }
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_164933",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "fd551ac1506a8b4c197b6d922191ccfa7f312c5c5b136568f426804da128c15e",
+          "size_bytes": 1027
+        }
+      }
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_165159",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "68a55aacc1004951ce3c036ae1f91264ed1b57837eeb4a54e04b5778ce4581b9",
+          "size_bytes": 1026
+        }
+      }
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_165429",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "4a3167297acadd2c3ea5b2bf9581f3063461d767ca5acb9368f804019f256881",
+          "size_bytes": 1028
+        }
+      }
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_165651",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "db8f3fc7676e4e4b3428dcfc152fa6ca53b550ecba92ddb08b89ff99228eb5df",
+          "size_bytes": 1028
+        }
+      }
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_165901",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "cc74342c12fe2bd0cf0f7e3b2597a4499b3fe5d7cc0d73eb01d91556e566d248",
+          "size_bytes": 1028
+        }
+      }
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_170118",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "29ecc3e34aae46149f683ff202cff234ee5a1015715e1d26f6d2a915a8b4a991",
+          "size_bytes": 1068
+        }
+      }
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_170349",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "b93f65613ad5799d2d768645d3c8e206474c867f922b095b801863bd742feff3",
+          "size_bytes": 1027
+        }
+      }
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_170556",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "0f36c7a66d625b42368307139876bda884d1201eda32184121a297e1a4be5ddb",
+          "size_bytes": 1073
+        }
+      }
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_145631",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "5b77a3d0d9ad1fb5c2bee0238965726646bb4a27186fc5523e7d1f518b38060d",
+          "size_bytes": 1114
+        }
+      }
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "3fd8f53c1730b64d8182f5c320616a8f9f46e4e678980c1ceb01d8acd47681c4",
+          "size_bytes": 769
+        }
+      }
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_164933",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "e549d87b28d65bfd9024269211a36f68ec9a3c0df2165bee896e4802424faa43",
+          "size_bytes": 1115
+        }
+      }
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_165159",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "8aca04a3d6f5fb4c26d1afe67b0a4c4f4cbd8452c803a739c23d35b6d60c300f",
+          "size_bytes": 1115
+        }
+      }
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_165429",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "e0dcf87a6f5cbe90668f2150aaed64df084194eff7532ea09c0c8e10577f13da",
+          "size_bytes": 1114
+        }
+      }
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_165651",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "7faedb8574de75383f10d3a2c761aba11ba3d66993457f5ff0eac6a23022cb98",
+          "size_bytes": 1114
+        }
+      }
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_165901",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "2c12d593b0c187ed4c09061df9a08717dbee3e4275924859798e5a350c80161b",
+          "size_bytes": 1115
+        }
+      }
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_170118",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "9aaeca0a304bd93491441d7e5530f354837e329fa28c1e317a29fa6a573baa10",
+          "size_bytes": 1113
+        }
+      }
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_170349",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "210b1189d83ba3309b086798c95ebd4e0f02ca993785a38caadec5752e173e86",
+          "size_bytes": 1114
+        }
+      }
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_170556",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "8aec5867fd3faa5d557134dc25223bdc8dc7b11e1387a9030d95dbbd28b11cc1",
+          "size_bytes": 1115
+        }
+      }
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_145631",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "12cdc96b81717486dd91d8868e7ff0503034373c63542d646765bd03f10062f5",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        },
+        "resource_summary.json": {
+          "sha256": "e7618155424f02c2678f51aa190ea6ee601dfbba414ffca605bb7277237e0925",
+          "size_bytes": 680
+        }
+      }
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "430f9d3d6bdd7816ab93e0bc847f1dfe4b9c1f030c63619d1f9de1a91ea3e209",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        },
+        "resource_summary.json": {
+          "sha256": "feb97cdd0112547044a9e8e4695493f0610799be69ef2fc6f37814ddc40230ca",
+          "size_bytes": 700
+        }
+      }
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_164933",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "038049e4780772fc90968ec8f353a86f605ee5d351237be8225147f372b0132d",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        },
+        "resource_summary.json": {
+          "sha256": "d4d7e97a820ba138cbbc36ff2366895c06cd4d85267a9f7089ca407c07e801c7",
+          "size_bytes": 680
+        }
+      }
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_165159",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "2a25398038e12186073186e08b2961c5538b02f41733edefd0ec58a619670b3f",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        },
+        "resource_summary.json": {
+          "sha256": "c5a105c740e53c4389b9a1f23e60d8d46e233378d4fb6b78dbea579525d200e1",
+          "size_bytes": 679
+        }
+      }
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_165429",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "96a17b6b127cef5fea35a058eab82967d50165302b24dd23ee04da99248348aa",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        },
+        "resource_summary.json": {
+          "sha256": "eeed792a0f946357f61b4677ce4a3b184ee83d03f9d90526232c39675c9b3696",
+          "size_bytes": 679
+        }
+      }
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_165651",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "9b9596d60967dbca3d3b70e51c8ca49f34103002b916c70196fd4b2dc9a62e10",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        },
+        "resource_summary.json": {
+          "sha256": "c217d88441f2b5ec17dfb44878d352e3945c5eb598d0239cf5f18847d2b1e06f",
+          "size_bytes": 680
+        }
+      }
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_165901",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "a49d5b95757892de495cf90607e58bef6ccb8775a47cdcfd01f8a030bdbb4c70",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        },
+        "resource_summary.json": {
+          "sha256": "61cc36cc35243c4d5e4ac3bfa1dabb8c72786addd88595bdf98cc142d71550cd",
+          "size_bytes": 680
+        }
+      }
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_170118",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "12df1d486a1870cec0041d99c78b2b0184db6b0275be9db980e5ea5fbdb253fd",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        },
+        "resource_summary.json": {
+          "sha256": "edcc3d7c08204cafad526efd573f894fb63725fa249c2dca5c22f649e1699cfb",
+          "size_bytes": 680
+        }
+      }
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_170349",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "53ed7fbbe03b06f4191b0cf7ddcc59554b225f8795345d611bff919f90f60ee6",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        },
+        "resource_summary.json": {
+          "sha256": "4cfa6eaf9c3566f73e967ffa75742a038036e05184044bcba08f1a0dcc001c12",
+          "size_bytes": 680
+        }
+      }
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_170556",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "a9dd0aa5eae436cd5db7f3a2830e276e51ceceed1185f0be93defae8154e2756",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        },
+        "resource_summary.json": {
+          "sha256": "0e6e7a5ee88933867a8925fda02ad273f9dc712220e3d266f7ebba8f5b130906",
+          "size_bytes": 680
+        }
+      }
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_145631",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "2e771312c8f2abd1529ecc0ad9bba02a53abc1310931b19fda1b5e1c4dcc282c",
+          "size_bytes": 1016
+        }
+      }
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "127402936a23d7919721c73b10a0d71fe70e00d7d14fc87a401d9dbbd24725fd",
+          "size_bytes": 670
+        }
+      }
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_164933",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "fdf5031dd62c956d7b1ea7744163415324e757abf18a1e097d5b6c41154c8dc0",
+          "size_bytes": 1016
+        }
+      }
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_165159",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "c96cbc7a361c62e35323bba4cc85ef702d45121290b330d8c7098731b1a426ac",
+          "size_bytes": 1016
+        }
+      }
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_165429",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "05d9299c526c8bac921f076a19efeab9aa7e4679aa4a9037a16a4890d19fa3bf",
+          "size_bytes": 1015
+        }
+      }
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_165651",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "f642695415b894ce9666b128c65ceecbea92dec2b5c7e5bda7b077b70202f9fd",
+          "size_bytes": 1016
+        }
+      }
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_165901",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "de03c71856b5823d07029da279bf998585db85a9c0dffa7f1c7464f8b7eb19de",
+          "size_bytes": 1015
+        }
+      }
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_170118",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "9d27b9eb0082c6f7e43f68bb8042d91521801db892e2d60b987865dd5af7ba9e",
+          "size_bytes": 1014
+        }
+      }
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_170349",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "428b1a2d55decc906c7ef76ef2d0f1f9320a23f444e43e945388d471aeccdee7",
+          "size_bytes": 1016
+        }
+      }
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_170556",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "45d105300ca9a27f7697f1df2d6ab76618ec68e13b8350023eb777ea79d7d2f6",
+          "size_bytes": 1016
+        }
+      }
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_145631",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "4f84db698daad203e1dc99f4848817951b2a831ceda1cba11a62e7ba0e190887",
+          "size_bytes": 951
+        }
+      }
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "bae3c59fb28f289f97f577d3951fe5db0138804ccb0d743e04813afa1ddb680d",
+          "size_bytes": 607
+        }
+      }
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_164933",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "54c7270be98404f3e05a043b7de9b7ac7804caa356c013925b08f9ccb5a47c0c",
+          "size_bytes": 949
+        }
+      }
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_165159",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "69d212263504eacf071a7e6ba87ba891be3ad2e05ea4453443336201c2b835f5",
+          "size_bytes": 951
+        }
+      }
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_165429",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "2129cef2e63aa02fa18eb2dc10e27355032cdcd3dc8e9888d5a452affe51a87a",
+          "size_bytes": 951
+        }
+      }
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_165651",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "edbe13c578f66a155244e2afa641b1cee3bdcaa4cbd6a8ad6d286c28e28fa168",
+          "size_bytes": 951
+        }
+      }
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_165901",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "88f3819bfca4ad09ed07d40f95f92ecbf5090d3dc7a836acf86f8114415e9fc1",
+          "size_bytes": 950
+        }
+      }
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_170118",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "f0e4e13c2b35e23ee18624902f9633616bf69e920d372fd8051a7e3d783105d3",
+          "size_bytes": 951
+        }
+      }
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_170349",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "f3da596600e97967cec95c9bb794ad8740423a515d52c5f9183ad633a51c5879",
+          "size_bytes": 950
+        }
+      }
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_170556",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "f23d1798b5e62b591b7e8de6a13356546c2e04b7feeceb4e230d3bd5577fab0b",
+          "size_bytes": 951
+        }
+      }
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_145631",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "f02ec6eeecf1156294f4cb2f6ef96600af8d725f82c9287507ab686ea077717b",
+          "size_bytes": 962
+        }
+      }
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "2577e15099fca80f28f8fb47857eda9f73a0699ae4b9c0df9a6c4b76cdf49ab6",
+          "size_bytes": 618
+        }
+      }
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_164933",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "38af2256d4f915ad09631a217906da89271e6c270095cd56a18b41119e1f45ac",
+          "size_bytes": 962
+        }
+      }
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_165159",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "ec9b960b7e798a08fcd02822212c9ad2a4f2be43eae18f57583d059b99c1be8b",
+          "size_bytes": 961
+        }
+      }
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_165429",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "8f7d2a2bd4712f048fa5a03ae02c624e43e7829f7f1257ee79fab1728a6a86eb",
+          "size_bytes": 962
+        }
+      }
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_165651",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "1162fa54389b380e3986ec983925d298e62b728a93e2c251f7ad7d13c2921c06",
+          "size_bytes": 962
+        }
+      }
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_165901",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "b16c90d2599a629d604a9f12cd74b7ef6bd1de950db725ff3f8ad40040f38792",
+          "size_bytes": 962
+        }
+      }
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_170118",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "88185f37770f9f1f3a07da52e96bea92b6247b426032de7037344271edfb139d",
+          "size_bytes": 1002
+        }
+      }
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_170349",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "986c43b4f716ef2c43c1cff6fedbcb3fa543773fe7405b0ddb691fbef5f1ab97",
+          "size_bytes": 962
+        }
+      }
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_170556",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "39bdad4b660040f78e6c9af334675a55a5d7a67b909f57060e72ddc830609609",
+          "size_bytes": 962
+        }
+      }
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_145631",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "86a6149d983f0e689eaf8db3b8ac161db535f7b5c2fe3aede1fab87d929c9354",
+          "size_bytes": 954
+        }
+      }
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "e6a9ef80196a707adb6f7d31aa8fc3e75b21585266a1fbff282983f05908dfe0",
+          "size_bytes": 609
+        }
+      }
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_164933",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "64760ceb1adfe10f27a49dfbe399f8712ef90f58898dd451f1bac346e072c368",
+          "size_bytes": 955
+        }
+      }
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_165159",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "ea92520cc69f4db22cd9be41b2751dd13392d2541b7e8dc42c2e99747a10da43",
+          "size_bytes": 955
+        }
+      }
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_165429",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "6bf3d2bcdc443f18eca39bf1a994195630bd9cc72c09967fd598fef65de094ca",
+          "size_bytes": 955
+        }
+      }
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_165651",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "f3d994a227b9da7329b2f4f8babcb41c71ced9f8fa261e538b64f584d5f4d4c7",
+          "size_bytes": 955
+        }
+      }
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_165901",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "9c79e863d7424970fe49f452b56837cbd7a9cf6d8e1efc4608aa01188672363f",
+          "size_bytes": 955
+        }
+      }
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_170118",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "ef50e4e93ba77d7281b8adbcb24989d7ee437a851bf6077b610c1b41e7467bdb",
+          "size_bytes": 955
+        }
+      }
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_170349",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "87aa676a2f10e9dfe94ca5c260aa936779f57d3ce45efc948f17de5aca1668aa",
+          "size_bytes": 953
+        }
+      }
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_170556",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "c730be29d2d17de915525906375ab7b21f8701999ee4c0563fe069e36d69ef31",
+          "size_bytes": 955
+        }
+      }
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_145631",
+      "files": {}
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "9a698b256aacceaf852da8ed2c14a1a0a66fa00f8367b3314cf552e477a784bb",
+          "size_bytes": 635
+        }
+      }
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_164933",
+      "files": {}
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_165159",
+      "files": {}
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_165429",
+      "files": {}
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_165651",
+      "files": {}
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_165901",
+      "files": {}
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_170118",
+      "files": {}
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_170349",
+      "files": {}
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_170556",
+      "files": {}
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_145631",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "12cdc96b81717486dd91d8868e7ff0503034373c63542d646765bd03f10062f5",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d3d2a94212232c85aefa96c7c3def8cb35593cdf1cd1b9b691928aaac76dd852",
+          "size_bytes": 67
+        },
+        "params.yaml": {
+          "sha256": "ad9f76ad2e6a58c241c0918d82ad79e9a2f1e3c4125bd41b93e22271552cb4e3",
+          "size_bytes": 1758
+        }
+      }
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "430f9d3d6bdd7816ab93e0bc847f1dfe4b9c1f030c63619d1f9de1a91ea3e209",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d3d2a94212232c85aefa96c7c3def8cb35593cdf1cd1b9b691928aaac76dd852",
+          "size_bytes": 67
+        },
+        "params.yaml": {
+          "sha256": "ad9f76ad2e6a58c241c0918d82ad79e9a2f1e3c4125bd41b93e22271552cb4e3",
+          "size_bytes": 1758
+        }
+      }
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_164933",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "038049e4780772fc90968ec8f353a86f605ee5d351237be8225147f372b0132d",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d3d2a94212232c85aefa96c7c3def8cb35593cdf1cd1b9b691928aaac76dd852",
+          "size_bytes": 67
+        },
+        "params.yaml": {
+          "sha256": "ad9f76ad2e6a58c241c0918d82ad79e9a2f1e3c4125bd41b93e22271552cb4e3",
+          "size_bytes": 1758
+        }
+      }
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_165159",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "2a25398038e12186073186e08b2961c5538b02f41733edefd0ec58a619670b3f",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d3d2a94212232c85aefa96c7c3def8cb35593cdf1cd1b9b691928aaac76dd852",
+          "size_bytes": 67
+        },
+        "params.yaml": {
+          "sha256": "ad9f76ad2e6a58c241c0918d82ad79e9a2f1e3c4125bd41b93e22271552cb4e3",
+          "size_bytes": 1758
+        }
+      }
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_165429",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "96a17b6b127cef5fea35a058eab82967d50165302b24dd23ee04da99248348aa",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d3d2a94212232c85aefa96c7c3def8cb35593cdf1cd1b9b691928aaac76dd852",
+          "size_bytes": 67
+        },
+        "params.yaml": {
+          "sha256": "ad9f76ad2e6a58c241c0918d82ad79e9a2f1e3c4125bd41b93e22271552cb4e3",
+          "size_bytes": 1758
+        }
+      }
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_165651",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "9b9596d60967dbca3d3b70e51c8ca49f34103002b916c70196fd4b2dc9a62e10",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d3d2a94212232c85aefa96c7c3def8cb35593cdf1cd1b9b691928aaac76dd852",
+          "size_bytes": 67
+        },
+        "params.yaml": {
+          "sha256": "ad9f76ad2e6a58c241c0918d82ad79e9a2f1e3c4125bd41b93e22271552cb4e3",
+          "size_bytes": 1758
+        }
+      }
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_165901",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "a49d5b95757892de495cf90607e58bef6ccb8775a47cdcfd01f8a030bdbb4c70",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d3d2a94212232c85aefa96c7c3def8cb35593cdf1cd1b9b691928aaac76dd852",
+          "size_bytes": 67
+        },
+        "params.yaml": {
+          "sha256": "ad9f76ad2e6a58c241c0918d82ad79e9a2f1e3c4125bd41b93e22271552cb4e3",
+          "size_bytes": 1758
+        }
+      }
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_170118",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "12df1d486a1870cec0041d99c78b2b0184db6b0275be9db980e5ea5fbdb253fd",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d3d2a94212232c85aefa96c7c3def8cb35593cdf1cd1b9b691928aaac76dd852",
+          "size_bytes": 67
+        },
+        "params.yaml": {
+          "sha256": "ad9f76ad2e6a58c241c0918d82ad79e9a2f1e3c4125bd41b93e22271552cb4e3",
+          "size_bytes": 1758
+        }
+      }
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_170349",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "53ed7fbbe03b06f4191b0cf7ddcc59554b225f8795345d611bff919f90f60ee6",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d3d2a94212232c85aefa96c7c3def8cb35593cdf1cd1b9b691928aaac76dd852",
+          "size_bytes": 67
+        },
+        "params.yaml": {
+          "sha256": "ad9f76ad2e6a58c241c0918d82ad79e9a2f1e3c4125bd41b93e22271552cb4e3",
+          "size_bytes": 1758
+        }
+      }
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_170556",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "a9dd0aa5eae436cd5db7f3a2830e276e51ceceed1185f0be93defae8154e2756",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d3d2a94212232c85aefa96c7c3def8cb35593cdf1cd1b9b691928aaac76dd852",
+          "size_bytes": 67
+        },
+        "params.yaml": {
+          "sha256": "ad9f76ad2e6a58c241c0918d82ad79e9a2f1e3c4125bd41b93e22271552cb4e3",
+          "size_bytes": 1758
+        }
+      }
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_145631",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "12cdc96b81717486dd91d8868e7ff0503034373c63542d646765bd03f10062f5",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        }
+      }
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "430f9d3d6bdd7816ab93e0bc847f1dfe4b9c1f030c63619d1f9de1a91ea3e209",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        }
+      }
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_164933",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "038049e4780772fc90968ec8f353a86f605ee5d351237be8225147f372b0132d",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        }
+      }
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_165159",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "2a25398038e12186073186e08b2961c5538b02f41733edefd0ec58a619670b3f",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        }
+      }
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_165429",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "96a17b6b127cef5fea35a058eab82967d50165302b24dd23ee04da99248348aa",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        }
+      }
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_165651",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "9b9596d60967dbca3d3b70e51c8ca49f34103002b916c70196fd4b2dc9a62e10",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        }
+      }
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_165901",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "a49d5b95757892de495cf90607e58bef6ccb8775a47cdcfd01f8a030bdbb4c70",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        }
+      }
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_170118",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "12df1d486a1870cec0041d99c78b2b0184db6b0275be9db980e5ea5fbdb253fd",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        }
+      }
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_170349",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "53ed7fbbe03b06f4191b0cf7ddcc59554b225f8795345d611bff919f90f60ee6",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        }
+      }
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_170556",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "a9dd0aa5eae436cd5db7f3a2830e276e51ceceed1185f0be93defae8154e2756",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "ee07d5def637c6d0c2dc74c5086a3c32c0776c6680554cba3375f3f9dca85664",
+          "size_bytes": 41
+        },
+        "run.launch": {
+          "sha256": "e766591a89c7dbfc74c0c0c5255d9415cbc084ca1d6ccea6fa4dbd8348c5ccf8",
+          "size_bytes": 1007
+        },
+        "source.patch": {
+          "sha256": "1b3f31eabb7b8a4313fd73e43932d0d5b64e1c48e44ae1142b07af40993294e5",
+          "size_bytes": 6031
+        }
+      }
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_145631",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "12cdc96b81717486dd91d8868e7ff0503034373c63542d646765bd03f10062f5",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d03cd482a1146737f99e4f35581448c121249e342eecfc5aea07273342c0bcf5",
+          "size_bytes": 41
+        },
+        "params.yaml": {
+          "sha256": "411fd16c11344b2e516f6b3d7f92f550ba4e3f831eb2f0b5e322a9282d3199cb",
+          "size_bytes": 8228
+        },
+        "eval_source.patch": {
+          "sha256": "d6026d3b90b8146587ed3932ad36a2a9e7ef4fe6f3fe8a301746ff8196cba551",
+          "size_bytes": 3362
+        },
+        "imu_manifest.json": {
+          "sha256": "57f8ecc457c94386a0eb1286879bba457ecf560e6399b522156235b1fbbb39c9",
+          "size_bytes": 910
+        }
+      }
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "430f9d3d6bdd7816ab93e0bc847f1dfe4b9c1f030c63619d1f9de1a91ea3e209",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d03cd482a1146737f99e4f35581448c121249e342eecfc5aea07273342c0bcf5",
+          "size_bytes": 41
+        },
+        "params.yaml": {
+          "sha256": "411fd16c11344b2e516f6b3d7f92f550ba4e3f831eb2f0b5e322a9282d3199cb",
+          "size_bytes": 8228
+        },
+        "eval_source.patch": {
+          "sha256": "d6026d3b90b8146587ed3932ad36a2a9e7ef4fe6f3fe8a301746ff8196cba551",
+          "size_bytes": 3362
+        },
+        "imu_manifest.json": {
+          "sha256": "d5e1a02d187bdcfbc0ccbdc8f7b6ecd659b092f5358110b41588369386d7340b",
+          "size_bytes": 910
+        }
+      }
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_164933",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "038049e4780772fc90968ec8f353a86f605ee5d351237be8225147f372b0132d",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d03cd482a1146737f99e4f35581448c121249e342eecfc5aea07273342c0bcf5",
+          "size_bytes": 41
+        },
+        "params.yaml": {
+          "sha256": "411fd16c11344b2e516f6b3d7f92f550ba4e3f831eb2f0b5e322a9282d3199cb",
+          "size_bytes": 8228
+        },
+        "eval_source.patch": {
+          "sha256": "d6026d3b90b8146587ed3932ad36a2a9e7ef4fe6f3fe8a301746ff8196cba551",
+          "size_bytes": 3362
+        },
+        "imu_manifest.json": {
+          "sha256": "3f48c3c9c2662bd0af61bbdd02c605330ca041d618ead4ea500239c892dc2c71",
+          "size_bytes": 908
+        }
+      }
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_165159",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "2a25398038e12186073186e08b2961c5538b02f41733edefd0ec58a619670b3f",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d03cd482a1146737f99e4f35581448c121249e342eecfc5aea07273342c0bcf5",
+          "size_bytes": 41
+        },
+        "params.yaml": {
+          "sha256": "411fd16c11344b2e516f6b3d7f92f550ba4e3f831eb2f0b5e322a9282d3199cb",
+          "size_bytes": 8228
+        },
+        "eval_source.patch": {
+          "sha256": "d6026d3b90b8146587ed3932ad36a2a9e7ef4fe6f3fe8a301746ff8196cba551",
+          "size_bytes": 3362
+        },
+        "imu_manifest.json": {
+          "sha256": "b9e3a6be68285a04017be0975347395dfaadc479924a909a01ec8a9cf844f0ba",
+          "size_bytes": 910
+        }
+      }
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_165429",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "96a17b6b127cef5fea35a058eab82967d50165302b24dd23ee04da99248348aa",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d03cd482a1146737f99e4f35581448c121249e342eecfc5aea07273342c0bcf5",
+          "size_bytes": 41
+        },
+        "params.yaml": {
+          "sha256": "411fd16c11344b2e516f6b3d7f92f550ba4e3f831eb2f0b5e322a9282d3199cb",
+          "size_bytes": 8228
+        },
+        "eval_source.patch": {
+          "sha256": "d6026d3b90b8146587ed3932ad36a2a9e7ef4fe6f3fe8a301746ff8196cba551",
+          "size_bytes": 3362
+        },
+        "imu_manifest.json": {
+          "sha256": "aec9c19994b2fdec73cee0a5efa937a542e3630c8e1f5d150b3b5423e79ef795",
+          "size_bytes": 909
+        }
+      }
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_165651",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "9b9596d60967dbca3d3b70e51c8ca49f34103002b916c70196fd4b2dc9a62e10",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d03cd482a1146737f99e4f35581448c121249e342eecfc5aea07273342c0bcf5",
+          "size_bytes": 41
+        },
+        "params.yaml": {
+          "sha256": "411fd16c11344b2e516f6b3d7f92f550ba4e3f831eb2f0b5e322a9282d3199cb",
+          "size_bytes": 8228
+        },
+        "eval_source.patch": {
+          "sha256": "d6026d3b90b8146587ed3932ad36a2a9e7ef4fe6f3fe8a301746ff8196cba551",
+          "size_bytes": 3362
+        },
+        "imu_manifest.json": {
+          "sha256": "a371e636609cd28d29ee38204661ed2a818b5eb201abf474cf628d1ed604728a",
+          "size_bytes": 857
+        }
+      }
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_165901",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "a49d5b95757892de495cf90607e58bef6ccb8775a47cdcfd01f8a030bdbb4c70",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d03cd482a1146737f99e4f35581448c121249e342eecfc5aea07273342c0bcf5",
+          "size_bytes": 41
+        },
+        "params.yaml": {
+          "sha256": "411fd16c11344b2e516f6b3d7f92f550ba4e3f831eb2f0b5e322a9282d3199cb",
+          "size_bytes": 8228
+        },
+        "eval_source.patch": {
+          "sha256": "d6026d3b90b8146587ed3932ad36a2a9e7ef4fe6f3fe8a301746ff8196cba551",
+          "size_bytes": 3362
+        },
+        "imu_manifest.json": {
+          "sha256": "c81adde7535b1f07b708861f0d36e019370867294a2356c7277e8106d8030c1d",
+          "size_bytes": 911
+        }
+      }
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_170118",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "12df1d486a1870cec0041d99c78b2b0184db6b0275be9db980e5ea5fbdb253fd",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d03cd482a1146737f99e4f35581448c121249e342eecfc5aea07273342c0bcf5",
+          "size_bytes": 41
+        },
+        "params.yaml": {
+          "sha256": "411fd16c11344b2e516f6b3d7f92f550ba4e3f831eb2f0b5e322a9282d3199cb",
+          "size_bytes": 8228
+        },
+        "eval_source.patch": {
+          "sha256": "d6026d3b90b8146587ed3932ad36a2a9e7ef4fe6f3fe8a301746ff8196cba551",
+          "size_bytes": 3362
+        },
+        "imu_manifest.json": {
+          "sha256": "cbb3a3eaee174f03c4e9438eb2a9726c6a5645c00f55bd8b5339d9f05507ea4f",
+          "size_bytes": 908
+        }
+      }
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_170349",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "53ed7fbbe03b06f4191b0cf7ddcc59554b225f8795345d611bff919f90f60ee6",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d03cd482a1146737f99e4f35581448c121249e342eecfc5aea07273342c0bcf5",
+          "size_bytes": 41
+        },
+        "params.yaml": {
+          "sha256": "411fd16c11344b2e516f6b3d7f92f550ba4e3f831eb2f0b5e322a9282d3199cb",
+          "size_bytes": 8228
+        },
+        "eval_source.patch": {
+          "sha256": "d6026d3b90b8146587ed3932ad36a2a9e7ef4fe6f3fe8a301746ff8196cba551",
+          "size_bytes": 3362
+        },
+        "imu_manifest.json": {
+          "sha256": "f0ca688682546a199bb2df8dc9235d55b9a3d5b4c36c2e3bc32c6d46c2917054",
+          "size_bytes": 911
+        }
+      }
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_170556",
+      "files": {
+        "input_bag.txt": {
+          "sha256": "a9dd0aa5eae436cd5db7f3a2830e276e51ceceed1185f0be93defae8154e2756",
+          "size_bytes": 62
+        },
+        "source_commit.txt": {
+          "sha256": "d03cd482a1146737f99e4f35581448c121249e342eecfc5aea07273342c0bcf5",
+          "size_bytes": 41
+        },
+        "params.yaml": {
+          "sha256": "411fd16c11344b2e516f6b3d7f92f550ba4e3f831eb2f0b5e322a9282d3199cb",
+          "size_bytes": 8228
+        },
+        "eval_source.patch": {
+          "sha256": "d6026d3b90b8146587ed3932ad36a2a9e7ef4fe6f3fe8a301746ff8196cba551",
+          "size_bytes": 3362
+        },
+        "imu_manifest.json": {
+          "sha256": "74fae3742887d212bd7769b7042e52c7c078b66788b4d33c7d9dc85d5bd38d1f",
+          "size_bytes": 909
+        }
+      }
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_145631",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "2068f191279260e4b03abf8f0dce82c85fd79f0ea1cfb7d01cde5817cc42d21d",
+          "size_bytes": 961
+        }
+      }
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "de3706715362a9a42d1451334a8de1ccd540e63c0aa2c0988cbd8cb4be85f950",
+          "size_bytes": 618
+        }
+      }
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_164933",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "3e0d3c7e1bcfa6495753293322533aebbca4f82369b02666b8821d9c6c8bda0a",
+          "size_bytes": 962
+        }
+      }
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_165159",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "440da1d197931221ff2ca7c99c35a2431c050596afb851604ada56aed94a6220",
+          "size_bytes": 962
+        }
+      }
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_165429",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "ce372c0e0b8a0ac7dfa9ea42bd70fa6f0eeae6ffc2ed8cbbe9040fc79a3e5e87",
+          "size_bytes": 962
+        }
+      }
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_165651",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "08baeddb07f969fd0a16c07a38a086077da8401876175aae56e76a184c8d657e",
+          "size_bytes": 962
+        }
+      }
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_165901",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "81e7fe27eb92e7aff0ace270f430efcede3a0d2cbe88ff626b605b5ad27d33fb",
+          "size_bytes": 961
+        }
+      }
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_170118",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "79f4f6192151a2947b91a6f8bd0a86a8c84ea5df13d56d568f2539dc50a049ca",
+          "size_bytes": 962
+        }
+      }
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_170349",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "cde8275a6748e03a5798e458707500f94781dc248178d11c300152f2b27552de",
+          "size_bytes": 961
+        }
+      }
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_170556",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "99b8ced9e086388c325bc3c1dfcd86d9f1a0baa4e63dfff9e168444bac0badbf",
+          "size_bytes": 961
+        }
+      }
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_145631",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "99088dd1c4131105f4ab784c3ca508fc20eb9a78aaa202b3970644c7ad03c7a5",
+          "size_bytes": 956
+        }
+      }
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "40f6a67a4aa1c67791ea11f82b12512d125c6c2213fdcfe456a2d77e8803eaca",
+          "size_bytes": 613
+        }
+      }
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_164933",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "ff641ef1893b71f9ccdb27376d962105ef643af31be559e16786acdde094291f",
+          "size_bytes": 957
+        }
+      }
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_165159",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "4dc4ef8990e7edd99506972899faf2059f9ab7272a241bc8bef7a61882f1d6ec",
+          "size_bytes": 956
+        }
+      }
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_165429",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "04cdc6dede8d5e57e87af2505aef3e3af4dfe8d8fa3e5de3f791fcc28100f659",
+          "size_bytes": 956
+        }
+      }
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_165651",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "ea306964be8367a33358a1c6fbb84db79e7fe79de971f14a4ccdb2ce4208737b",
+          "size_bytes": 957
+        }
+      }
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_165901",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "1ba7f405b2eedcead31bc1ea44ab83fde5ab98b5c0d91a663a92c73647c280d0",
+          "size_bytes": 957
+        }
+      }
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_170118",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "2fbf3543dd5fbb362f5e42cd78df092922df99313310bf5477e6f0fc25b816b1",
+          "size_bytes": 957
+        }
+      }
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_170349",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "f9abeda77e6c0f7751aff815366453940b7918459d5a31c5f913ebbfa71ca554",
+          "size_bytes": 957
+        }
+      }
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_170556",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "1138cfb865c53c9e08d5a052bf16be2d97422bca351e8a52da76f629ababbf81",
+          "size_bytes": 954
+        }
+      }
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_145631",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "638c1e62701556b44f36766a820bf0e00bafbfce2a00edaa2e0a4e540dd72c67",
+          "size_bytes": 967
+        }
+      }
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "8542d553b5963b3abea9dff810563dae8b74d78997c11acce47e366e84e4ec95",
+          "size_bytes": 623
+        }
+      }
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_164933",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "ed25dc00ec9557a2fb5e0862d3e591ba3b798f83564b00f3e128f6cbd3e91418",
+          "size_bytes": 967
+        }
+      }
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_165159",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "84e32f3b5f6bf284fc59feff0f773a678c15fd40523feec02a751908a34cf451",
+          "size_bytes": 967
+        }
+      }
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_165429",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "104ba7e99028903470fa387a1043f62f25c8eefb357026a2b52eff426d903fc7",
+          "size_bytes": 967
+        }
+      }
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_165651",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "4d513d30888f48515fad31b12cf17f2bbee5c21b4fd0966612818061f16ff24e",
+          "size_bytes": 966
+        }
+      }
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_165901",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "8252ce45ffe4f018d8287f9e6369bc26e056d204b75fb18144ccd2701e73c6da",
+          "size_bytes": 967
+        }
+      }
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_170118",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "e83d5c287c6df9d96a457a980ec8a191f1bd5d1e47ea55913f883416c49e5cf6",
+          "size_bytes": 967
+        }
+      }
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_170349",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "1439eeb01ce6f16c3098c6215d9a8714fcc73cd2ecbcae3449830516e01e93bf",
+          "size_bytes": 967
+        }
+      }
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_170556",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "420c518d94617db6f343e00bd87964e3fe0336f5bc93d00db848d560e669d51e",
+          "size_bytes": 965
+        }
+      }
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_145631",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "392e70ab8e5bb80b5587e7a826e0437794c841c10190c1fe43cd24e07fbfa460",
+          "size_bytes": 963
+        }
+      }
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "c35c6e4b757e422634eb88dbaf68bd83660cd81f7ae10c964483d6aa98fac487",
+          "size_bytes": 619
+        }
+      }
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_164933",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "be8f4795855ee4285cf26ae6e08e831bedcf2953283c47efe647854172232a1e",
+          "size_bytes": 965
+        }
+      }
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_165159",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "58631535c765672e756814617a880473ffafed801b369cb631310a3304691d18",
+          "size_bytes": 965
+        }
+      }
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_165429",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "0deaf7ad82b4437bcc977edbc7b3febcc4c9b2b8696b0c599838e3ef919e0793",
+          "size_bytes": 965
+        }
+      }
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_165651",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "d159825ec5fedc14c2e1b9eef422f5507942ac99607964820532e64425c207a5",
+          "size_bytes": 965
+        }
+      }
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_165901",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "e8de8c61a8205ffe479d1d75adfb04ad4a0b9483e0b657b03787117105b85f38",
+          "size_bytes": 965
+        }
+      }
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_170118",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "535192113a7385c712404d0437385435222fab78e4ba8a2973e560297fb31eb1",
+          "size_bytes": 965
+        }
+      }
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_170349",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "1b63f084ea9990d5d437a63b0c348b559b91a7de197f95e0acdd4d4ba7f32b64",
+          "size_bytes": 965
+        }
+      }
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_170556",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "124aa83ab995717929fafed25e349837af71e6e388ab76ee1f1f2af79fa1308a",
+          "size_bytes": 965
+        }
+      }
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_145631",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "ed65a3ea50203726ee70070e06290afcc2929c939d5bdef27cec4ce8895d00e6",
+          "size_bytes": 950
+        }
+      }
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "d568eea46cf3976a82077f0f239b35a76b3b142fb186df53ae7ddbf4a9e9fa4c",
+          "size_bytes": 607
+        }
+      }
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_164933",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "a43cbd4cc3b3195e3bc0b26b8502e9ed4c4c9e71391ccf0dcccd778e2a1448d1",
+          "size_bytes": 948
+        }
+      }
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_165159",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "afed1ffa2d6031cbe13e566de52c7527bff330c1c3088272ae315f600316d3e0",
+          "size_bytes": 950
+        }
+      }
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_165429",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "1d87ee23d0a2b5e353ccff41b095ca52d4a7263001095d8b700be52883912903",
+          "size_bytes": 950
+        }
+      }
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_165651",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "bcb3350fbd1d2c704c3cb0fb520c4d7c3a8060ef0cc64a3cfbb99974d19f2d34",
+          "size_bytes": 951
+        }
+      }
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_165901",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "d59a06c39be28ccedb8a705fd8c1ba41127c3f2f954bb10745f7e2763ff98931",
+          "size_bytes": 949
+        }
+      }
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_170118",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "54834e1b8ba34d1a95e7789f1965951ad5bb7094bccdb11adf56f79a76ecd35b",
+          "size_bytes": 951
+        }
+      }
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_170349",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "173bc11a1ff643de0be8ba5bf691684751de1cb746fbfa0cf4dfdc3753b50772",
+          "size_bytes": 949
+        }
+      }
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_170556",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "626f8614ba214165108a7725ea7dacd9f9c0b9e7ac9f244dd0d64b07c1816dfa",
+          "size_bytes": 950
+        }
+      }
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_145631",
+      "files": {}
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_164656",
+      "files": {
+        "resource_summary.json": {
+          "sha256": "0f3fdfe2e383095c00c691fa88b1e262b65cb52d4a5edc7938f6303123bce071",
+          "size_bytes": 634
+        }
+      }
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_164933",
+      "files": {}
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_165159",
+      "files": {}
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_165429",
+      "files": {}
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_165651",
+      "files": {}
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_165901",
+      "files": {}
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_170118",
+      "files": {}
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_170349",
+      "files": {}
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_170556",
+      "files": {}
+    }
+  ],
+  "original_sensor_bags": {
+    "manual_20261113_145631": {
+      "start": 1794556594.7946346,
+      "end": 1794556698.1536765,
+      "scans": 1033,
+      "sha256": "d7620d8b64a3a2573b156f2ede3f8a3fa85d3117460ebc9e8e8c01b90d567805"
+    },
+    "manual_20261113_164656": {
+      "start": 1794563221.203104,
+      "end": 1794563325.8434277,
+      "scans": 1046,
+      "sha256": "0abb6faafadec5759c8e0a74a1cf987be8777087ba45d6cda84bad1b0d385a85"
+    },
+    "manual_20261113_164933": {
+      "start": 1794563383.3650472,
+      "end": 1794563490.0811324,
+      "scans": 1067,
+      "sha256": "0a89cf49da9ca986e5189e229fad40c87d07d736ab715c70a7bfdf779ea4bc0b"
+    },
+    "manual_20261113_165159": {
+      "start": 1794563536.829541,
+      "end": 1794563643.9307644,
+      "scans": 1071,
+      "sha256": "6b0034d794e2f4ae8e2475dd6f922551feb24498104c65b39f97b4a9c9ff7ca9"
+    },
+    "manual_20261113_165429": {
+      "start": 1794563671.7659612,
+      "end": 1794563781.2261775,
+      "scans": 1095,
+      "sha256": "b5935a5bc391c4fa3f30762d4e0e19f3d1142c652d8a7904a8df7a52312a1f3a"
+    },
+    "manual_20261113_165651": {
+      "start": 1794563813.8024356,
+      "end": 1794563922.3604214,
+      "scans": 1085,
+      "sha256": "094832625bb4abfcff1020935cf1d386c2e2f4e287b365bd69cafb7bf1dd3203"
+    },
+    "manual_20261113_165901": {
+      "start": 1794563943.9120808,
+      "end": 1794564064.5729759,
+      "scans": 1206,
+      "sha256": "472dd0b11b44d89c2894441cf135f3cdefc16ebad595758cc3d155e70fc0723d"
+    },
+    "manual_20261113_170118": {
+      "start": 1794564096.5612538,
+      "end": 1794564203.616201,
+      "scans": 1071,
+      "sha256": "0941290b31637938841cabf0a1a17de6b1d48f7b5300492f5642ccf19b8f809a"
+    },
+    "manual_20261113_170349": {
+      "start": 1794564231.6794195,
+      "end": 1794564338.5301738,
+      "scans": 1069,
+      "sha256": "41a4cdbe304cbd9e1fb9ee1dc7bc05f5d0cecefa4e4e3919d6f3ed07a79e4dfd"
+    },
+    "manual_20261113_170556": {
+      "start": 1794564359.1079702,
+      "end": 1794564469.5923347,
+      "scans": 1104,
+      "sha256": "96df6bd145dce60a0e652e46ac9f4044e55760a95e9e13046adef98c56419ae6"
+    }
+  }
+}

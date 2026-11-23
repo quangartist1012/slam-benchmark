@@ -1,0 +1,95 @@
+{
+  "version": "criterion1-ten-bags-v2",
+  "scope": "Map geometric dimension agreement and local 3D structural consistency. No trajectory-accuracy experiment; no navigation evaluation.",
+  "dataset": {
+    "source_manifest": "../paper_unified_20261120/unified_180.json",
+    "source_sessions": 10,
+    "configurations": 18,
+    "physical_trials_are_not_identical_routes": true,
+    "comparison_unit": "One configuration on one common source bag; pair comparisons are paired by bag and dimension.",
+    "representative_bag_prespecified": "manual_20261113_164656",
+    "no_new_mapping_replay": true
+  },
+  "reference": {
+    "type": "Existing project dimension sketch, confirmed by owner; not dense survey ground truth.",
+    "corridor_width_m": 2.74,
+    "straight_length_to_lower_branch_m": 21.99,
+    "lower_branch_width_m": 5.70,
+    "lower_branch_depth_projected_m": 3.10,
+    "units_resolution": "Conflicting initial mm statement was superseded by confirmation that label 274 corresponds to approximately 2.74 m. Owner subsequently confirmed the existing dimension set. Do not infer all labels are mm.",
+    "uncertainty": "No documented original instrument, repeated survey, or uncertainty budget. Errors are agreement with project dimensions, not certified absolute accuracy.",
+    "excluded": ["unknown WC geometry", "wall thickness", "illustrative CAD height", "absolute vertical accuracy", "dense cloud-to-cloud accuracy/completeness"]
+  },
+  "extraction": {
+    "native_final_map": ["LeGO-LiDAR", "LeGO-IMU", "LIO-SAM"],
+    "accumulate_registered_scans": ["CT-ICP", "VoxelMap-KISS", "FAST-LIO2", "Faster-LIO", "Point-LIO", "LOG-LIO", "VoxelMap-FAST", "KISS-ICP", "LIO-EKF"],
+    "remaining": "Last full published map in recorded output. No final-time TF from another algorithm.",
+    "lio_ekf_body_scan": "Own odometry, quaternion rotation and translation; nearest stamp strictly < 1 ms; frame pointcloud_frame.",
+    "kiss_world_scan": "Assert /kiss/frame frame_id is odom; do not apply odometry a second time.",
+    "lego_axis_permutation": [2, 0, 1],
+    "common_voxel_m": 0.05,
+    "voxel_policy": "Keep first original point in each occupied voxel, no averaging or smoothing.",
+    "native_filtering_limitation": "Common additional sampling cannot undo native feature extraction or filtering. Report point counts, spatial support and native source selection. Native map extent is not forced equal by cropping stored evidence."
+  },
+  "registration": {
+    "model": "One rigid 3D rotation and translation per map; scale=1; determinant=+1. No local deformation correction.",
+    "method": "Own trajectory PCA gives direction only. Clear corridor floor gives vertical orientation; two longitudinal wall peaks give yaw and lateral centre; corridor end wall gives x origin. Reference width enters only centring, not scale or forced separation.",
+    "anchor_search_not_metric_fit": "Wall gap allowed in [1.5,4.5] m; floor seed uses deterministic RANSAC (seed 7301). Assessment includes all points in fixed ROIs without rejecting residuals.",
+    "review": "All maps retain alignment diagnostics and a top-view thumbnail over reference. Failed/ambiguous alignment is missing measurement, not a zero error. A good local score does not establish globally correct mapping.",
+    "pilot_functions": "geometry_core.py bodies copied from documented one-bag pilot revision 5; provenance hashes saved."
+  },
+  "dimension_measurements": {
+    "keys": ["width_3", "width_7", "width_20", "straight_length", "branch_width", "branch_depth"],
+    "corridor_stations_x_m": [3, 7, 20],
+    "corridor_roi": "x=station +/-0.5m; y=reference wall +/-0.6m; z=0.35..2.15m; >=12 points; >=4 occupied 0.2m longitudinal bins; fitted |normal_y|>0.7",
+    "branch_roi": "left/right x=21.99/27.69 +/-0.70m, y=-2.65..-0.55m; back y=-3.10 +/-0.70m, x=22.59..27.09m; z=0.35..2.15m; >=20 points, >=3 occupied 0.5m bins; fitted |normal_axis|>0.7",
+    "estimator": "Orthogonal least-squares plane from all points in each ROI. Projected wall coordinates at z=1.2m after floor alignment; same probe positions for every map.",
+    "signed_error_m": "measured-reference",
+    "absolute_error_m": "abs(measured-reference)",
+    "relative_error_percent": "100*abs(measured-reference)/reference",
+    "primary_core_prespecified_after_pilot": ["straight_length", "branch_width"],
+    "primary_aggregate_rule": "Compute map MAE/RMSE/max only if both direct core lengths are measurable. Do not mix dimension subsets in ranked tables. Report coverage alongside every aggregate.",
+    "registered_branch_back_coordinate": "The old projected branch depth equals minus back-wall y after centring the corridor using half the reference width. It is a registered coordinate diagnostic, NOT an independent depth measurement. Excluded from all primary dimension MAE/RMSE/max comparisons. Retain it separately so the limitation is inspectable.",
+    "remaining_widths": "Report all three corridor widths separately with per-cell n. Six geometric checks comprise five direct lengths plus one registered-coordinate diagnostic, not six independent dimensions.",
+    "revision_reason": "Pre-extension audit identified reference-width dependence in the old branch-depth coordinate; v2 excludes this coordinate from the primary aggregate rather than presenting it as an independent distance."
+  },
+  "surfaces": {
+    "estimator": "TLS orthogonal point-to-plane RMSE, from all ROI points; equal patch weight.",
+    "primary_core_prespecified_after_pilot": ["S3_1", "branch_left", "branch_right", "branch_back"],
+    "aggregate_rule": "sqrt(mean(RMSE_patch^2)) only when all four prespecified patches valid; no substitute patch.",
+    "meaning": "Local structural dispersion, also affected by real recesses, clutter, sampling and feature selection; not absolute 3D position error.",
+    "floor": "Diagnostic only; excluded because of uncertain ground-return support and possible objects."
+  },
+  "local_metrics": {
+    "source": "Razlaw et al., ECMR 2015, sections IV-A and IV-B; caution section V-C",
+    "mpv": "For each valid neighbourhood, Q75 of absolute distances to its TLS plane; average over queries. Unit metres, displayed cm. Not covariance eigenvalue or variance in cm2.",
+    "mme": "Mean 0.5*ln(det(2*pi*e*sample_covariance)); coordinates metres; natural logarithm; nats.",
+    "radii_m": [0.3, 0.6],
+    "primary_radius_m": 0.6,
+    "radius_adaptation": "Original paper used 0.3m. 0.6m is a project adaptation for sparse 16-beam maps; retain 0.3m sensitivity and neighbourhood support.",
+    "minimum_neighbors": 10,
+    "query_voxel_m": 0.2,
+    "maximum_queries_per_map": 4000,
+    "covariance_eigenvalue_floor_m2": 1e-12,
+    "roi_m": {"x": [0.5, 21], "y": [-0.4, 3.14], "z": [-0.3, 2.7]},
+    "support": "valid neighbourhoods / attempted query points; additionally report occupied cells in fixed spatial wall/floor lattice. Per-map query sampling is not identical point correspondence.",
+    "interpretation": "No overall winner from MPV/MME alone. Incorrect/sparse maps may score favourably; inspect dimensions, map shape and support together."
+  },
+  "statistics": {
+    "per_configuration": "Mean, sample SD, median, range and valid bag count over at most ten bag-level values; each bag one weight, not each map point.",
+    "paired_differences": "For every configuration pair, signed difference in bag-level core MAE and surface RMSE only on same source bags valid in both. Save common bag IDs, n, mean and median difference. Positive difference means first config has greater error/dispersion.",
+    "no_significance_claim": "Ten source sessions from one environment are not independent environments. No unsupported population generalisation, weighted score, or claim of absolute ranking.",
+    "missingness": "Retain all 180 attempted configurations; report reasons and denominators. Failures are never replaced with 0.",
+    "sensitivity": "ROI normal half-width +/-0.10m and probe height +/-0.20m; unchanged registration. Report range of dimension MAE and surface RMSE to show measurement-definition sensitivity, not instrument uncertainty."
+  },
+  "evidence": {
+    "raw": "Full extracted clouds and aligned clouds, source file identity, ROI support, plane coefficients, dimensions and local metrics retained.",
+    "paper": "One representative source bag chosen before extension; aggregate ten-bag graphs/tables; disclose n and reference limitations. No 180 full-page maps.",
+    "supplement": "All 180 map views, bag/config selectors, downloads, numeric CSV, protocol, code and provenance. A local file path is not a public research link.",
+    "sources": [
+      {"url": "https://link.springer.com/article/10.1007/s40789-025-00745-w", "supports": "Physical dimensions of plane structures compared against tape measurements, section 5.2.2/Table 4; TLS/plane dispersion. Not proof that this sketch has survey-grade uncertainty."},
+      {"url": "https://www.ais.uni-bonn.de/papers/ECMR_2015_Razlaw.pdf", "supports": "MME, MPV definitions and failure of isolated local metrics on globally incorrect maps."},
+      {"url": "https://github.com/JokerJohn/Cloud_Map_Evaluation", "doi": "10.1109/LRA.2025.3548441", "supports": "Distinguishing global geometric accuracy and local structural consistency. No claim that this project implements AWD/SCS or dense GT accuracy."}
+    ]
+  }
+}

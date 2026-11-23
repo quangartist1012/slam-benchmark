@@ -1,0 +1,129 @@
+{
+  "status": "numeric_verification_passed",
+  "created_utc": "2026-11-23T05:13:08.061309+00:00",
+  "checks": {
+    "maps": 176,
+    "dimensions": 987,
+    "planes": 1499,
+    "local_neighbourhoods": 1026,
+    "rigid_distances": 11088
+  },
+  "synthetic_software_controls": {
+    "status": "passed",
+    "created_utc": "2026-11-23T05:12:29.119675+00:00",
+    "data_type": "Synthetic deterministic software controls; not robot measurements, not additional trials",
+    "checks": [
+      {
+        "name": "known reference lengths",
+        "passed": true
+      },
+      {
+        "name": "changed dimensions remain changed; reference not forced by assessment",
+        "passed": true,
+        "synthetic_expected_mae_m": 0.2524500000000014
+      },
+      {
+        "name": "reference-centred back coordinate is excluded from primary lengths",
+        "passed": true,
+        "physical_depth_m": 3.1,
+        "registered_coordinate_m": 3.237
+      },
+      {
+        "name": "insufficient wall support yields missing, never zero error",
+        "passed": true
+      },
+      {
+        "name": "all ROI returns retained; ghost surface increases dispersion",
+        "passed": true
+      }
+    ]
+  },
+  "original_sensor_bags": {
+    "manual_20261113_145631": {
+      "start": 1794556594.7946346,
+      "end": 1794556698.1536765,
+      "scans": 1033,
+      "sha256": "d7620d8b64a3a2573b156f2ede3f8a3fa85d3117460ebc9e8e8c01b90d567805"
+    },
+    "manual_20261113_164656": {
+      "start": 1794563221.203104,
+      "end": 1794563325.8434277,
+      "scans": 1046,
+      "sha256": "0abb6faafadec5759c8e0a74a1cf987be8777087ba45d6cda84bad1b0d385a85"
+    },
+    "manual_20261113_164933": {
+      "start": 1794563383.3650472,
+      "end": 1794563490.0811324,
+      "scans": 1067,
+      "sha256": "0a89cf49da9ca986e5189e229fad40c87d07d736ab715c70a7bfdf779ea4bc0b"
+    },
+    "manual_20261113_165159": {
+      "start": 1794563536.829541,
+      "end": 1794563643.9307644,
+      "scans": 1071,
+      "sha256": "6b0034d794e2f4ae8e2475dd6f922551feb24498104c65b39f97b4a9c9ff7ca9"
+    },
+    "manual_20261113_165429": {
+      "start": 1794563671.7659612,
+      "end": 1794563781.2261775,
+      "scans": 1095,
+      "sha256": "b5935a5bc391c4fa3f30762d4e0e19f3d1142c652d8a7904a8df7a52312a1f3a"
+    },
+    "manual_20261113_165651": {
+      "start": 1794563813.8024356,
+      "end": 1794563922.3604214,
+      "scans": 1085,
+      "sha256": "094832625bb4abfcff1020935cf1d386c2e2f4e287b365bd69cafb7bf1dd3203"
+    },
+    "manual_20261113_165901": {
+      "start": 1794563943.9120808,
+      "end": 1794564064.5729759,
+      "scans": 1206,
+      "sha256": "472dd0b11b44d89c2894441cf135f3cdefc16ebad595758cc3d155e70fc0723d"
+    },
+    "manual_20261113_170118": {
+      "start": 1794564096.5612538,
+      "end": 1794564203.616201,
+      "scans": 1071,
+      "sha256": "0941290b31637938841cabf0a1a17de6b1d48f7b5300492f5642ccf19b8f809a"
+    },
+    "manual_20261113_170349": {
+      "start": 1794564231.6794195,
+      "end": 1794564338.5301738,
+      "scans": 1069,
+      "sha256": "41a4cdbe304cbd9e1fb9ee1dc7bc05f5d0cecefa4e4e3919d6f3ed07a79e4dfd"
+    },
+    "manual_20261113_170556": {
+      "start": 1794564359.1079702,
+      "end": 1794564469.5923347,
+      "scans": 1104,
+      "sha256": "96df6bd145dce60a0e652e46ac9f4044e55760a95e9e13046adef98c56419ae6"
+    }
+  },
+  "invalid_maps_retained": [
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_165901",
+      "reason": "AssertionError: floor seed not found"
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_170118",
+      "reason": "AssertionError: floor seed not found"
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_170349",
+      "reason": "AssertionError: floor seed not found"
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_170556",
+      "reason": "AssertionError: floor seed not found"
+    }
+  ],
+  "maximum_independent_plane_rmse_difference_m": 2.7755575615628914e-16,
+  "plane_crosscheck": "Independent SVD, all valid fixed patches, reconstruct original float64 rigid transform",
+  "local_crosscheck": "Saved per-query values independently checked by SVD and covariance slogdet; up to three neighbourhoods per radius per map",
+  "limitations": "Numeric verification does not certify physical reference dimensions or semantic ROI correspondence. Visual alignment review is separate."
+}

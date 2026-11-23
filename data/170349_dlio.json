@@ -1,0 +1,9 @@
+{
+  "name": "DLIO",
+  "bag_id": "manual_20261113_170349",
+  "status": "not_measurable_automatically",
+  "reason": "AssertionError: floor seed not found",
+  "review_status": "native_map_reviewed_alignment_unavailable",
+  "review_note": "Native cloud visually inspected. Automatic floor-seed search failed, so no metric registration or dimension error was assigned. Map existence is confirmed; this is a measurement-pipeline failure, not demonstrated SLAM failure.",
+  "point_count": 15337
+}
