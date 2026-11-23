@@ -1,0 +1,2124 @@
+{
+  "script_sha256": "d2511ef60d3dd5b9f3ae3a79c63740ec8031453632aaa4620f4adfefdd4f6f52",
+  "unified_inventory_sha256": "1d9358a3c2872d6a6471affec58f0be83f41fb1399e7a39985c28b4836220cac",
+  "geometry_summary_sha256": "eeb669af78b1ef7131704b60a8e185c480109793d2166435f1f0f93d5a34fe76",
+  "original_sensor_bags": {
+    "manual_20261113_145631": {
+      "start": 1794556594.7946346,
+      "end": 1794556698.1536765,
+      "scans": 1033,
+      "sha256": "d7620d8b64a3a2573b156f2ede3f8a3fa85d3117460ebc9e8e8c01b90d567805"
+    },
+    "manual_20261113_164656": {
+      "start": 1794563221.203104,
+      "end": 1794563325.8434277,
+      "scans": 1046,
+      "sha256": "0abb6faafadec5759c8e0a74a1cf987be8777087ba45d6cda84bad1b0d385a85"
+    },
+    "manual_20261113_164933": {
+      "start": 1794563383.3650472,
+      "end": 1794563490.0811324,
+      "scans": 1067,
+      "sha256": "0a89cf49da9ca986e5189e229fad40c87d07d736ab715c70a7bfdf779ea4bc0b"
+    },
+    "manual_20261113_165159": {
+      "start": 1794563536.829541,
+      "end": 1794563643.9307644,
+      "scans": 1071,
+      "sha256": "6b0034d794e2f4ae8e2475dd6f922551feb24498104c65b39f97b4a9c9ff7ca9"
+    },
+    "manual_20261113_165429": {
+      "start": 1794563671.7659612,
+      "end": 1794563781.2261775,
+      "scans": 1095,
+      "sha256": "b5935a5bc391c4fa3f30762d4e0e19f3d1142c652d8a7904a8df7a52312a1f3a"
+    },
+    "manual_20261113_165651": {
+      "start": 1794563813.8024356,
+      "end": 1794563922.3604214,
+      "scans": 1085,
+      "sha256": "094832625bb4abfcff1020935cf1d386c2e2f4e287b365bd69cafb7bf1dd3203"
+    },
+    "manual_20261113_165901": {
+      "start": 1794563943.9120808,
+      "end": 1794564064.5729759,
+      "scans": 1206,
+      "sha256": "472dd0b11b44d89c2894441cf135f3cdefc16ebad595758cc3d155e70fc0723d"
+    },
+    "manual_20261113_170118": {
+      "start": 1794564096.5612538,
+      "end": 1794564203.616201,
+      "scans": 1071,
+      "sha256": "0941290b31637938841cabf0a1a17de6b1d48f7b5300492f5642ccf19b8f809a"
+    },
+    "manual_20261113_170349": {
+      "start": 1794564231.6794195,
+      "end": 1794564338.5301738,
+      "scans": 1069,
+      "sha256": "41a4cdbe304cbd9e1fb9ee1dc7bc05f5d0cecefa4e4e3919d6f3ed07a79e4dfd"
+    },
+    "manual_20261113_170556": {
+      "start": 1794564359.1079702,
+      "end": 1794564469.5923347,
+      "scans": 1104,
+      "sha256": "96df6bd145dce60a0e652e46ac9f4044e55760a95e9e13046adef98c56419ae6"
+    }
+  },
+  "positions_only": true,
+  "orientations_not_scored": true,
+  "timing_capture_limitation": "Existing 54 timing captures record headers/CRC, not pose coordinates; they are not reused as 54 trajectory trials.",
+  "cached_pose_sources": [
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "373733935d4894fb7045dac39db63420efd8a2c0eed3915112baffc3bcbe5a30",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "df4992f226d594ce9b239dc4f436d75eef53455a0d25eb27c0614091d37bb28e",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "fddc2fc012cdc35c83b0895b3745ca6fd1af2d0bad2d74fb0712b9b50228fd3a",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "930b252ed26f1d0e7b689993b73e9cad283f3067a3e8c0a2c3147d67b881f080",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "353bfff90641d4ff17425bfeb443476917d8a19b16904c5c1614eb63418d55c3",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "a71a904d256b84ac3803ab9c953dd2652269413ae4829d88dc3d9261be52a2ed",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "49d493d38de863d640e033052b3b796a0fc2e0556bf2382e7ef233e702f6b883",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "d6e8a9d497b052711983da8c7cc84b7fc778b9d97facc5e66a10167162e0d19f",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "443b1dcc5af9046260607e1d44d6d13270508f9006c4ea55f547ecccac9ff7a5",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "A-LOAM",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "7ffd2d3f100293a13653280e87d8756d798e801ea6fa353810f2e2547a4feedb",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "0a985f93562f590626fe2e3e967acb306d84734d6ed4d98847606ee97d9be706",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "4f366280142286e1a41c5f8d261fb77046f7f9f0135023563042a746076d7e99",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "5a52f2b1231ed16fc560b62de76fca7278cf9f65c8a98b76190599c1aa66926c",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "10b7458d1453b904b2f91d75755a7d91175d8d58820d88db4a355f80baab8a60",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "396d4bbe9599fac0633ebf7fd98c34a7c4fd2b38718d446b2153fc3d651ace08",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "126f8c4191452088e60aaf25a0700caf04830082348f2def431929a0752cae9c",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "fc80091a804f626c39315c4ba2719d26bedb6d3d52cea64406edb8580aafa513",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "4f0352512a39a40caae7d6ca41bab3efc8f8019b83dae814d1ba51fc790c86c6",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "487badf886544555854641158a37b644637ddf15371598b24e5439ce0d624a5d",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "F-LOAM",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "342f74f5f1598b4561e218712b51fe310e60a9bf0fdee1d8d90ebb40197bb274",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "0a985f93562f590626fe2e3e967acb306d84734d6ed4d98847606ee97d9be706",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "4f366280142286e1a41c5f8d261fb77046f7f9f0135023563042a746076d7e99",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "021a7859664d933ab1399b56540f7dbc38685e1a28f3d65c2aecf4df8de58e34",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "10b7458d1453b904b2f91d75755a7d91175d8d58820d88db4a355f80baab8a60",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "396d4bbe9599fac0633ebf7fd98c34a7c4fd2b38718d446b2153fc3d651ace08",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "126f8c4191452088e60aaf25a0700caf04830082348f2def431929a0752cae9c",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "63294b883025f601dbf913b73a8fc9383414ad528aac2a89577c3ffa2d15d0e7",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "4f0352512a39a40caae7d6ca41bab3efc8f8019b83dae814d1ba51fc790c86c6",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "487badf886544555854641158a37b644637ddf15371598b24e5439ce0d624a5d",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "ISC-LOAM",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "342f74f5f1598b4561e218712b51fe310e60a9bf0fdee1d8d90ebb40197bb274",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "c7617a23419331ab8138bedf5bb6dcbd10a627938dcf2ea98ed90be7e8659b54",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "e14db83629be3b87027638ba68bd75a4dbcac8290f35a61d5eea4a7d475f55aa",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "871a495687ee061f04db94899e8dc8b0aa522c292c52f5c4e6dcd54760564989",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "cafe2def4ce6538c1c15226ab5954c0a92ecb5d2fded848033fc79b2bce317e8",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "3ac945ae437c18c414b2841883f64e80ff809d384292b8599e2b8da0ee072c79",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "a40ef73cc7f0ff839587f736524a7bc7c870606c3eb170d9761672f02099c008",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "871e5d39a30c965bc0149d71ffd2523361dbe6461d17e147a121b83dd98d116b",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "9586ee829aae5f820fb28c912b116a296b5880a084cea9c9f85193de37ba5ac9",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "2dc08377ff5895c0c354fe1b6277a731c1a80d23034c9d0ee234ee87bcf9cdd3",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "63eacba00fde8cb88299e6a658844b052473eb0b99cc08f0b5490a8e66f7ee60",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "8a641d594f5044906eb39fd18a8e34b89b249ba2ffccd48fe1a8ebb96826fdb5",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "86ccc50f8546cf42f52891bef4ec715a6702a9cb0473336b893dbfe5c3ff2aa3",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "8425660e46d5e9bc071e9e4d9725987f507e1da64aaf26c6eb5722cb49eef90a",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "576262b209307203690ff2e7e931b016b29835db9b4089f7d3ddcc557e88f724",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "3bcf01e414ee6ae29fdd894144a58800ada4983e8769176752d9a0fd1934314b",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "9608a76c404dcc6e5f96fc4f5a18d34f9505fad166edfbd53af6b66b8768d9fe",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "7474e9fec2bf5de1e692e689873007d70a189c413e9148493248e8e472f1681f",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "0a7f3d050c943495d3e3498b4467312449dcffd756f62a7b42afd8c7f9a7593c",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "1edcef49e3a46397353da0c0de6c2225c2b8468574ea2463e518ae0796f10084",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "cc2c3477642be04925ff723c56088e1822e1810005186eacd9e0b91a569e1cca",
+      "pose_topic": "/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Selected /odom endpoint is a frontend output, not a reconstructed final graph-optimized trajectory.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "b122d5ae129a68e6608b2edd5cb5acc92ce03d22cbdbce0b054afd08c26696ec",
+      "pose_topic": "/kiss/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "eeb4c1f6175f0ed8a95197229a6a76af576c6a9ff0189e8efa5baf9a9233c73d",
+      "pose_topic": "/kiss/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "cfac2b9a07988a74eaa95e83955b2e0dfd4242b5273791f6bbf835f3c29ef2a4",
+      "pose_topic": "/kiss/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "be0a857278d596267f07fbcf4548f33e7eac017af96128c2f82dcb662f3fd8e6",
+      "pose_topic": "/kiss/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "666fdb6c880389c7ba912689868323d0727b1a0b6155507cd978538d39bf9afe",
+      "pose_topic": "/kiss/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "f75ebb63fbbb84612524461be4f2e1342eace9fde07fb05186f16aa7a1527b9a",
+      "pose_topic": "/kiss/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "91dc92f1182ddcba3e1f7bf12cd284fbc040b2479bc12356aa98e49defde52bf",
+      "pose_topic": "/kiss/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "22b2c22e0bdd266c56632a07ef2ea1f57e39c4567ee9374ed05d93be6368b730",
+      "pose_topic": "/kiss/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "7c68dac19e17b5a934fdfc6a1511297e31ab39520b0105a52bfca0ad29025c0d",
+      "pose_topic": "/kiss/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "KISS-ICP",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "33f252c7382058a6e9b2dc00bf2ea1923459af8d22a50224de4ee968e85b4ce6",
+      "pose_topic": "/kiss/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "392541c3f6ab779ae8b3136bb1790222f2ce2bdd57b598fdd99ce80203627931",
+      "pose_topic": "/robot/dlo/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "55bb1d20156dee15e0b53fbfd59381c876660b4fd07107a33282385771d8b617",
+      "pose_topic": "/robot/dlo/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "9bfc8fffdea4830e839542c19e768b31036ef4a7946dc1fc7004c3a23bcc7f5b",
+      "pose_topic": "/robot/dlo/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "6efa42df290ed63d6fe14578ac312f3a043be6db4fe0dcbe284ee5af8e6d3691",
+      "pose_topic": "/robot/dlo/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "af0deda0ee5a828df514276b42595862c9f22684c88606032171bc35aa14a55c",
+      "pose_topic": "/robot/dlo/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "1f0151a69fd95f1ef7b837fedae0c93ea2017276696067613ec76d743c1e139e",
+      "pose_topic": "/robot/dlo/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "cb921aa9abe272da565373b4efd6b6d6fc540a784197bc5b34552c294b8f3726",
+      "pose_topic": "/robot/dlo/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "b9bd09aaa51e8f90360d4c3b6986e89eda0e2274cc9f63be3a0b632679cdd53c",
+      "pose_topic": "/robot/dlo/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "ad176c12c799fa0162f20ddbe0333918e73d94c35d362b9acd068d2d4957535e",
+      "pose_topic": "/robot/dlo/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLO",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "8d0b20736261a139be6f90d42202a505505a68ca4ab8ef8967efdac89b7897b9",
+      "pose_topic": "/robot/dlo/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "b9ec5b6e7bd8b2c760e5c1399fc8cc803ec464f631d2c3b2708740486aa93eaa",
+      "pose_topic": "/ct_icp/pose/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "a2100b3b717dd0460857b03c3455b9fe480a3416631915ab5d03fc68191b61a7",
+      "pose_topic": "/ct_icp/pose/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "7403bd75d18245358e5c06527680b3590f42519e2564a688a7d6805246815d66",
+      "pose_topic": "/ct_icp/pose/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "4c8f16a07a1991dcff0049fbdc6d779cf756e896392569ed3d48e501ec5d790c",
+      "pose_topic": "/ct_icp/pose/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "de7d422b7e0a8be11c77e8e3dd4984e4ebed3ba260af9c0f26f4e6acf5972a09",
+      "pose_topic": "/ct_icp/pose/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "781355c6bcfa08c86fa220442a43716c430ff8f31f9d13a866f81a82839e086c",
+      "pose_topic": "/ct_icp/pose/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "dc05c1e8e87109721595eb64ea68afd72ab18064cf8886ced11e2466f6efef90",
+      "pose_topic": "/ct_icp/pose/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "8c973f76c5e750ae91988dfba5c146b9706472b21533a292b5a015cadb55b406",
+      "pose_topic": "/ct_icp/pose/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "dd9da14f7dd727e559a2f5c42e80664ebed820ba590490ed40e00fc59b6a56be",
+      "pose_topic": "/ct_icp/pose/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "CT-ICP",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "78eac3c523f7c5b88dd76d213c3c30394898a45b4fb2fc99861cc020a4840fde",
+      "pose_topic": "/ct_icp/pose/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "4c7d02b8d6ba31228e08f365064fd9407733da0f8b0930a33733d48679ae81af",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "f2cc39a4034227d756db822748531766fd21327ddd9921d3cf1c1730abca6353",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "c7fe5b68aa6c3ed2246321113820e10b5dc9bfbc2f9f03c049823788e32e9a00",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "bc2c98bf7d1cc14ae15f2a5d9b5d80dade344019478950bebc4d85966e610a6d",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "b1bab2559901c69800aecad708649d80b89c879424e910e4205a8e1a98d566cb",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "5eaa3f918187ec85425eab1cff507bbe9f32b10fa0aba3dc4cfff0fdeb8f6ba2",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "bd293ec2df3b1f8e818fbbfab275a416e0cf061408aee188ddbf73d1d3317315",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "ee7e63b370f8c8cf473db0e9641b370344790502edc485b9bd840be155f41d29",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "801c180b0553bda159c69a81a4c7eba4269227212fac9f1295add4e76e1e8bdf",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "31ed31a5809c1f92dba8278844b3073a34e550f9a521c66b6dd1591a2bd58f67",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "213cb7111f5659c960081793231667c40d24ba30b4ec9d7b63f4b7e06648a58f",
+      "pose_topic": "/slam_eval_fast/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "5bbe31b663cf2ea675e00990f4db6b9ea7005426b3bc1424fb740009952934f4",
+      "pose_topic": "/slam_eval_fast/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "a07fe5a8dd52206466493ea1c7e318f952f170ef3dcf3d7b51c85c0c9c97ac6d",
+      "pose_topic": "/slam_eval_fast/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "5d8682e58a8a2aa7c9b860ff7b0622802607f4a539a7bc59a84fc99633736ca0",
+      "pose_topic": "/slam_eval_fast/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "054672f6626f27e77ee52b386b6431f900a722dea13f313e97d2f007402d15a0",
+      "pose_topic": "/slam_eval_fast/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "84daa99683737e96c5c1f432df439cf055c8265e47beeaa677ca5967e14a9934",
+      "pose_topic": "/slam_eval_fast/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "dfd29ba25c00d301b9e550b64d79ed378fe95778cde6630c1ac30ee12bcc7444",
+      "pose_topic": "/slam_eval_fast/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "9fba3e1c2f21600c2d9893795e2d0b817c8cf6e639424aaa54c1a387fd7f513a",
+      "pose_topic": "/slam_eval_fast/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "566e7c242d085f802172e06999fb6eb541b9eaf6e58c43fa2caf74c41dbffdf6",
+      "pose_topic": "/slam_eval_fast/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "FAST-LIO2",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "d207117b254bc47a609780903a3b801c5515e0f34b6f057e18f863af774b9e3a",
+      "pose_topic": "/slam_eval_fast/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "ae3dec0a50edf1a288ebb8fbd7319cf26d930dd7ccb6730ebec7fcdd4394bc49",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "9c087cbca8bb16f9877b78ff6b264cdc91a0bf192ea89546a9f7a7ef70d6dcc1",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "55fb4abcba7665b9016401975e5ce6ee14c97e7c6d4097a0aa0170b743f3b868",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "4475c7f79cd72c2756f54dd5593625ccd28674e219b075588f3a0f06a8289044",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "e03f509a584f97ef112ad07c6ad05bd6e592d74a23f60583286f16cc5904130f",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "79fef4bb9870387c20eaadf9f55a200da8987177ca80e4d5ae8f4b35ddbf2465",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "3893865bc8472b4033b8f78f03c8f88707e87821eace640cf3ba58d6800bd29e",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "4f5c731c403c86765fb17e96dc1922df9b0711b88c40e58feb37620aaa797a65",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "ac9fcd0d684db76be868ea03587f0977a058a6b0941ad91e43e173c8f93ac880",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LeGO-IMU",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "549071a3bb37538a4f4ac98f66e1564d534139777ff278be3d249defe7c54549",
+      "pose_topic": "/integrated_to_init",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "68507a48194d4ff0e266514624e5d6ce2b96ff2c34425089e81959dcefb99038",
+      "pose_topic": "/lio_sam/mapping/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "106b9609739f94bece09ebe37ba5b4314fa37bfccb312377303a647dd9210436",
+      "pose_topic": "/lio_sam/mapping/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "f00d409c3ec244fdd8b0cd9f47089a8694818d172184fa2b9610edce7067a74e",
+      "pose_topic": "/lio_sam/mapping/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "c374a55c97f24c30764c84ccc19275fa09c3b3a34c3718e0923fb7223cd71c84",
+      "pose_topic": "/lio_sam/mapping/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "e145ab0c09ad1e9fca01cb50df26770c2af0efcee2c3b6334edea6c6af3391b1",
+      "pose_topic": "/lio_sam/mapping/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "e003e7b450cd129e93f4177dd821b5a07c0b488bd2f10edbdf42b81b0f7d45b1",
+      "pose_topic": "/lio_sam/mapping/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "18d6274206437e0739ae99d52e1968ec4b2a0a0e63cb4496df238ac00e5069b8",
+      "pose_topic": "/lio_sam/mapping/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "2a2dd373fb6f234396525de6d398f51b87580336203f1a04f8616ff35704df9f",
+      "pose_topic": "/lio_sam/mapping/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "0188dc7697adefe87bf78f201475a5fbf8dbafe472154a3f5bcbce161a182f9a",
+      "pose_topic": "/lio_sam/mapping/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-SAM",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "fd64fe9cba44311d85d6fe2693bd5c78f763822d69e42f49045b7687efc59564",
+      "pose_topic": "/lio_sam/mapping/odometry",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "22b603d0b998b974f2bb6b710cfe2d3f27d9b6802b3f89a166a3e85f06799031",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "c9aa054321db51d937b771e48cb92d08e0bca312c3ece3023c51f1663e9c7a1e",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "46df139beb645fefc278a45ccaf1798ef16f92070981f938e11653fcddc4eb70",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "8ed8e77d6829aa064e8fd0db20338415de4aaa340e9572c1bbec7c3f0fccbdde",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "04ef1c991efb468dd2d6932b6bedb186edae6c4d51c53595cb1b03d083015ef2",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "eb1a92db6e7c5a9521b7bca5c88b8738411e836cf09d7c6ec6c67bba9dd197d0",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "ccbf328f6eb8e9a958295ddd5b9c01b0882b4d7d17719f9c48f36098f38fd403",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "a41704026ec65bba30df1d91b83fa94d32ae92283692e701fb432d350a54cd59",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "78f959045f6cc4aac645d9dd00b86860689ec0d6d8dca670149ae3fc817db1f5",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Faster-LIO",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "f2c8644630c61c44d6421ddfb0171e2d9f1b3a7ae10dde57a3085ec1a3a7b25b",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Online LiDAR/IMU extrinsics may change; compare within the IMU-origin group. Do not shift using initial extrinsics as if they were fixed truth.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "7d54a8669eb323c096b7aa58f404cf0b27f69513e462edc88e9f267f1981fe7c",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "c87707b78eb37cab899ff5313df087f116197275f8e4a710e752ad5dc7de2560",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "d0dc56ef603ebad7adec5893ccd4b66f1c6670cd84670536ac1770b1f6994649",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "061b5f3f8a547fa390b6a73b256c6591095f391e4306432c21fe1d74aeb6c285",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "c99b75dad2d7ea951a318d0043733f895ce05769e44044ce8c9fa706a878c3b0",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "8470b1a0ef922ad0c6b6087da388b641077dc222e6e3857816b462afa9c36ec9",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "9272c5e8c7e86a068d6d04b2a5cc006f8004adb5257aeacbe90e73cb703cc746",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "363227541d0b6651f2833422e464e1eeaf64a5868c175d75a1b463c7230c6402",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "5bde564361fa143182a7dda44d0f017c3175e63341f70aa18a42e2d4d9828f73",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "Point-LIO",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "bbf9a3041a5ac7fea34e3dfbe9b91ae4922c35519550eb6743a3bd71d0a53059",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "885817a1bb747a6cf2d65bb375a050e92ee1166cdd5404137a880d359e309d6a",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "664ae4ee61fec6863244a2f81052d0231e87d919ea6b50dad294a14e3033e333",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "4571a7ff06d6cfd80ddcf18d0f6b94d5cbb04d4e3e8e62e6f738048371b364e3",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "53f6cba7c76965d072c389d750807d2704c0fd2beab8f830bfb1955840f93350",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "d144c0b1bc5d63d48ab688de950d32755ec5f7a9f25ce46c722d0d4139ec8e7a",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "b32881efe071d6169250b860c67dc0365eb3ec1767709caf934ba0ca9e0a5c96",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "568344509abd7d63d1d3b3d665317e9204c165b742ae1af741252f60c5b7a496",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "3c9450d6ef834ba4a9c847521acb600562dd0d37a77e166dbb62538c760a17ac",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "e9a0e62fb6577da55888598604e48721786a0997aa5bafd039f49db1f3cb19ec",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LOG-LIO",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "c1a3c746f3bbc90cbd8ec79f79967b7b4a49935ffb5f72b7a44ad29b268dc124",
+      "pose_topic": "/Odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "ca791aa5a8e27b6a3a398ac223a9e23e099de87bd4c78e3045d114e3fc67a66a",
+      "pose_topic": "/robot/dlio/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Timer-predicted IMU-stamped output; base_link and LiDAR configured coincident, not a physical calibration claim.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "1424d1ae98a067621216006dc0645925f0bae29dbd539ad497209f0923bcf095",
+      "pose_topic": "/robot/dlio/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Timer-predicted IMU-stamped output; base_link and LiDAR configured coincident, not a physical calibration claim.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "8413065c9a1145b2efddfa8dfd5c83420c31b5d6e4c527576bbfd89a01719b02",
+      "pose_topic": "/robot/dlio/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Timer-predicted IMU-stamped output; base_link and LiDAR configured coincident, not a physical calibration claim.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "410170d3457f698f3a05fdfeb82bb4d6b101e39c5fba5c3414b126992507753e",
+      "pose_topic": "/robot/dlio/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Timer-predicted IMU-stamped output; base_link and LiDAR configured coincident, not a physical calibration claim.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "2d5da5717d528b0eef14fbbe1fb41347196294b6ed8da245d284310fc18ebccc",
+      "pose_topic": "/robot/dlio/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Timer-predicted IMU-stamped output; base_link and LiDAR configured coincident, not a physical calibration claim.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "9162a5d074bf9acf5c9a5c021fac504a05444c5d1382fab68d96ce253e33a276",
+      "pose_topic": "/robot/dlio/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Timer-predicted IMU-stamped output; base_link and LiDAR configured coincident, not a physical calibration claim.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "1e31aaab35b33f9776e552d6ee38c94aa162eac98b1dfa60143e5145af094d4c",
+      "pose_topic": "/robot/dlio/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Timer-predicted IMU-stamped output; base_link and LiDAR configured coincident, not a physical calibration claim.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "49c7ab3e7dcf85f9e4f940cfbefc8cc6a33f6f058b93d800fba7dac8a3746416",
+      "pose_topic": "/robot/dlio/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Timer-predicted IMU-stamped output; base_link and LiDAR configured coincident, not a physical calibration claim.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "8ba445803e63884de3631ee58f241603f263064e891a88112355cf48a00d12d3",
+      "pose_topic": "/robot/dlio/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Timer-predicted IMU-stamped output; base_link and LiDAR configured coincident, not a physical calibration claim.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "DLIO",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "75d395de9f3bfd935c3acbf2c38fe37bd580e88da05b38a2046a27548e523a67",
+      "pose_topic": "/robot/dlio/odom_node/odom",
+      "origin_group": "LiDAR",
+      "timestamp_eligible": true,
+      "notes": [
+        "Timer-predicted IMU-stamped output; base_link and LiDAR configured coincident, not a physical calibration claim.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "d028427479daab44db815ce265d7c3adfbab17ea7e26df39fb1806d85ebb9c4d",
+      "pose_topic": "/odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "10c055897036f5265d8e286f21a7a72b96319713f57e4477153c46cb4c51d106",
+      "pose_topic": "/odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "c4f8a02e63ce874a1f885bff675eca4d126dc44c485adcba5e54efe03c087000",
+      "pose_topic": "/odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "c48289c16de0d70f71d95eed6c7e7aaa1fd180a584cc3851d51ddd9b61ad82a1",
+      "pose_topic": "/odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "19d18d023efe405fc83b03225e8e42ceea1d5fc7be6c7b0439bb754b9a985483",
+      "pose_topic": "/odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "765e243fe22f23da47e489c7b0a415ebcab3003c3e78795f83fd4ac10d9379a4",
+      "pose_topic": "/odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "a15aab3a7c1374f0c1ce898337bd135fc06e6226c2f2f7c97f16db0c951a9a5e",
+      "pose_topic": "/odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "5a4deaa0b6f055ede19e8bc4a1245388ea75e350dd0b0868ab6c3a2024d35081",
+      "pose_topic": "/odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "a4fbfa31e65cb4e6847268e33fd4353ef489dec6191bd49e772ece8e65d26a52",
+      "pose_topic": "/odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "LIO-EKF",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "9e78596f755613677098920aaaef45a0e74e53a15d520adcdb3fffb54e770b88",
+      "pose_topic": "/odometry",
+      "origin_group": "IMU",
+      "timestamp_eligible": true,
+      "notes": [
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_145631",
+      "cache_sha256": "0259a1f31e5bbd0e5f8f209f4344e32eb486df8924ba94539fffb988c960cb4e",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_164656",
+      "cache_sha256": "82710e9cfdeabd343bb85ee0042a107fe2a9e7f43829d7f3520eaa183ae88c38",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_164933",
+      "cache_sha256": "4df678eda1795d04bfb1d8f945c3b3c32560e89fdf4161f95c1761cae61afd9f",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_165159",
+      "cache_sha256": "c868e87acdea813f4d113f7739790b7a22f769e53e88b96aaefe3634d8cd0531",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_165429",
+      "cache_sha256": "2e1157ffdc8de53d7497189c353812437f27296e62fcc1c95e98055051a41afd",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_165651",
+      "cache_sha256": "2dcae69cc38d7c54c0ef609df26aeed486b1513f22fcc2b462aa8c4a313ecd75",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_165901",
+      "cache_sha256": "317a59b02b5898d957fb2fec97ef1758161c038e3940fc03147f3db7729c6f8f",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_170118",
+      "cache_sha256": "6e9b8b250b4b9dbd79275a147d84dada58849968ec2b25b996a30473bd9da4ff",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_170349",
+      "cache_sha256": "2e5c858f56e97f8c7e10224e68feb9f9646dc780906413bdfb2f82684f5d7cdb",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "bag_id": "manual_20261113_170556",
+      "cache_sha256": "135fd036a2dddf910bc794132672f28c4968dc0d0c0d35e5293d893b3c0dbdd1",
+      "pose_topic": "/aft_mapped_to_init",
+      "origin_group": "unverified",
+      "timestamp_eligible": false,
+      "notes": [
+        "Native pose header is ROS publication time; no exact processed-scan identity in saved historical outputs. Excluded from timestamped pair metrics, never filled with zero.",
+        "Z-up local horizontal projection; LeGO positions were already permuted [z,x,y] in verified cache. No scale or time-lag optimization."
+      ]
+    }
+  ],
+  "public_payload": "Derived rounded trajectory samples embedded in the viewer; summary tables; method and figures. Original raw bags, full clouds and native pose caches are not included.",
+  "public_url": "https://quangartist1012.github.io/slam-benchmark/trajectories/"
+}

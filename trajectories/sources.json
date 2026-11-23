@@ -1,0 +1,33 @@
+[
+  {
+    "id": "S1",
+    "citation": "Z. Zhang and D. Scaramuzza, A Tutorial on Quantitative Trajectory Evaluation for Visual(-Inertial) Odometry, IROS 2018.",
+    "url": "https://rpg.ifi.uzh.ch/docs/IROS18_Zhang.pdf",
+    "used_for": "Rigid versus similarity alignment; effect of fitting over different time windows; trajectory error requires a suitable independent reference.",
+    "project_adaptation": "Use planar SE(2) position fits, unit scale, between two estimated outputs. No GT accuracy claim; no rotation error scored."
+  },
+  {
+    "id": "S2",
+    "citation": "A. Kudriashov et al., A Real-World Benchmark of Monte Carlo-Assisted EKF Odometry for Online Pose Estimation in 2D LiDAR SLAM, Sensors 26(13), 4264, 2026.",
+    "url": "https://www.mdpi.com/1424-8220/26/13/4264",
+    "doi": "10.3390/s26134264",
+    "sections": [
+      "2.3.2–2.3.4",
+      "5"
+    ],
+    "used_for": "Published SE(2)-aligned dispersion, pairwise position RMSE and one-interval displacement proxy; warning that pairwise samples are dependent and repeated consistency does not prove accuracy.",
+    "project_adaptation": "Our primary comparison is across implementations on the SAME recording with common source timestamps, not their between-traversal arc-length repeatability study. We do not label our 10 different hand-pushed recordings as identical-motion repeatability trials."
+  },
+  {
+    "id": "S3",
+    "citation": "A. T. Matos et al., Benchmarking LiDAR and LiDAR-Inertial Odometry Algorithms for Embedded UAV Deployment in Warehouse Environments, Sensors 26(20), 6568, 2026.",
+    "url": "https://www.mdpi.com/1424-8220/26/20/6568",
+    "doi": "10.3390/s26206568",
+    "sections": [
+      "3.3",
+      "3.5.1"
+    ],
+    "used_for": "Convert represented body/sensor frames, associate timestamps, compare alignment conventions; an estimated reference supports disagreement/divergence, not absolute accuracy ranking.",
+    "project_adaptation": "Use within-origin blocks to avoid inventing time-varying lever arms. Native VoxelMap historical outputs lack traceable scan timestamps and remain N/A in time-matched metrics."
+  }
+]

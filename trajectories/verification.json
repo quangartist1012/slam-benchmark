@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "configuration_bag_caches_checked": 180,
+  "same_origin_pair_bags_independently_recomputed": 650,
+  "mixed_origin_diagnostic_cases": 550,
+  "untraceable_cases_kept_null": 330,
+  "closed_form_vs_svd_max_metric_delta_m": 1.1407541578023483e-14,
+  "reverse_fit_rmse_max_delta_m": 3.9855298648245336e-15,
+  "increment_metric_max_delta_m": 3.075951229806792e-16,
+  "deterministic_controls_not_experiments": {
+    "rigid_copy_rmse_m": 0.0,
+    "scale_change_not_absorbed_rmse_m": 0.2179449471770336
+  },
+  "source_cache_sha256_verified": true,
+  "common_grid_interpolation_checked": true,
+  "source_numerical_artifact_sha256": {
+    "analysis.json": "f43ace52478dd97216ec68fec9e0062b41b4c622c779524194a0e9594f421cb7",
+    "pairwise_10bags.csv": "4b4d9bc1ffe55f93e599962b462b0a7b3c9def930290c008838bf96cdec754b0",
+    "common_grid_positions.npz": "5150de00bcbed6a37d0a1c2c0e0f864714113e1e91d41332eb00f2815a5addb8",
+    "analyze_trajectories.py": "d2511ef60d3dd5b9f3ae3a79c63740ec8031453632aaa4620f4adfefdd4f6f52",
+    "protocol.json": "6d7cc2860e26f18a005822893988a6bd7ad667f8f6c5efd4502e0c90db782146",
+    "sources.json": "2b49ee9ce5f5c6c2e9dcdad97e6476bf85d1b7a10067fb999ada013dad07523e"
+  },
+  "interpretation": "Numerical checks of the source calculation, not proof of physical trajectory accuracy. Source artifact hashes identify the original local analysis; public file hashes are in manifest.json."
+}

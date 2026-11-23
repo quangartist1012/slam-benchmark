@@ -1,0 +1,102 @@
+{
+  "version": "trajectory-consistency-public-v1",
+  "generated_utc": "2026-11-23T08:23:48.479588+00:00",
+  "url": "https://quangartist1012.github.io/slam-benchmark/trajectories/",
+  "configurations_audited": 18,
+  "source_recordings": 10,
+  "same_origin_pair_bag_values": 650,
+  "missing_timestamp_pair_bag_values": 330,
+  "ground_truth_available": false,
+  "raw_bags_published": false,
+  "full_clouds_published": false,
+  "files": {
+    "figures/01_same_time_example.pdf": {
+      "bytes": 745727,
+      "sha256": "620a48f9302fc26e60c08d3d178a06af0a9b229e4ffa6338022e7119a3802822"
+    },
+    "figures/01_same_time_example.png": {
+      "bytes": 303285,
+      "sha256": "31fd450b1b8f5855c9b962361e53fd8aa38023d73b8b5d95642b71632a3dcfc9"
+    },
+    "figures/02_matrix_max.pdf": {
+      "bytes": 751849,
+      "sha256": "3d3d482a9b64e8da8af518d9b019dbd88fbce8b1733e9d1e2444bededd3af1c7"
+    },
+    "figures/02_matrix_max.png": {
+      "bytes": 331321,
+      "sha256": "58d260e9427492e40129041a097a7b3ff6ec049f3a9dc425e5b4b7e8cdac9d9a"
+    },
+    "figures/02_matrix_median.pdf": {
+      "bytes": 751876,
+      "sha256": "3fff829a05db2951b61f4d1aa9d7d7f4c3f0615500a6ed8c7dde70b76ef201bc"
+    },
+    "figures/02_matrix_median.png": {
+      "bytes": 337234,
+      "sha256": "baf79b257cca6e05efd65456b2c26c2e0f7b2fa5c30cf0d1547cc814d662bff4"
+    },
+    "figures/03_ten_recordings.pdf": {
+      "bytes": 738369,
+      "sha256": "c6248d2ff9b88d6530683ce9c9e1429df55961e86872924fea8a2756776546a0"
+    },
+    "figures/03_ten_recordings.png": {
+      "bytes": 253453,
+      "sha256": "b84ac3090b8d940bdaca139288439e556eb208d298d4560546d3b9875b6c32fe"
+    },
+    "figures/04_keep_large_discrepancy.pdf": {
+      "bytes": 749683,
+      "sha256": "ed1d7fd4b7ebf257edbaa49ee2f7c190bdf6f43bd750d354899019a2bf33783b"
+    },
+    "figures/04_keep_large_discrepancy.png": {
+      "bytes": 324353,
+      "sha256": "2a99b68d151b238f61f3b516af22063b6582af08cd129b8713453c5738aa1290"
+    },
+    "figures/05_method_sensitivity.pdf": {
+      "bytes": 757331,
+      "sha256": "72d9047c5d099871a77c7759489b0c5b0499dd95be496597273c0cb8f1d15661"
+    },
+    "figures/05_method_sensitivity.png": {
+      "bytes": 330486,
+      "sha256": "2443fcf8afa644adc73750b7dec7450d451cef246b8e5366e56f2d610633b2b3"
+    },
+    "index.html": {
+      "bytes": 1274934,
+      "sha256": "d008bea8145ab0638b7c9eaca04a57177c2b3d0879b15854976d08c27ebdaaa4"
+    },
+    "native_output_descriptors.csv": {
+      "bytes": 24026,
+      "sha256": "3a36f3ea19ad87a8de0b891a945d24135b2262c09da0272aca5b9d07e5d5267a"
+    },
+    "pairwise_10bags.csv": {
+      "bytes": 585100,
+      "sha256": "4b4d9bc1ffe55f93e599962b462b0a7b3c9def930290c008838bf96cdec754b0"
+    },
+    "protocol.json": {
+      "bytes": 6067,
+      "sha256": "9a520bd4c98d6b99c83c3437561f14244c4539173e1d139593013bb8b01e5c3d"
+    },
+    "provenance.json": {
+      "bytes": 93087,
+      "sha256": "d92c2c9bb1b80f3b6e3672f46fdffcc52912f5cf2af8df37942f3d55d37c3325"
+    },
+    "same_origin_summary.csv": {
+      "bytes": 22879,
+      "sha256": "15f8c60873401ce4ddde5a2c74e46356c05e37813c7c795a8cc90a2779026d1d"
+    },
+    "sources.json": {
+      "bytes": 2128,
+      "sha256": "2b49ee9ce5f5c6c2e9dcdad97e6476bf85d1b7a10067fb999ada013dad07523e"
+    },
+    "time_support.csv": {
+      "bytes": 1568,
+      "sha256": "580a2325f18f51c2833209bc34a2d708d94469ae037c6dbea6c9301ed076b611"
+    },
+    "trajectory_discussion_figures.pdf": {
+      "bytes": 826026,
+      "sha256": "dceb7e5ee6cf76cfadce3454d57f36bad52254339948d356d9c07cb29870c8ad"
+    },
+    "verification.json": {
+      "bytes": 1427,
+      "sha256": "e5ee6e62738620adfda5296c286d19803451dedd48a5e7b6da0a986671e8337a"
+    }
+  }
+}
