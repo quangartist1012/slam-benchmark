@@ -1,0 +1,176 @@
+[
+  {
+    "name": "A-LOAM",
+    "url": "https://github.com/HKUST-Aerial-Robotics/A-LOAM.git",
+    "upstream_commit": "e51f88c12b483ce42dfa219783712c7234dc8c08",
+    "snapshot_commit": "e51f88c12b483ce42dfa219783712c7234dc8c08",
+    "commit_matches": true,
+    "patch_file": "upstream_patches/A-LOAM.patch",
+    "notices": [
+      "upstream_notices/A-LOAM/LICENSE"
+    ]
+  },
+  {
+    "name": "F-LOAM",
+    "url": "https://github.com/wh200720041/floam.git",
+    "upstream_commit": "76e9b02e1cc1b15fb057586e49ecf4e0ad4ecd01",
+    "snapshot_commit": "76e9b02e1cc1b15fb057586e49ecf4e0ad4ecd01",
+    "commit_matches": true,
+    "patch_file": "upstream_patches/F-LOAM.patch",
+    "notices": [
+      "upstream_notices/F-LOAM/LICENSE"
+    ]
+  },
+  {
+    "name": "FAST_LIO",
+    "url": "https://github.com/hku-mars/FAST_LIO.git",
+    "upstream_commit": "7cc4175de6f8ba2edf34bab02a42195b141027e9",
+    "snapshot_commit": "7cc4175de6f8ba2edf34bab02a42195b141027e9",
+    "commit_matches": true,
+    "patch_file": "upstream_patches/FAST_LIO.patch",
+    "notices": [
+      "upstream_notices/FAST_LIO/LICENSE"
+    ]
+  },
+  {
+    "name": "ISC-LOAM",
+    "url": "https://github.com/wh200720041/iscloam.git",
+    "upstream_commit": "074d9634abe938887e93660d71264afb2c7a21d9",
+    "snapshot_commit": "074d9634abe938887e93660d71264afb2c7a21d9",
+    "commit_matches": true,
+    "patch_file": "upstream_patches/ISC-LOAM.patch",
+    "notices": [
+      "upstream_notices/ISC-LOAM/LICENSE"
+    ]
+  },
+  {
+    "name": "LIO-EKF",
+    "url": "https://github.com/YibinWu/LIO-EKF.git",
+    "upstream_commit": "5a76a92cde8054c0b3456adeab664de2e7167e5b",
+    "snapshot_commit": "5a76a92cde8054c0b3456adeab664de2e7167e5b",
+    "commit_matches": true,
+    "patch_file": "upstream_patches/LIO-EKF.patch",
+    "notices": [
+      "upstream_notices/LIO-EKF/LICENSE"
+    ]
+  },
+  {
+    "name": "LIO-SAM",
+    "url": "https://github.com/TixiaoShan/LIO-SAM.git",
+    "upstream_commit": "0be1fbe6275fb8366d5b800af4fc8c76a885c869",
+    "snapshot_commit": "0be1fbe6275fb8366d5b800af4fc8c76a885c869",
+    "commit_matches": true,
+    "patch_file": "upstream_patches/LIO-SAM.patch",
+    "notices": [
+      "upstream_notices/LIO-SAM/LICENSE"
+    ]
+  },
+  {
+    "name": "LOG-LIO",
+    "url": "https://github.com/tiev-tongji/LOG-LIO.git",
+    "upstream_commit": "a2f49d66b9e38e05d2e7ebdb2a019c77ea5baf0c",
+    "snapshot_commit": "a2f49d66b9e38e05d2e7ebdb2a019c77ea5baf0c",
+    "commit_matches": true,
+    "patch_file": "upstream_patches/LOG-LIO.patch",
+    "notices": [
+      "upstream_notices/LOG-LIO/LICENSE"
+    ]
+  },
+  {
+    "name": "LeGO-LOAM",
+    "url": "https://github.com/RobustFieldAutonomyLab/LeGO-LOAM.git",
+    "upstream_commit": "896a7a95a8bc510b76819d4cc48707e344bad621",
+    "snapshot_commit": "896a7a95a8bc510b76819d4cc48707e344bad621",
+    "commit_matches": true,
+    "patch_file": "upstream_patches/LeGO-LOAM.patch",
+    "notices": [
+      "upstream_notices/LeGO-LOAM/LICENSE"
+    ]
+  },
+  {
+    "name": "Point-LIO",
+    "url": "https://github.com/hku-mars/Point-LIO.git",
+    "upstream_commit": "4b86a469eb5572e70ed575af25b5f15dd06e8e3c",
+    "snapshot_commit": "4b86a469eb5572e70ed575af25b5f15dd06e8e3c",
+    "commit_matches": true,
+    "patch_file": "upstream_patches/Point-LIO.patch",
+    "notices": [
+      "upstream_notices/Point-LIO/LICENSE"
+    ]
+  },
+  {
+    "name": "VoxelMap",
+    "url": "https://github.com/hku-mars/VoxelMap.git",
+    "upstream_commit": "d787ee8ccfb0e509a36adb2c52bd5da97b29c39a",
+    "snapshot_commit": "d787ee8ccfb0e509a36adb2c52bd5da97b29c39a",
+    "commit_matches": true,
+    "patch_file": "upstream_patches/VoxelMap.patch",
+    "notices": []
+  },
+  {
+    "name": "ct_icp",
+    "url": "https://github.com/jedeschaud/ct_icp.git",
+    "upstream_commit": "d467813176c81728f904a5c13a142a67aafebc46",
+    "snapshot_commit": "d467813176c81728f904a5c13a142a67aafebc46",
+    "commit_matches": true,
+    "patch_file": "upstream_patches/ct_icp.patch",
+    "notices": [
+      "upstream_notices/ct_icp/LICENSE"
+    ]
+  },
+  {
+    "name": "direct_lidar_inertial_odometry",
+    "url": "https://github.com/vectr-ucla/direct_lidar_inertial_odometry.git",
+    "upstream_commit": "fc8d183f18cdcfb9bb4fc754c6d373cedc4cbd04",
+    "snapshot_commit": "fc8d183f18cdcfb9bb4fc754c6d373cedc4cbd04",
+    "commit_matches": true,
+    "patch_file": "upstream_patches/direct_lidar_inertial_odometry.patch",
+    "notices": [
+      "upstream_notices/direct_lidar_inertial_odometry/LICENSE"
+    ]
+  },
+  {
+    "name": "direct_lidar_odometry",
+    "url": "https://github.com/vectr-ucla/direct_lidar_odometry.git",
+    "upstream_commit": "11528c02e89a1619ee3c42ba39ecaa992bd20bf4",
+    "snapshot_commit": "11528c02e89a1619ee3c42ba39ecaa992bd20bf4",
+    "commit_matches": true,
+    "patch_file": "upstream_patches/direct_lidar_odometry.patch",
+    "notices": [
+      "upstream_notices/direct_lidar_odometry/LICENSE"
+    ]
+  },
+  {
+    "name": "faster-lio",
+    "url": "https://github.com/gaoxiang12/faster-lio.git",
+    "upstream_commit": "8038fbac95283708fe2aa30658b7e116a7ace6d8",
+    "snapshot_commit": "8038fbac95283708fe2aa30658b7e116a7ace6d8",
+    "commit_matches": true,
+    "patch_file": "upstream_patches/faster-lio.patch",
+    "notices": [
+      "upstream_notices/faster-lio/LICENSE"
+    ]
+  },
+  {
+    "name": "hdl_graph_slam",
+    "url": "https://github.com/koide3/hdl_graph_slam.git",
+    "upstream_commit": "95b8dce41c10667dcf0e3e9801dc22754b3bd525",
+    "snapshot_commit": "95b8dce41c10667dcf0e3e9801dc22754b3bd525",
+    "commit_matches": true,
+    "patch_file": "upstream_patches/hdl_graph_slam.patch",
+    "notices": [
+      "upstream_notices/hdl_graph_slam/LICENSE"
+    ]
+  },
+  {
+    "name": "kiss-icp",
+    "url": "https://github.com/PRBonn/kiss-icp.git",
+    "upstream_commit": "1ffa7d7512f10bfc8b1185095011fa31184019e3",
+    "snapshot_commit": "1ffa7d7512f10bfc8b1185095011fa31184019e3",
+    "commit_matches": true,
+    "patch_file": "upstream_patches/kiss-icp.patch",
+    "notices": [
+      "upstream_notices/kiss-icp/LICENSE"
+    ]
+  }
+]

@@ -1,0 +1,2790 @@
+{
+  "generated_utc": "2026-11-23T05:30:07.325915+00:00",
+  "partial": false,
+  "captures_completed": 54,
+  "configurations": 18,
+  "source_bag": "/home/c15/slam_eval_ws/bags/manual_20261113_164656/common.bag",
+  "source_sha256": "0abb6faafadec5759c8e0a74a1cf987be8777087ba45d6cda84bad1b0d385a85",
+  "scope": "One common physical recording, three timing repeats per configuration. Capture-level medians and full repeat ranges; no pooling of messages as independent repeats.",
+  "measurement_scope": "Raw publication to selected result availability; includes ROS transport, queueing, waiting and preprocessing; no pure CPU callback timing.",
+  "results": [
+    {
+      "name": "A-LOAM",
+      "label": "A-LOAM",
+      "repeats": 3,
+      "output_topic": "/aft_mapped_to_init",
+      "endpoint": "selected native odometry",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_A-LOAM"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_A-LOAM"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_A-LOAM"
+        }
+      ],
+      "mean_ms": {
+        "median": 31.555730867864696,
+        "min": 30.716352345665964,
+        "max": 31.683648292811842,
+        "values": [
+          31.555730867864696,
+          30.716352345665964,
+          31.683648292811842
+        ]
+      },
+      "median_ms": {
+        "median": 31.252171500000003,
+        "min": 30.5831705,
+        "max": 31.5028025,
+        "values": [
+          31.252171500000003,
+          30.5831705,
+          31.5028025
+        ]
+      },
+      "p95_ms": {
+        "median": 37.8877405,
+        "min": 37.27403,
+        "max": 40.675555,
+        "values": [
+          40.675555,
+          37.27403,
+          37.8877405
+        ]
+      },
+      "p99_ms": {
+        "median": 40.14012385,
+        "min": 39.2557441,
+        "max": 51.540722699999975,
+        "values": [
+          51.540722699999975,
+          39.2557441,
+          40.14012385
+        ]
+      },
+      "max_ms": {
+        "median": 51.168696,
+        "min": 41.855325,
+        "max": 58.291615,
+        "values": [
+          58.291615,
+          51.168696,
+          41.855325
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": 0.05933525000000017,
+        "min": 0.05905796478873246,
+        "max": 0.06706433098591556,
+        "values": [
+          0.06706433098591556,
+          0.05933525000000017,
+          0.05905796478873246
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 27.856358,
+        "min": 26.721574,
+        "max": 27.977495,
+        "values": [
+          27.856358,
+          26.721574,
+          27.977495
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 32.087169,
+        "min": 30.62488,
+        "max": 32.295772,
+        "values": [
+          32.295772,
+          30.62488,
+          32.087169
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.149318,
+        "min": 0.108441,
+        "max": 0.173921,
+        "values": [
+          0.173921,
+          0.108441,
+          0.149318
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.293229,
+        "min": 0.26803600000000005,
+        "max": 0.3922245,
+        "values": [
+          0.3922245,
+          0.26803600000000005,
+          0.293229
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": -0.044094,
+        "min": -0.296128,
+        "max": -0.03487,
+        "values": [
+          -0.296128,
+          -0.03487,
+          -0.044094
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": 4.109674000000002,
+        "min": 3.9033060000000006,
+        "max": 4.439413999999999,
+        "values": [
+          4.439413999999999,
+          3.9033060000000006,
+          4.109674000000002
+        ]
+      },
+      "matched_steady_per_run": [
+        946,
+        946,
+        946
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 0.0
+    },
+    {
+      "name": "F-LOAM",
+      "label": "F-LOAM",
+      "repeats": 3,
+      "output_topic": "/odom",
+      "endpoint": "selected native odometry",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_F-LOAM"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_F-LOAM"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_F-LOAM"
+        }
+      ],
+      "mean_ms": {
+        "median": 16.29587368498943,
+        "min": 16.24842234038055,
+        "max": 16.633249760042286,
+        "values": [
+          16.633249760042286,
+          16.24842234038055,
+          16.29587368498943
+        ]
+      },
+      "median_ms": {
+        "median": 16.472831499999998,
+        "min": 16.2319075,
+        "max": 16.687905,
+        "values": [
+          16.2319075,
+          16.472831499999998,
+          16.687905
+        ]
+      },
+      "p95_ms": {
+        "median": 20.34083825,
+        "min": 20.2235025,
+        "max": 20.765302,
+        "values": [
+          20.765302,
+          20.34083825,
+          20.2235025
+        ]
+      },
+      "p99_ms": {
+        "median": 21.5010281,
+        "min": 20.93875655,
+        "max": 40.210495849999994,
+        "values": [
+          40.210495849999994,
+          21.5010281,
+          20.93875655
+        ]
+      },
+      "max_ms": {
+        "median": 22.713285,
+        "min": 22.522898,
+        "max": 57.868016,
+        "values": [
+          57.868016,
+          22.522898,
+          22.713285
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": 0.06688809677419352,
+        "min": 0.06466016666666664,
+        "max": 0.0684280084745763,
+        "values": [
+          0.06466016666666664,
+          0.06688809677419352,
+          0.0684280084745763
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 11.757773,
+        "min": 11.665283,
+        "max": 12.071658,
+        "values": [
+          12.071658,
+          11.757773,
+          11.665283
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 16.80699,
+        "min": 16.612329,
+        "max": 16.944897,
+        "values": [
+          16.612329,
+          16.80699,
+          16.944897
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.16180725,
+        "min": 0.1315965,
+        "max": 0.16194399999999998,
+        "values": [
+          0.16194399999999998,
+          0.1315965,
+          0.16180725
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.2798325,
+        "min": 0.25960799999999995,
+        "max": 0.32977325,
+        "values": [
+          0.32977325,
+          0.2798325,
+          0.25960799999999995
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": -0.088755,
+        "min": -0.205271,
+        "max": -0.03218,
+        "values": [
+          -0.205271,
+          -0.03218,
+          -0.088755
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": 5.049216999999999,
+        "min": 4.540671,
+        "max": 5.2796140000000005,
+        "values": [
+          4.540671,
+          5.049216999999999,
+          5.2796140000000005
+        ]
+      },
+      "matched_steady_per_run": [
+        946,
+        946,
+        946
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 0.0
+    },
+    {
+      "name": "ISC-LOAM",
+      "label": "ISC-LOAM",
+      "repeats": 3,
+      "output_topic": "/odom",
+      "endpoint": "selected native odometry",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_ISC-LOAM"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_ISC-LOAM"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_ISC-LOAM"
+        }
+      ],
+      "mean_ms": {
+        "median": 16.845390178646934,
+        "min": 16.661411256871034,
+        "max": 17.30856954756871,
+        "values": [
+          17.30856954756871,
+          16.661411256871034,
+          16.845390178646934
+        ]
+      },
+      "median_ms": {
+        "median": 17.0126115,
+        "min": 16.905144999999997,
+        "max": 17.437275999999997,
+        "values": [
+          17.437275999999997,
+          16.905144999999997,
+          17.0126115
+        ]
+      },
+      "p95_ms": {
+        "median": 20.907360750000002,
+        "min": 20.51800625,
+        "max": 21.50251425,
+        "values": [
+          21.50251425,
+          20.51800625,
+          20.907360750000002
+        ]
+      },
+      "p99_ms": {
+        "median": 21.870637199999997,
+        "min": 21.632262599999997,
+        "max": 31.432589349999958,
+        "values": [
+          31.432589349999958,
+          21.632262599999997,
+          21.870637199999997
+        ]
+      },
+      "max_ms": {
+        "median": 40.175662,
+        "min": 24.394973,
+        "max": 41.824831,
+        "values": [
+          41.824831,
+          24.394973,
+          40.175662
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": 0.06474007936507935,
+        "min": 0.06410063636363636,
+        "max": 0.06599064062500004,
+        "values": [
+          0.06599064062500004,
+          0.06474007936507935,
+          0.06410063636363636
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 12.645388,
+        "min": 12.199169,
+        "max": 12.937121,
+        "values": [
+          12.937121,
+          12.199169,
+          12.645388
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 17.043771,
+        "min": 16.790376,
+        "max": 17.80762,
+        "values": [
+          17.80762,
+          16.790376,
+          17.043771
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.15452275,
+        "min": 0.1483985,
+        "max": 0.1629715,
+        "values": [
+          0.1629715,
+          0.15452275,
+          0.1483985
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.288691,
+        "min": 0.2742985,
+        "max": 0.3158575,
+        "values": [
+          0.3158575,
+          0.288691,
+          0.2742985
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": -0.305941,
+        "min": -0.32483,
+        "max": -0.033127,
+        "values": [
+          -0.32483,
+          -0.305941,
+          -0.033127
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": 4.591206999999999,
+        "min": 4.398382999999999,
+        "max": 4.870499000000001,
+        "values": [
+          4.870499000000001,
+          4.591206999999999,
+          4.398382999999999
+        ]
+      },
+      "matched_steady_per_run": [
+        946,
+        946,
+        946
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 0.0
+    },
+    {
+      "name": "LeGO-LiDAR",
+      "label": "LeGO-LOAM (LiDAR)",
+      "repeats": 3,
+      "output_topic": "/integrated_to_init",
+      "endpoint": "selected native odometry",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_LeGO-LiDAR"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_LeGO-LiDAR"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_LeGO-LiDAR"
+        }
+      ],
+      "mean_ms": {
+        "median": 7.460236432346722,
+        "min": 7.401399610993658,
+        "max": 7.7947419069767445,
+        "values": [
+          7.7947419069767445,
+          7.460236432346722,
+          7.401399610993658
+        ]
+      },
+      "median_ms": {
+        "median": 7.4032230000000006,
+        "min": 7.383330000000001,
+        "max": 7.842215,
+        "values": [
+          7.842215,
+          7.4032230000000006,
+          7.383330000000001
+        ]
+      },
+      "p95_ms": {
+        "median": 10.03848425,
+        "min": 9.745090000000001,
+        "max": 10.214848,
+        "values": [
+          10.214848,
+          10.03848425,
+          9.745090000000001
+        ]
+      },
+      "p99_ms": {
+        "median": 10.709417599999998,
+        "min": 10.326527049999996,
+        "max": 11.130932449999996,
+        "values": [
+          11.130932449999996,
+          10.709417599999998,
+          10.326527049999996
+        ]
+      },
+      "max_ms": {
+        "median": 14.760112,
+        "min": 12.482318,
+        "max": 16.312172,
+        "values": [
+          16.312172,
+          12.482318,
+          14.760112
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": -0.005799710526315718,
+        "min": -0.009118069444444475,
+        "max": -0.0049881785714285575,
+        "values": [
+          -0.009118069444444475,
+          -0.0049881785714285575,
+          -0.005799710526315718
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 7.496119,
+        "min": 7.091323,
+        "max": 8.371947,
+        "values": [
+          8.371947,
+          7.091323,
+          7.496119
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 7.006238,
+        "min": 6.929211,
+        "max": 7.51476,
+        "values": [
+          7.51476,
+          6.929211,
+          7.006238
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.1085995,
+        "min": 0.106069,
+        "max": 0.13221525,
+        "values": [
+          0.13221525,
+          0.1085995,
+          0.106069
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.29606499999999997,
+        "min": 0.27890475000000003,
+        "max": 0.34942875,
+        "values": [
+          0.34942875,
+          0.29606499999999997,
+          0.27890475000000003
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": -0.065503,
+        "min": -0.068559,
+        "max": -0.050703,
+        "values": [
+          -0.065503,
+          -0.050703,
+          -0.068559
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": -0.48988100000000045,
+        "min": -0.8571870000000006,
+        "max": -0.16211200000000048,
+        "values": [
+          -0.8571870000000006,
+          -0.16211200000000048,
+          -0.48988100000000045
+        ]
+      },
+      "matched_steady_per_run": [
+        946,
+        946,
+        946
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 0.0
+    },
+    {
+      "name": "HDL-Graph-SLAM",
+      "label": "HDL-Graph-SLAM",
+      "repeats": 3,
+      "output_topic": "/odom",
+      "endpoint": "selected native odometry",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_HDL-Graph-SLAM"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_HDL-Graph-SLAM"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_HDL-Graph-SLAM"
+        }
+      ],
+      "mean_ms": {
+        "median": 7.695925643763214,
+        "min": 7.530675522198732,
+        "max": 7.749248001057083,
+        "values": [
+          7.530675522198732,
+          7.749248001057083,
+          7.695925643763214
+        ]
+      },
+      "median_ms": {
+        "median": 7.1045555,
+        "min": 7.0050799999999995,
+        "max": 7.1715295,
+        "values": [
+          7.0050799999999995,
+          7.1045555,
+          7.1715295
+        ]
+      },
+      "p95_ms": {
+        "median": 12.85171725,
+        "min": 11.8285645,
+        "max": 12.922346749999999,
+        "values": [
+          11.8285645,
+          12.922346749999999,
+          12.85171725
+        ]
+      },
+      "p99_ms": {
+        "median": 15.465686949999997,
+        "min": 15.023913599999984,
+        "max": 15.955536549999998,
+        "values": [
+          15.023913599999984,
+          15.465686949999997,
+          15.955536549999998
+        ]
+      },
+      "max_ms": {
+        "median": 90.69596,
+        "min": 74.976331,
+        "max": 97.292768,
+        "values": [
+          74.976331,
+          97.292768,
+          90.69596
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": -0.0004176893939393934,
+        "min": -0.0037591666666666836,
+        "max": 0.0019321044776119333,
+        "values": [
+          -0.0037591666666666836,
+          -0.0004176893939393934,
+          0.0019321044776119333
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 5.120292,
+        "min": 5.010658,
+        "max": 5.470231,
+        "values": [
+          5.470231,
+          5.010658,
+          5.120292
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 4.287807,
+        "min": 4.276693,
+        "max": 4.710872,
+        "values": [
+          4.710872,
+          4.287807,
+          4.276693
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.12159375,
+        "min": 0.120754,
+        "max": 0.1760795,
+        "values": [
+          0.1760795,
+          0.120754,
+          0.12159375
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.275989,
+        "min": 0.2676945,
+        "max": 0.331604,
+        "values": [
+          0.331604,
+          0.275989,
+          0.2676945
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": -0.142433,
+        "min": -0.161244,
+        "max": -0.081861,
+        "values": [
+          -0.142433,
+          -0.161244,
+          -0.081861
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": -0.7593589999999999,
+        "min": -0.8435990000000002,
+        "max": -0.7228510000000004,
+        "values": [
+          -0.7593589999999999,
+          -0.7228510000000004,
+          -0.8435990000000002
+        ]
+      },
+      "matched_steady_per_run": [
+        946,
+        946,
+        946
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 0.000999
+    },
+    {
+      "name": "KISS-ICP",
+      "label": "KISS-ICP",
+      "repeats": 3,
+      "output_topic": "/kiss/odometry",
+      "endpoint": "selected native odometry",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_KISS-ICP"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_KISS-ICP"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_KISS-ICP"
+        }
+      ],
+      "mean_ms": {
+        "median": 2.6015507579281185,
+        "min": 2.393826003171247,
+        "max": 4.356989831923889,
+        "values": [
+          4.356989831923889,
+          2.6015507579281185,
+          2.393826003171247
+        ]
+      },
+      "median_ms": {
+        "median": 2.5154065,
+        "min": 2.3421760000000003,
+        "max": 4.220527000000001,
+        "values": [
+          4.220527000000001,
+          2.5154065,
+          2.3421760000000003
+        ]
+      },
+      "p95_ms": {
+        "median": 3.4304375,
+        "min": 3.06203475,
+        "max": 6.610422,
+        "values": [
+          6.610422,
+          3.4304375,
+          3.06203475
+        ]
+      },
+      "p99_ms": {
+        "median": 4.1312912999999964,
+        "min": 3.5382336,
+        "max": 8.917894949999997,
+        "values": [
+          8.917894949999997,
+          4.1312912999999964,
+          3.5382336
+        ]
+      },
+      "max_ms": {
+        "median": 6.337478,
+        "min": 5.111253,
+        "max": 10.787748,
+        "values": [
+          10.787748,
+          5.111253,
+          6.337478
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": 0.0011157023809523928,
+        "min": 0.00042576436781609136,
+        "max": 0.0050417735849056615,
+        "values": [
+          0.0050417735849056615,
+          0.00042576436781609136,
+          0.0011157023809523928
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 2.251324,
+        "min": 1.98148,
+        "max": 3.678308,
+        "values": [
+          3.678308,
+          2.251324,
+          1.98148
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 2.170195,
+        "min": 2.003614,
+        "max": 3.623331,
+        "values": [
+          3.623331,
+          2.170195,
+          2.003614
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.162904,
+        "min": 0.116495,
+        "max": 0.3055515,
+        "values": [
+          0.3055515,
+          0.116495,
+          0.162904
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.330658,
+        "min": 0.31266425,
+        "max": 0.61551025,
+        "values": [
+          0.61551025,
+          0.330658,
+          0.31266425
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": -0.07579,
+        "min": -0.25484,
+        "max": -0.023955,
+        "values": [
+          -0.25484,
+          -0.07579,
+          -0.023955
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": -0.054977000000000054,
+        "min": -0.08112899999999978,
+        "max": 0.022133999999999876,
+        "values": [
+          -0.054977000000000054,
+          -0.08112899999999978,
+          0.022133999999999876
+        ]
+      },
+      "matched_steady_per_run": [
+        946,
+        946,
+        946
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 0.0
+    },
+    {
+      "name": "DLO",
+      "label": "DLO",
+      "repeats": 3,
+      "output_topic": "/robot/dlo/odom_node/odom",
+      "endpoint": "selected native odometry",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_DLO"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_DLO"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_DLO"
+        }
+      ],
+      "mean_ms": {
+        "median": 4.379499923890063,
+        "min": 3.3894761384778014,
+        "max": 5.436984642706132,
+        "values": [
+          5.436984642706132,
+          4.379499923890063,
+          3.3894761384778014
+        ]
+      },
+      "median_ms": {
+        "median": 3.771719,
+        "min": 3.2167085,
+        "max": 4.20127,
+        "values": [
+          4.20127,
+          3.771719,
+          3.2167085
+        ]
+      },
+      "p95_ms": {
+        "median": 8.64523,
+        "min": 4.898804500000001,
+        "max": 10.266968,
+        "values": [
+          10.266968,
+          8.64523,
+          4.898804500000001
+        ]
+      },
+      "p99_ms": {
+        "median": 11.140759149999996,
+        "min": 5.958361099999999,
+        "max": 12.722558849999999,
+        "values": [
+          12.722558849999999,
+          11.140759149999996,
+          5.958361099999999
+        ]
+      },
+      "max_ms": {
+        "median": 14.273422,
+        "min": 13.082803,
+        "max": 16.509635,
+        "values": [
+          16.509635,
+          14.273422,
+          13.082803
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": 1.6805555555560796e-05,
+        "min": -0.0025498103448275736,
+        "max": 0.006719865384615374,
+        "values": [
+          -0.0025498103448275736,
+          0.006719865384615374,
+          1.6805555555560796e-05
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 2.916989,
+        "min": 2.769323,
+        "max": 3.239348,
+        "values": [
+          3.239348,
+          2.916989,
+          2.769323
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 2.933926,
+        "min": 2.67575,
+        "max": 3.026429,
+        "values": [
+          2.933926,
+          3.026429,
+          2.67575
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.18618574999999998,
+        "min": 0.1561785,
+        "max": 0.235056,
+        "values": [
+          0.235056,
+          0.18618574999999998,
+          0.1561785
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.41300025,
+        "min": 0.27661725,
+        "max": 0.4382915,
+        "values": [
+          0.4382915,
+          0.41300025,
+          0.27661725
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": -0.144159,
+        "min": -0.36816,
+        "max": -0.076547,
+        "values": [
+          -0.36816,
+          -0.144159,
+          -0.076547
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": -0.09357300000000013,
+        "min": -0.3054220000000001,
+        "max": 0.10943999999999976,
+        "values": [
+          -0.3054220000000001,
+          0.10943999999999976,
+          -0.09357300000000013
+        ]
+      },
+      "matched_steady_per_run": [
+        946,
+        946,
+        946
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 0.0
+    },
+    {
+      "name": "CT-ICP",
+      "label": "CT-ICP",
+      "repeats": 3,
+      "output_topic": "/ct_icp/pose/odom",
+      "endpoint": "selected native odometry",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_CT-ICP"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_CT-ICP"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_CT-ICP"
+        }
+      ],
+      "mean_ms": {
+        "median": 10.365199449260041,
+        "min": 9.843297359408034,
+        "max": 12.394610731501057,
+        "values": [
+          12.394610731501057,
+          9.843297359408034,
+          10.365199449260041
+        ]
+      },
+      "median_ms": {
+        "median": 9.951134,
+        "min": 9.2549165,
+        "max": 10.636403999999999,
+        "values": [
+          10.636403999999999,
+          9.2549165,
+          9.951134
+        ]
+      },
+      "p95_ms": {
+        "median": 13.523679,
+        "min": 13.33194425,
+        "max": 21.858439999999998,
+        "values": [
+          21.858439999999998,
+          13.33194425,
+          13.523679
+        ]
+      },
+      "p99_ms": {
+        "median": 15.114242099999986,
+        "min": 14.9039249,
+        "max": 26.41631089999999,
+        "values": [
+          26.41631089999999,
+          14.9039249,
+          15.114242099999986
+        ]
+      },
+      "max_ms": {
+        "median": 44.710762,
+        "min": 35.64358,
+        "max": 65.735494,
+        "values": [
+          65.735494,
+          44.710762,
+          35.64358
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": 0.012221992857142868,
+        "min": 0.007060208860759493,
+        "max": 0.013537171428571425,
+        "values": [
+          0.013537171428571425,
+          0.007060208860759493,
+          0.012221992857142868
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 8.535237,
+        "min": 8.500759,
+        "max": 8.784262,
+        "values": [
+          8.535237,
+          8.500759,
+          8.784262
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 9.003435,
+        "min": 8.145109,
+        "max": 9.192234,
+        "values": [
+          9.003435,
+          8.145109,
+          9.192234
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.16567475,
+        "min": 0.1469335,
+        "max": 0.20590450000000002,
+        "values": [
+          0.20590450000000002,
+          0.16567475,
+          0.1469335
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.32039924999999997,
+        "min": 0.30636599999999997,
+        "max": 0.45935075000000003,
+        "values": [
+          0.45935075000000003,
+          0.32039924999999997,
+          0.30636599999999997
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": -0.086778,
+        "min": -0.181924,
+        "max": -0.03969,
+        "values": [
+          -0.181924,
+          -0.03969,
+          -0.086778
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": 0.4079719999999991,
+        "min": -0.3556500000000007,
+        "max": 0.4681979999999992,
+        "values": [
+          0.4681979999999992,
+          -0.3556500000000007,
+          0.4079719999999991
+        ]
+      },
+      "matched_steady_per_run": [
+        946,
+        946,
+        946
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 0.0
+    },
+    {
+      "name": "VoxelMap-KISS",
+      "label": "KISS-ICP → VoxelMap*",
+      "repeats": 3,
+      "output_topic": "/benchmark/voxel_scan_odometry",
+      "endpoint": "additional processed-scan-tagged native pose copy",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_VoxelMap-KISS"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_VoxelMap-KISS"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_VoxelMap-KISS"
+        }
+      ],
+      "mean_ms": {
+        "median": 142.55229093968256,
+        "min": 141.88419089523808,
+        "max": 143.28699582222222,
+        "values": [
+          141.88419089523808,
+          142.55229093968256,
+          143.28699582222222
+        ]
+      },
+      "median_ms": {
+        "median": 124.314338,
+        "min": 123.948598,
+        "max": 125.070581,
+        "values": [
+          123.948598,
+          124.314338,
+          125.070581
+        ]
+      },
+      "p95_ms": {
+        "median": 225.03307519999998,
+        "min": 224.33348220000002,
+        "max": 225.7613728,
+        "values": [
+          224.33348220000002,
+          225.03307519999998,
+          225.7613728
+        ]
+      },
+      "p99_ms": {
+        "median": 227.57603372,
+        "min": 226.88428992000001,
+        "max": 229.81181700000002,
+        "values": [
+          226.88428992000001,
+          227.57603372,
+          229.81181700000002
+        ]
+      },
+      "max_ms": {
+        "median": 233.516142,
+        "min": 232.490831,
+        "max": 235.411258,
+        "values": [
+          235.411258,
+          232.490831,
+          233.516142
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": -0.004217780821917927,
+        "min": -0.012765244047618939,
+        "max": 0.005398829268292585,
+        "values": [
+          -0.012765244047618939,
+          -0.004217780821917927,
+          0.005398829268292585
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 122.333347,
+        "min": 122.301857,
+        "max": 122.910702,
+        "values": [
+          122.301857,
+          122.333347,
+          122.910702
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 120.721179,
+        "min": 120.121403,
+        "max": 121.317785,
+        "values": [
+          120.121403,
+          120.721179,
+          121.317785
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.126809,
+        "min": 0.1198645,
+        "max": 0.14905925,
+        "values": [
+          0.14905925,
+          0.126809,
+          0.1198645
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.30411575,
+        "min": 0.25297749999999997,
+        "max": 0.35532175,
+        "values": [
+          0.25297749999999997,
+          0.35532175,
+          0.30411575
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": -0.042278,
+        "min": -0.1818,
+        "max": -0.034452,
+        "values": [
+          -0.034452,
+          -0.1818,
+          -0.042278
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": -1.612167999999997,
+        "min": -2.1804539999999974,
+        "max": -1.592917,
+        "values": [
+          -2.1804539999999974,
+          -1.612167999999997,
+          -1.592917
+        ]
+      },
+      "matched_steady_per_run": [
+        945,
+        945,
+        945
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 0.000239,
+      "preparation_mean_ms": {
+        "median": 135.33646515449735,
+        "min": 134.52231694603174,
+        "max": 135.749312810582,
+        "values": [
+          134.52231694603174,
+          135.33646515449735,
+          135.749312810582
+        ]
+      },
+      "mapping_stage_mean_ms": {
+        "median": 7.361873949206349,
+        "min": 7.215825785185186,
+        "max": 7.537683011640211,
+        "values": [
+          7.361873949206349,
+          7.215825785185186,
+          7.537683011640211
+        ]
+      },
+      "diagnostic_payload_matches_native": true
+    },
+    {
+      "name": "FAST-LIO2",
+      "label": "FAST-LIO2",
+      "repeats": 3,
+      "output_topic": "/slam_eval_fast/Odometry",
+      "endpoint": "selected native odometry",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_FAST-LIO2"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_FAST-LIO2"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_FAST-LIO2"
+        }
+      ],
+      "mean_ms": {
+        "median": 7.471778638477801,
+        "min": 7.448089231501057,
+        "max": 7.505244535940803,
+        "values": [
+          7.505244535940803,
+          7.448089231501057,
+          7.471778638477801
+        ]
+      },
+      "median_ms": {
+        "median": 7.351005499999999,
+        "min": 7.327818499999999,
+        "max": 7.4150285,
+        "values": [
+          7.351005499999999,
+          7.327818499999999,
+          7.4150285
+        ]
+      },
+      "p95_ms": {
+        "median": 10.8906145,
+        "min": 10.77988175,
+        "max": 11.11787025,
+        "values": [
+          11.11787025,
+          10.77988175,
+          10.8906145
+        ]
+      },
+      "p99_ms": {
+        "median": 12.442411649999993,
+        "min": 12.2250976,
+        "max": 12.583133199999994,
+        "values": [
+          12.583133199999994,
+          12.2250976,
+          12.442411649999993
+        ]
+      },
+      "max_ms": {
+        "median": 14.133134,
+        "min": 14.009156,
+        "max": 26.956953,
+        "values": [
+          14.133134,
+          26.956953,
+          14.009156
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": -0.001340120879120871,
+        "min": -0.0018790129870129846,
+        "max": 0.0038669999999999807,
+        "values": [
+          -0.0018790129870129846,
+          0.0038669999999999807,
+          -0.001340120879120871
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 7.043932,
+        "min": 6.901356,
+        "max": 7.170498,
+        "values": [
+          7.170498,
+          7.043932,
+          6.901356
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 7.13664,
+        "min": 6.7612,
+        "max": 7.436717,
+        "values": [
+          6.7612,
+          7.436717,
+          7.13664
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.1508035,
+        "min": 0.14018925,
+        "max": 0.172309,
+        "values": [
+          0.172309,
+          0.14018925,
+          0.1508035
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.283424,
+        "min": 0.27014275,
+        "max": 0.29236575,
+        "values": [
+          0.27014275,
+          0.283424,
+          0.29236575
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": -3.067082,
+        "min": -8.276596,
+        "max": -2.650188,
+        "values": [
+          -2.650188,
+          -8.276596,
+          -3.067082
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": 0.23528400000000005,
+        "min": -0.4092980000000006,
+        "max": 0.39278499999999994,
+        "values": [
+          -0.4092980000000006,
+          0.39278499999999994,
+          0.23528400000000005
+        ]
+      },
+      "matched_steady_per_run": [
+        946,
+        946,
+        946
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 1.209736
+    },
+    {
+      "name": "LeGO-IMU",
+      "label": "LeGO-LOAM (+IMU)",
+      "repeats": 3,
+      "output_topic": "/integrated_to_init",
+      "endpoint": "selected native odometry",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_LeGO-IMU"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_LeGO-IMU"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_LeGO-IMU"
+        }
+      ],
+      "mean_ms": {
+        "median": 8.219117330866808,
+        "min": 7.895596162790697,
+        "max": 8.374711875264271,
+        "values": [
+          7.895596162790697,
+          8.219117330866808,
+          8.374711875264271
+        ]
+      },
+      "median_ms": {
+        "median": 8.194893,
+        "min": 7.829007,
+        "max": 8.425739499999999,
+        "values": [
+          7.829007,
+          8.194893,
+          8.425739499999999
+        ]
+      },
+      "p95_ms": {
+        "median": 10.7867265,
+        "min": 10.39335425,
+        "max": 11.262739499999999,
+        "values": [
+          10.39335425,
+          10.7867265,
+          11.262739499999999
+        ]
+      },
+      "p99_ms": {
+        "median": 11.562445449999997,
+        "min": 11.064559099999997,
+        "max": 11.905848499999996,
+        "values": [
+          11.064559099999997,
+          11.562445449999997,
+          11.905848499999996
+        ]
+      },
+      "max_ms": {
+        "median": 12.727562,
+        "min": 12.473673,
+        "max": 19.434282,
+        "values": [
+          12.473673,
+          19.434282,
+          12.727562
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": -0.009719328947368442,
+        "min": -0.010485852941176467,
+        "max": -0.0008597173913043495,
+        "values": [
+          -0.0008597173913043495,
+          -0.010485852941176467,
+          -0.009719328947368442
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 7.893031,
+        "min": 7.692116,
+        "max": 8.127817,
+        "values": [
+          7.692116,
+          7.893031,
+          8.127817
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 7.425965,
+        "min": 7.331907,
+        "max": 7.635722,
+        "values": [
+          7.635722,
+          7.425965,
+          7.331907
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.09661800000000001,
+        "min": 0.096228,
+        "max": 0.141401,
+        "values": [
+          0.141401,
+          0.096228,
+          0.09661800000000001
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.22207449999999998,
+        "min": 0.19236725000000002,
+        "max": 0.23777175,
+        "values": [
+          0.19236725000000002,
+          0.22207449999999998,
+          0.23777175
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": 0.003683,
+        "min": 0.002559,
+        "max": 0.010301,
+        "values": [
+          0.010301,
+          0.002559,
+          0.003683
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": -0.467066,
+        "min": -0.7959100000000001,
+        "max": -0.056394000000000055,
+        "values": [
+          -0.056394000000000055,
+          -0.467066,
+          -0.7959100000000001
+        ]
+      },
+      "matched_steady_per_run": [
+        946,
+        946,
+        946
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 0.0
+    },
+    {
+      "name": "LIO-SAM",
+      "label": "LIO-SAM",
+      "repeats": 3,
+      "output_topic": "/lio_sam/mapping/odometry",
+      "endpoint": "selected native odometry",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_LIO-SAM"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_LIO-SAM"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_LIO-SAM"
+        }
+      ],
+      "mean_ms": {
+        "median": 211.1438453792373,
+        "min": 210.7988088305085,
+        "max": 212.57843932415255,
+        "values": [
+          211.1438453792373,
+          212.57843932415255,
+          210.7988088305085
+        ]
+      },
+      "median_ms": {
+        "median": 210.10127,
+        "min": 209.8694115,
+        "max": 210.758833,
+        "values": [
+          210.10127,
+          210.758833,
+          209.8694115
+        ]
+      },
+      "p95_ms": {
+        "median": 221.6185208,
+        "min": 217.96890824999997,
+        "max": 223.7790221,
+        "values": [
+          221.6185208,
+          223.7790221,
+          217.96890824999997
+        ]
+      },
+      "p99_ms": {
+        "median": 233.68552573,
+        "min": 227.83387274,
+        "max": 240.76558369000003,
+        "values": [
+          233.68552573,
+          240.76558369000003,
+          227.83387274
+        ]
+      },
+      "max_ms": {
+        "median": 265.305573,
+        "min": 249.070743,
+        "max": 327.602924,
+        "values": [
+          265.305573,
+          327.602924,
+          249.070743
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": 0.04508799999999878,
+        "min": 0.0355862307692303,
+        "max": 0.05586272222222198,
+        "values": [
+          0.0355862307692303,
+          0.05586272222222198,
+          0.04508799999999878
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 207.763563,
+        "min": 207.506354,
+        "max": 208.140812,
+        "values": [
+          207.763563,
+          207.506354,
+          208.140812
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 210.158473,
+        "min": 209.844066,
+        "max": 210.982148,
+        "values": [
+          209.844066,
+          210.982148,
+          210.158473
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.1442645,
+        "min": 0.1150075,
+        "max": 0.151252,
+        "values": [
+          0.151252,
+          0.1442645,
+          0.1150075
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.26746875,
+        "min": 0.24843775,
+        "max": 0.31243725,
+        "values": [
+          0.26746875,
+          0.31243725,
+          0.24843775
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": 0.003521,
+        "min": 0.001436,
+        "max": 0.018397,
+        "values": [
+          0.001436,
+          0.003521,
+          0.018397
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": 2.080502999999993,
+        "min": 2.0176609999999755,
+        "max": 3.4757940000000076,
+        "values": [
+          2.080502999999993,
+          3.4757940000000076,
+          2.0176609999999755
+        ]
+      },
+      "matched_steady_per_run": [
+        472,
+        472,
+        472
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 0.0
+    },
+    {
+      "name": "Faster-LIO",
+      "label": "Faster-LIO",
+      "repeats": 3,
+      "output_topic": "/Odometry",
+      "endpoint": "selected native odometry",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_Faster-LIO"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_Faster-LIO"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_Faster-LIO"
+        }
+      ],
+      "mean_ms": {
+        "median": 6.112498059196617,
+        "min": 6.0685565401691335,
+        "max": 6.151091419661733,
+        "values": [
+          6.151091419661733,
+          6.112498059196617,
+          6.0685565401691335
+        ]
+      },
+      "median_ms": {
+        "median": 6.052723500000001,
+        "min": 6.003659,
+        "max": 6.090706,
+        "values": [
+          6.090706,
+          6.052723500000001,
+          6.003659
+        ]
+      },
+      "p95_ms": {
+        "median": 9.6062365,
+        "min": 9.4798135,
+        "max": 9.7288335,
+        "values": [
+          9.4798135,
+          9.6062365,
+          9.7288335
+        ]
+      },
+      "p99_ms": {
+        "median": 11.003903299999998,
+        "min": 10.743648449999998,
+        "max": 11.18692704999999,
+        "values": [
+          10.743648449999998,
+          11.003903299999998,
+          11.18692704999999
+        ]
+      },
+      "max_ms": {
+        "median": 12.537774,
+        "min": 11.513595,
+        "max": 14.754186,
+        "values": [
+          11.513595,
+          12.537774,
+          14.754186
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": 0.002970063829787226,
+        "min": 0.002828374999999994,
+        "max": 0.0032279649122807057,
+        "values": [
+          0.002970063829787226,
+          0.002828374999999994,
+          0.0032279649122807057
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 5.860851,
+        "min": 5.602895,
+        "max": 6.022875,
+        "values": [
+          6.022875,
+          5.860851,
+          5.602895
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 6.186634,
+        "min": 5.962532,
+        "max": 6.296949,
+        "values": [
+          6.186634,
+          6.296949,
+          5.962532
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.1519655,
+        "min": 0.14216925,
+        "max": 0.17324,
+        "values": [
+          0.17324,
+          0.1519655,
+          0.14216925
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.28484975,
+        "min": 0.256421,
+        "max": 0.332334,
+        "values": [
+          0.256421,
+          0.332334,
+          0.28484975
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": -2.982675,
+        "min": -3.264668,
+        "max": -2.712026,
+        "values": [
+          -2.712026,
+          -3.264668,
+          -2.982675
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": 0.3596370000000002,
+        "min": 0.16375899999999977,
+        "max": 0.43609799999999943,
+        "values": [
+          0.16375899999999977,
+          0.43609799999999943,
+          0.3596370000000002
+        ]
+      },
+      "matched_steady_per_run": [
+        946,
+        946,
+        946
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 1.267911
+    },
+    {
+      "name": "Point-LIO",
+      "label": "Point-LIO",
+      "repeats": 3,
+      "output_topic": "/aft_mapped_to_init",
+      "endpoint": "selected native odometry",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_Point-LIO"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_Point-LIO"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_Point-LIO"
+        }
+      ],
+      "mean_ms": {
+        "median": 8.066782084566597,
+        "min": 7.918621676532769,
+        "max": 8.0709357589852,
+        "values": [
+          7.918621676532769,
+          8.0709357589852,
+          8.066782084566597
+        ]
+      },
+      "median_ms": {
+        "median": 7.866185,
+        "min": 7.784821,
+        "max": 7.8811265,
+        "values": [
+          7.784821,
+          7.866185,
+          7.8811265
+        ]
+      },
+      "p95_ms": {
+        "median": 11.88134225,
+        "min": 11.74298275,
+        "max": 11.890062,
+        "values": [
+          11.88134225,
+          11.74298275,
+          11.890062
+        ]
+      },
+      "p99_ms": {
+        "median": 13.381098199999998,
+        "min": 13.3549917,
+        "max": 13.59819895,
+        "values": [
+          13.59819895,
+          13.3549917,
+          13.381098199999998
+        ]
+      },
+      "max_ms": {
+        "median": 14.94975,
+        "min": 14.377482,
+        "max": 17.560694,
+        "values": [
+          14.94975,
+          17.560694,
+          14.377482
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": 0.015505947368421053,
+        "min": 0.013400633333333337,
+        "max": 0.017540999999999918,
+        "values": [
+          0.015505947368421053,
+          0.013400633333333337,
+          0.017540999999999918
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 7.788245,
+        "min": 7.622953,
+        "max": 7.793065,
+        "values": [
+          7.788245,
+          7.793065,
+          7.622953
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 8.11842,
+        "min": 7.821984,
+        "max": 8.319788,
+        "values": [
+          8.11842,
+          8.319788,
+          7.821984
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.18735475,
+        "min": 0.152098,
+        "max": 0.204949,
+        "values": [
+          0.204949,
+          0.18735475,
+          0.152098
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.27784175,
+        "min": 0.24371325,
+        "max": 0.29170474999999996,
+        "values": [
+          0.24371325,
+          0.29170474999999996,
+          0.27784175
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": -3.24767,
+        "min": -3.595413,
+        "max": -2.599988,
+        "values": [
+          -2.599988,
+          -3.595413,
+          -3.24767
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": 0.33017500000000055,
+        "min": 0.19903099999999974,
+        "max": 0.5267230000000005,
+        "values": [
+          0.33017500000000055,
+          0.5267230000000005,
+          0.19903099999999974
+        ]
+      },
+      "matched_steady_per_run": [
+        946,
+        946,
+        946
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 0.385524
+    },
+    {
+      "name": "LOG-LIO",
+      "label": "LOG-LIO",
+      "repeats": 3,
+      "output_topic": "/Odometry",
+      "endpoint": "selected native odometry",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_LOG-LIO"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_LOG-LIO"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_LOG-LIO"
+        }
+      ],
+      "mean_ms": {
+        "median": 8.761323789640594,
+        "min": 8.321451855179705,
+        "max": 8.786813562367865,
+        "values": [
+          8.321451855179705,
+          8.786813562367865,
+          8.761323789640594
+        ]
+      },
+      "median_ms": {
+        "median": 8.7962645,
+        "min": 8.332571,
+        "max": 8.823711,
+        "values": [
+          8.332571,
+          8.823711,
+          8.7962645
+        ]
+      },
+      "p95_ms": {
+        "median": 11.206786000000001,
+        "min": 10.7867045,
+        "max": 11.21539975,
+        "values": [
+          10.7867045,
+          11.206786000000001,
+          11.21539975
+        ]
+      },
+      "p99_ms": {
+        "median": 12.120144649999997,
+        "min": 11.43495935,
+        "max": 12.175929299999996,
+        "values": [
+          11.43495935,
+          12.120144649999997,
+          12.175929299999996
+        ]
+      },
+      "max_ms": {
+        "median": 13.905059,
+        "min": 13.637461,
+        "max": 14.710343,
+        "values": [
+          13.905059,
+          13.637461,
+          14.710343
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": 0.00662383552631577,
+        "min": -0.00020170754716982686,
+        "max": 0.007774320512820505,
+        "values": [
+          0.007774320512820505,
+          -0.00020170754716982686,
+          0.00662383552631577
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 8.225553,
+        "min": 7.378664,
+        "max": 8.247565,
+        "values": [
+          7.378664,
+          8.225553,
+          8.247565
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 8.406605,
+        "min": 8.149951,
+        "max": 8.783606,
+        "values": [
+          8.149951,
+          8.406605,
+          8.783606
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.14497175,
+        "min": 0.1040735,
+        "max": 0.1696135,
+        "values": [
+          0.1696135,
+          0.1040735,
+          0.14497175
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.292342,
+        "min": 0.26086,
+        "max": 0.30502375,
+        "values": [
+          0.26086,
+          0.292342,
+          0.30502375
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": -3.834102,
+        "min": -4.04069,
+        "max": -3.425267,
+        "values": [
+          -3.425267,
+          -4.04069,
+          -3.834102
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": 0.5360410000000009,
+        "min": 0.1810520000000011,
+        "max": 0.7712870000000001,
+        "values": [
+          0.7712870000000001,
+          0.1810520000000011,
+          0.5360410000000009
+        ]
+      },
+      "matched_steady_per_run": [
+        946,
+        946,
+        946
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 1.209736
+    },
+    {
+      "name": "DLIO",
+      "label": "DLIO†",
+      "repeats": 3,
+      "output_topic": "/robot/dlio/odom_node/pointcloud/deskewed",
+      "endpoint": "registered LiDAR-update cloud",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_DLIO"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_DLIO"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_DLIO"
+        }
+      ],
+      "mean_ms": {
+        "median": 6.294536368932039,
+        "min": 6.262725263214671,
+        "max": 6.752792066882416,
+        "values": [
+          6.752792066882416,
+          6.262725263214671,
+          6.294536368932039
+        ]
+      },
+      "median_ms": {
+        "median": 6.03358,
+        "min": 6.022089,
+        "max": 6.336007,
+        "values": [
+          6.336007,
+          6.022089,
+          6.03358
+        ]
+      },
+      "p95_ms": {
+        "median": 8.9161282,
+        "min": 8.6811825,
+        "max": 9.7347162,
+        "values": [
+          9.7347162,
+          8.6811825,
+          8.9161282
+        ]
+      },
+      "p99_ms": {
+        "median": 9.9784933,
+        "min": 9.63559012,
+        "max": 13.608926640000004,
+        "values": [
+          13.608926640000004,
+          9.63559012,
+          9.9784933
+        ]
+      },
+      "max_ms": {
+        "median": 15.288489,
+        "min": 10.998875,
+        "max": 17.645239,
+        "values": [
+          17.645239,
+          15.288489,
+          10.998875
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": -0.0021734310344827534,
+        "min": -0.002423015151515157,
+        "max": -0.0021149642857143064,
+        "values": [
+          -0.002423015151515157,
+          -0.0021149642857143064,
+          -0.0021734310344827534
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 5.8010335,
+        "min": 5.5970005,
+        "max": 6.1493565,
+        "values": [
+          6.1493565,
+          5.8010335,
+          5.5970005
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 5.413417,
+        "min": 5.209554,
+        "max": 5.639911,
+        "values": [
+          5.639911,
+          5.413417,
+          5.209554
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.143165,
+        "min": 0.112808,
+        "max": 0.18135,
+        "values": [
+          0.18135,
+          0.112808,
+          0.143165
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.290293,
+        "min": 0.28274675,
+        "max": 0.35761175,
+        "values": [
+          0.35761175,
+          0.28274675,
+          0.290293
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": -3.311999,
+        "min": -6.522646,
+        "max": -3.088205,
+        "values": [
+          -6.522646,
+          -3.311999,
+          -3.088205
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": -0.38761650000000003,
+        "min": -0.5094455,
+        "max": -0.38744650000000025,
+        "values": [
+          -0.5094455,
+          -0.38761650000000003,
+          -0.38744650000000025
+        ]
+      },
+      "matched_steady_per_run": [
+        927,
+        927,
+        927
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 0.0
+    },
+    {
+      "name": "LIO-EKF",
+      "label": "LIO-EKF",
+      "repeats": 3,
+      "output_topic": "/odometry",
+      "endpoint": "selected native odometry",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_LIO-EKF"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_LIO-EKF"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_LIO-EKF"
+        }
+      ],
+      "mean_ms": {
+        "median": 130.08865542645503,
+        "min": 129.96604955978836,
+        "max": 130.32314564656085,
+        "values": [
+          130.32314564656085,
+          130.08865542645503,
+          129.96604955978836
+        ]
+      },
+      "median_ms": {
+        "median": 130.082898,
+        "min": 130.017375,
+        "max": 130.193519,
+        "values": [
+          130.193519,
+          130.082898,
+          130.017375
+        ]
+      },
+      "p95_ms": {
+        "median": 133.1751648,
+        "min": 132.7897248,
+        "max": 133.1974576,
+        "values": [
+          133.1751648,
+          133.1974576,
+          132.7897248
+        ]
+      },
+      "p99_ms": {
+        "median": 134.6725644,
+        "min": 134.34363044,
+        "max": 134.79272528,
+        "values": [
+          134.6725644,
+          134.79272528,
+          134.34363044
+        ]
+      },
+      "max_ms": {
+        "median": 136.893752,
+        "min": 136.710001,
+        "max": 137.913008,
+        "values": [
+          137.913008,
+          136.893752,
+          136.710001
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": -0.0015221111111106073,
+        "min": -0.0032619179104477185,
+        "max": -0.0008240405405402,
+        "values": [
+          -0.0008240405405402,
+          -0.0032619179104477185,
+          -0.0015221111111106073
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 129.64338,
+        "min": 129.440408,
+        "max": 130.233201,
+        "values": [
+          130.233201,
+          129.64338,
+          129.440408
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 129.948519,
+        "min": 129.554464,
+        "max": 130.011221,
+        "values": [
+          130.011221,
+          129.554464,
+          129.948519
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.15012625000000002,
+        "min": 0.120342,
+        "max": 0.20055525000000002,
+        "values": [
+          0.20055525000000002,
+          0.120342,
+          0.15012625000000002
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.2859695,
+        "min": 0.25147525,
+        "max": 0.291946,
+        "values": [
+          0.25147525,
+          0.291946,
+          0.2859695
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": -3.140654,
+        "min": -3.456569,
+        "max": -2.631806,
+        "values": [
+          -2.631806,
+          -3.140654,
+          -3.456569
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": -0.08891600000001176,
+        "min": -0.22198000000000206,
+        "max": 0.5081110000000137,
+        "values": [
+          -0.22198000000000206,
+          -0.08891600000001176,
+          0.5081110000000137
+        ]
+      },
+      "matched_steady_per_run": [
+        945,
+        945,
+        945
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 0.0
+    },
+    {
+      "name": "VoxelMap-FAST",
+      "label": "FAST-LIO2 → VoxelMap*",
+      "repeats": 3,
+      "output_topic": "/benchmark/voxel_scan_odometry",
+      "endpoint": "additional processed-scan-tagged native pose copy",
+      "runs": [
+        {
+          "repeat": 1,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r01_VoxelMap-FAST"
+        },
+        {
+          "repeat": 2,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r02_VoxelMap-FAST"
+        },
+        {
+          "repeat": 3,
+          "directory": "/home/c15/slam_eval_ws/benchmark_20261119/criterion_3_20261123/runs/r03_VoxelMap-FAST"
+        }
+      ],
+      "mean_ms": {
+        "median": 17.64485047885835,
+        "min": 17.086098790697676,
+        "max": 17.99972503805497,
+        "values": [
+          17.086098790697676,
+          17.99972503805497,
+          17.64485047885835
+        ]
+      },
+      "median_ms": {
+        "median": 17.563405500000002,
+        "min": 17.2149745,
+        "max": 18.037393,
+        "values": [
+          17.2149745,
+          18.037393,
+          17.563405500000002
+        ]
+      },
+      "p95_ms": {
+        "median": 21.867658249999998,
+        "min": 21.625615500000002,
+        "max": 21.87288625,
+        "values": [
+          21.625615500000002,
+          21.87288625,
+          21.867658249999998
+        ]
+      },
+      "p99_ms": {
+        "median": 23.45935555,
+        "min": 23.2022293,
+        "max": 24.260494899999998,
+        "values": [
+          23.2022293,
+          23.45935555,
+          24.260494899999998
+        ]
+      },
+      "max_ms": {
+        "median": 30.962786,
+        "min": 24.923431,
+        "max": 78.805982,
+        "values": [
+          24.923431,
+          30.962786,
+          78.805982
+        ]
+      },
+      "trend_ms_per_source_s": {
+        "median": -0.009338561224489816,
+        "min": -0.014007314285714249,
+        "max": -0.0005722567567567495,
+        "values": [
+          -0.009338561224489816,
+          -0.014007314285714249,
+          -0.0005722567567567495
+        ]
+      },
+      "first10steady_median_ms": {
+        "median": 17.108951,
+        "min": 16.830213,
+        "max": 18.634561,
+        "values": [
+          17.108951,
+          18.634561,
+          16.830213
+        ]
+      },
+      "last10steady_median_ms": {
+        "median": 15.702483,
+        "min": 14.436657,
+        "max": 15.808884,
+        "values": [
+          14.436657,
+          15.702483,
+          15.808884
+        ]
+      },
+      "publication_lateness_p95_ms": {
+        "median": 0.113093,
+        "min": 0.11123274999999999,
+        "max": 0.156757,
+        "values": [
+          0.156757,
+          0.113093,
+          0.11123274999999999
+        ]
+      },
+      "publish_call_p95_ms": {
+        "median": 0.293151,
+        "min": 0.2856915,
+        "max": 0.300922,
+        "values": [
+          0.300922,
+          0.293151,
+          0.2856915
+        ]
+      },
+      "wall_source_span_difference_ms": {
+        "median": -3.361496,
+        "min": -3.9542,
+        "max": -3.149338,
+        "values": [
+          -3.361496,
+          -3.9542,
+          -3.149338
+        ]
+      },
+      "late_minus_early_ms": {
+        "median": -2.672294000000001,
+        "min": -2.9320780000000006,
+        "max": -1.0213289999999997,
+        "values": [
+          -2.672294000000001,
+          -2.9320780000000006,
+          -1.0213289999999997
+        ]
+      },
+      "matched_steady_per_run": [
+        946,
+        946,
+        946
+      ],
+      "raw_inputs_per_run": [
+        1046,
+        1046,
+        1046
+      ],
+      "max_identity_residual_ms": 1.209736,
+      "preparation_mean_ms": {
+        "median": 9.999856054968287,
+        "min": 9.78898290486258,
+        "max": 10.422555964059196,
+        "values": [
+          9.78898290486258,
+          10.422555964059196,
+          9.999856054968287
+        ]
+      },
+      "mapping_stage_mean_ms": {
+        "median": 7.577169073995771,
+        "min": 7.297115885835096,
+        "max": 7.644994423890064,
+        "values": [
+          7.297115885835096,
+          7.577169073995771,
+          7.644994423890064
+        ]
+      },
+      "diagnostic_payload_matches_native": true
+    }
+  ]
+}
